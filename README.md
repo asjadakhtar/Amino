@@ -108,6 +108,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 # © 2024 Asjad. All rights reserved.
 
-# zbcouture
+# amino
 
 This is the Marketing site for Amino. This project is associated with Diginest.
