@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Black.eot');
+    src: url('Hando-Black.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Black.woff2') format('woff2'),
+        url('Hando-Black.woff') format('woff'),
+        url('Hando-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-SemiBold.eot');
+    src: url('Hando-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Hando-SemiBold.woff2') format('woff2'),
+        url('Hando-SemiBold.woff') format('woff'),
+        url('Hando-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-ThinOblique.eot');
+    src: url('Hando-ThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-ThinOblique.woff2') format('woff2'),
+        url('Hando-ThinOblique.woff') format('woff'),
+        url('Hando-ThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-SemiBoldOblique.eot');
+    src: url('Hando-SemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-SemiBoldOblique.woff2') format('woff2'),
+        url('Hando-SemiBoldOblique.woff') format('woff'),
+        url('Hando-SemiBoldOblique.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Thin.eot');
+    src: url('Hando-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Thin.woff2') format('woff2'),
+        url('Hando-Thin.woff') format('woff'),
+        url('Hando-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-ExtraBoldOblique.eot');
+    src: url('Hando-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-ExtraBoldOblique.woff2') format('woff2'),
+        url('Hando-ExtraBoldOblique.woff') format('woff'),
+        url('Hando-ExtraBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Light.eot');
+    src: url('Hando-Light.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Light.woff2') format('woff2'),
+        url('Hando-Light.woff') format('woff'),
+        url('Hando-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-HairLine.eot');
+    src: url('Hando-HairLine.eot?#iefix') format('embedded-opentype'),
+        url('Hando-HairLine.woff2') format('woff2'),
+        url('Hando-HairLine.woff') format('woff'),
+        url('Hando-HairLine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-BoldOblique.eot');
+    src: url('Hando-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-BoldOblique.woff2') format('woff2'),
+        url('Hando-BoldOblique.woff') format('woff'),
+        url('Hando-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-HairLineOblique.eot');
+    src: url('Hando-HairLineOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-HairLineOblique.woff2') format('woff2'),
+        url('Hando-HairLineOblique.woff') format('woff'),
+        url('Hando-HairLineOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-ExtraLight.eot');
+    src: url('Hando-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Hando-ExtraLight.woff2') format('woff2'),
+        url('Hando-ExtraLight.woff') format('woff'),
+        url('Hando-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-BlackOblique.eot');
+    src: url('Hando-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-BlackOblique.woff2') format('woff2'),
+        url('Hando-BlackOblique.woff') format('woff'),
+        url('Hando-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Bold.eot');
+    src: url('Hando-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Bold.woff2') format('woff2'),
+        url('Hando-Bold.woff') format('woff'),
+        url('Hando-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-ExtraLightOblique.eot');
+    src: url('Hando-ExtraLightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-ExtraLightOblique.woff2') format('woff2'),
+        url('Hando-ExtraLightOblique.woff') format('woff'),
+        url('Hando-ExtraLightOblique.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-ExtraBold.eot');
+    src: url('Hando-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Hando-ExtraBold.woff2') format('woff2'),
+        url('Hando-ExtraBold.woff') format('woff'),
+        url('Hando-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-MediumOblique.eot');
+    src: url('Hando-MediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-MediumOblique.woff2') format('woff2'),
+        url('Hando-MediumOblique.woff') format('woff'),
+        url('Hando-MediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-LightOblique.eot');
+    src: url('Hando-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-LightOblique.woff2') format('woff2'),
+        url('Hando-LightOblique.woff') format('woff'),
+        url('Hando-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Oblique.eot');
+    src: url('Hando-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Oblique.woff2') format('woff2'),
+        url('Hando-Oblique.woff') format('woff'),
+        url('Hando-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Medium.eot');
+    src: url('Hando-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Medium.woff2') format('woff2'),
+        url('Hando-Medium.woff') format('woff'),
+        url('Hando-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hando';
+    src: url('Hando-Regular.eot');
+    src: url('Hando-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Hando-Regular.woff2') format('woff2'),
+        url('Hando-Regular.woff') format('woff'),
+        url('Hando-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
