@@ -21,3 +21,29 @@ document.addEventListener('DOMContentLoaded', function () {
         brandSlider.autoplay.start();
     });
 });
+
+
+
+
+const swiper = new Swiper('.testimonials-slider', {
+    loop: true,
+    autoplay: {
+        delay: 0, 
+        disableOnInteraction: false,
+    },
+    speed: 9000,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    breakpoints: {
+        // 768px 
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        // 1024px 
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+    },
+});
