@@ -40,5 +40,12 @@
         "description": "This is the work section of a webpage.",
         "template": "work",
         "keywords": "work, section, webpage"
+    },
+    {
+        "name": "testimonial",
+        "title": "Testimonial Section",
+        "description": "This is the testimonial section of a webpage.",
+        "template": "testimonial",
+        "keywords": "testimonial, section, webpage"
     }
 ]
