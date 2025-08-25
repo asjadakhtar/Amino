@@ -26,5 +26,19 @@
         "description": "This is the service section of a webpage.",
         "template": "service",
         "keywords": "service, section, webpage"
+    },
+    {
+        "name": "choose",
+        "title": "Choose Section",
+        "description": "This is the choose section of a webpage.",
+        "template": "choose",
+        "keywords": "choose, section, webpage"
+    },
+    {
+        "name": "work",
+        "title": "Work Section",
+        "description": "This is the work section of a webpage.",
+        "template": "work",
+        "keywords": "work, section, webpage"
     }
 ]
