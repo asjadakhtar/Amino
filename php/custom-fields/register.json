@@ -19,5 +19,12 @@
         "description": "This is the brands section of a webpage.",
         "template": "brands",
         "keywords": "brands, section, webpage"
+    },
+    {
+        "name": "service",
+        "title": "Service Section",
+        "description": "This is the service section of a webpage.",
+        "template": "service",
+        "keywords": "service, section, webpage"
     }
 ]
