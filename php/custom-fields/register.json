@@ -12,5 +12,12 @@
         "description": "This is the banner section of a webpage.",
         "template": "banner",
         "keywords": "banner, section, webpage"
+    },
+    {
+        "name": "brands",
+        "title": "Brands Section",
+        "description": "This is the brands section of a webpage.",
+        "template": "brands",
+        "keywords": "brands, section, webpage"
     }
 ]

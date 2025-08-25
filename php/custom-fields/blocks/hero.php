@@ -1,63 +1,37 @@
-<?php
-    $enable = get_field('enable');
-
-    if( !$enable ) {
-        return;
-    }
-
-    $slideshow = get_field('slideshow');
-    $ui = new HY_UI();
-?>
-
-<section class="relative sm:h-[calc(100vh-62px)] h-[calc(100vh-78px)]">
-    <div class="swiper swiper-banner h-full">
-        <div class="swiper-wrapper">
-            <?php
-            if( $slideshow ) :
-                foreach( $slideshow as $slide ) :
-                    $image = $slide['background_image'];
-                    $title = $slide['title'];
-                    $paragraph = $slide['paragraph'];
-                    $button = $slide['button'];
-            ?>
-                    <div class="swiper-slide">
-                        <div class="w-full h-full bg-cover bg-center bg-no-repeat relative" 
-                            <?php if( $image ) {
-                                echo 'style="background-image: url(' . $image . ');"';
-                            } ?> 
-                            data-aos="fade-in"
-                            data-aos-delay="0"
-                            data-aos-duration="700">
-
-                            <!-- Overlay (Middle Layer) -->
-                            <div class="absolute inset-0 bg-black/40 z-10"></div>
-                        
-                            <!-- Foreground Content (Top Layer) -->
-                            <div class="absolute inset-0 flex flex-col items-center sm:justify-center justify-end h-full text-center text-white px-4 z-20">
-                                <div class="swiper-banner-content mb-24 sm:mb-0">
-                                    <?php if( $title ) : ?>
-                                        <?= $ui->main_heading( $title ); ?>
-                                    <?php endif; ?>
+<section class="relative h-screen w-full flex items-center justify-center text-center overflow-hidden">
+        
+    <!-- Background Video -->
+    <video 
+        class="absolute z-[-1] w-auto min-w-full min-h-full max-w-none" 
+        autoplay 
+        loop 
+        muted 
+        playsinline>
+        <!-- Note: Apni video ka path yahan 'src' mein daalein. -->
+        <!-- Example video from Pexels -->
+        <source src="https://videos.pexels.com/video-files/853878/853878-hd_1920_1080_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     
-                                    <?php if( $paragraph ) : ?>
-                                        <?= $ui->paragraph( $paragraph, 'sm:mt-6 mt-3' ); ?>
-                                    <?php endif; ?>
-    
-                                    <?php if( $button ) : ?>
-                                        <?= $ui->button( $button['title'], $button['url'], $button['target'], 'mt-7' ); ?>
-                                    <?php endif; ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            <?php
-                endforeach;
-            endif;
-            ?>
-        </div>
+    <!-- Video Overlay -->
+    <div class="absolute top-0 left-0 w-full h-full bg-black/50"></div>
+
+    <!-- Content Container -->
+    <div class="relative z-10 container mx-auto px-4 text-white">
+        <!-- Main Heading -->
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium leading-tight mb-4">
+            Scale Your Peptide Brand with Proven Marketing Strategies
+        </h1>
+        
+        <!-- Subheading -->
+        <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-300">
+            We help peptide businesses overcome compliance challenges, generate leads on autopilot, and turn clicks into loyal customers.
+        </p>
+        
+        <!-- CTA Button -->
+        <a href="#" class="bg-[#ff520e] text-white font-bold py-4 px-10 rounded-lg text-lg hover:bg-[rgb(224,72,12)] transition-colors duration-300 inline-block">
+            Book a call
+        </a>
     </div>
-    <!-- Positioned Pagination -->
-    <div class="absolute sm:bottom-8 bottom-5 left-1/2 transform -translate-x-1/2 z-10 slider-timer">
-        <div class="banner-pagination slider-timer"></div>
-    </div>
+
 </section>
