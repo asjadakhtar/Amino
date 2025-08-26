@@ -1,42 +1,87 @@
+<!-- Header with Decorative Gradient -->
+<header class="relative w-full bg-[#0d0d0d] overflow-hidden">
+    
+    <!-- Decorative Gradient Blur Element -->
+    <div class="absolute top-0 right-0 h-[212px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>
 
-    <!-- Original header with updated hover color for navigation links -->
-    <header class="w-full bg-gradient-to-r from-[#0d0d0d] to-[#ff520e]/40">
-        <div class="max-w-screen-xl mx-auto flex justify-between items-center p-5 text-white">
-            
-            <!-- Logo -->
-            <div class="w-10">
-                <svg viewBox="0 0 227 222" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M128.534 83.2519H29.1311V0.985596H128.534C175.46 0.985596 213.904 37.893 213.904 83.2519C213.904 128.611 175.46 165.518 128.534 165.518H86.2731V221.014H29.1311V83.2519H128.534Z" fill="white"/>
-                </svg>
-            </div>
-
-            <!-- Navigation Links with UPDATED hover color -->
-            <nav class="hidden md:flex">
-                <ul class="flex items-center space-x-10 text-base text-gray-200">
-                    <!-- Yahan hover:text-[#ff520e] class add ki gayi hai -->
-                    <li><a href="#" class="hover:text-[#ff520e] transition-colors duration-300">How it works</a></li>
-                    <li><a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Techstack</a></li>
-                    <li><a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Pricings</a></li>
-                    <li><a href="#" class="hover:text-[#ff520e] transition-colors duration-300">FAQs</a></li>
-                </ul>
-            </nav>
-
-            <!-- CTA Button -->
-            <div>
-                <a href="#" class="border border-white/5 rounded-lg px-5 py-3 text-base hover:bg-[#ff520e] hover:border-[#ff520e] transition-colors duration-300">
-                    Book a call
-                </a>
-            </div>
-
+    <!-- Header Content Wrapper -->
+    <div class="relative z-10 max-w-screen-xl mx-auto flex justify-between items-center p-5 text-white">
+        
+        <!-- Logo -->
+        <div class="w-10">
+            <svg viewBox="0 0 227 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M128.534 83.2519H29.1311V0.985596H128.534C175.46 0.985596 213.904 37.893 213.904 83.2519C213.904 128.611 175.46 165.518 128.534 165.518H86.2731V221.014H29.1311V83.2519H128.534Z" fill="white"/>
+            </svg>
         </div>
-    </header>
+
+        <!-- Navigation Links with Swipe Effect -->
+        <nav class="hidden md:flex">
+            <ul class="flex items-center space-x-10 text-base text-gray-200">
+                
+                <li>
+                    <a href="#" 
+                    class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
+                    data-text="How it works">
+                        <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+                            How it works
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" 
+                    class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
+                    data-text="Techstack">
+                        <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+                            Techstack
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" 
+                    class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
+                    data-text="Pricings">
+                        <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+                            Pricings
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" 
+                    class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
+                    data-text="FAQs">
+                        <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+                            FAQs
+                        </span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+       <!-- CTA Button with a clean, best-practice swipe effect -->
+        <div>
+            <a href="#" 
+            class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
+            data-text="Book a call">
+                
+                <!-- The visible text that slides up -->
+                <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+                    Book a call
+                </span>
+            </a>
+        </div>
+    </div>
+</header>
 
 
 
 
 
 
-    <section class="relative h-screen w-full flex items-center justify-center text-center overflow-hidden">
+<section class="relative h-screen w-full flex items-center justify-center text-center overflow-hidden">
         
     <!-- Background Video -->
     <video 
@@ -225,36 +270,48 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <!-- Card 1: Compliance-Aware Marketing -->
-            <!-- MODIFIED: Changed duration-300 to duration-500 and added ease-in-out -->
-            <div class="group relative bg-[#ffffff12] border border-white/5 p-8 rounded-xl transition-colors duration-500 ease-in-out hover:bg-gradient-to-t hover:from-[#443227] hover:to-[#2D2D2D] overflow-hidden h-full flex flex-col">
-                <!-- Content -->
-                <h3 class="text-2xl font-medium text-white mb-4">Compliance-Aware Marketing</h3>
-                <p class="text-base text-[#D6D6D6]">Campaigns designed to avoid ad rejections and keep you growing safely.</p>
+            <div class="group relative bg-[#ffffff12] border border-white/5 p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
+                
+                <!-- Hover Gradient Blur Effect -->
+                <div class="absolute bottom-[-45px] right-[-233px] h-[126px] w-[621px] bg-[#ff520e] opacity-0 blur-[100px] transition-opacity duration-500 ease-in-out group-hover:opacity-25 z-10" aria-hidden="true"></div>
+
+                <!-- Content Wrapper (to stay above the effect) -->
+                <div class="relative z-20 flex flex-col h-full">
+                    <h3 class="text-2xl font-medium text-white mb-4">Compliance-Aware Marketing</h3>
+                    <p class="text-base text-[#D6D6D6]">Campaigns designed to avoid ad rejections and keep you growing safely.</p>
+                </div>
             </div>
 
             <!-- Card 2: End-to-End Solutions -->
-            <!-- MODIFIED: Changed duration-300 to duration-500 and added ease-in-out -->
-            <div class="group relative bg-[#ffffff12] border border-white/5 p-8 rounded-xl transition-colors duration-500 ease-in-out hover:bg-gradient-to-t hover:from-[#443227] hover:to-[#2D2D2D] overflow-hidden h-full flex flex-col">
-                <!-- Content -->
-                <h3 class="text-2xl font-medium text-white mb-4">End-to-End Solutions</h3>
-                <p class="text-base text-[#D6D6D6]">
-                    From ad setup to full-funnel automation. We handle every step of the process to ensure a seamless experience. 
-                    This means you can focus on your core business while we manage the complexities of digital marketing. Our goal is to provide a complete solution that drives results and allows for scalable growth, no matter how much content is here, all cards will match this height.
-                </p>
+            <div class="group relative bg-[#ffffff12] border border-white/5 p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
+                
+                <!-- Hover Gradient Blur Effect -->
+                <div class="absolute bottom-[-45px] right-[-233px] h-[126px] w-[621px] bg-[#ff520e] opacity-0 blur-[100px] transition-opacity duration-500 ease-in-out group-hover:opacity-25 z-10" aria-hidden="true"></div>
+
+                <!-- Content Wrapper (to stay above the effect) -->
+                <div class="relative z-20 flex flex-col h-full">
+                    <h3 class="text-2xl font-medium text-white mb-4">End-to-End Solutions</h3>
+                    <p class="text-base text-[#D6D6D6] flex-grow">
+                        From ad setup to full-funnel automation. We handle every step of the process to ensure a seamless experience. This means you can focus on your core business while we manage the complexities of digital marketing. Our goal is to provide a complete solution that drives results and allows for scalable growth.
+                    </p>
+                </div>
             </div>
 
             <!-- Card 3: Data-Driven Results -->
-            <!-- MODIFIED: Changed duration-300 to duration-500 and added ease-in-out -->
-            <div class="group relative bg-[#ffffff12] border border-white/5 p-8 rounded-xl transition-colors duration-500 ease-in-out hover:bg-gradient-to-t hover:from-[#443227] hover:to-[#2D2D2D] overflow-hidden h-full flex flex-col">
-                <!-- Content -->
-                <h3 class="text-2xl font-medium text-white mb-4">Data-Driven Results</h3>
-                <p class="text-base text-[#D6D6D6]">Strategies that bring consistent ROI, not just traffic.</p>
+            <div class="group relative bg-[#ffffff12] border border-white/5 p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
+                <!-- Hover Gradient Blur Effect -->
+                <div class="absolute bottom-[-45px] right-[-233px] h-[126px] w-[621px] bg-[#ff520e] opacity-0 blur-[100px] transition-opacity duration-500 ease-in-out group-hover:opacity-25 z-10" aria-hidden="true"></div>
+
+                <!-- Content Wrapper (to stay above the effect) -->
+                <div class="relative z-20 flex flex-col h-full">
+                    <h3 class="text-2xl font-medium text-white mb-4">Data-Driven Results</h3>
+                    <p class="text-base text-[#D6D6D6]">Strategies that bring consistent ROI, not just traffic.</p>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
-
 
 
 
@@ -491,3 +548,77 @@
         </div>
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Section with Decorative Gradient -->
+<footer class="relative overflow-hidden text-white py-12 px-4 sm:px-6 lg:px-8">
+    
+    <!-- Decorative Gradient Blur Element -->
+    <div class="absolute bottom-0 right-0 h-[320px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>
+
+    <!-- Footer Content Wrapper -->
+    <div class="relative z-10 max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start space-y-10 md:space-y-0 md:space-x-12">
+        
+        <!-- Left Section: Logo and Text Content -->
+        <div class="flex flex-col space-y-6 md:w-2/3">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-3 w-10">
+                <svg viewBox="0 0 227 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M128.534 83.2519H29.1311V0.985596H128.534C175.46 0.985596 213.904 37.893 213.904 83.2519C213.904 128.611 175.46 165.518 128.534 165.518H86.2731V221.014H29.1311V83.2519H128.534Z" fill="white"/>
+                </svg>
+            </a>
+            
+            <!-- Text Content -->
+            <div class="mt-4 max-w-xl">
+                <p class="font-medium tracking-widest text-sm uppercase mb-3">
+                    CONTACT AMINO MARKETING
+                </p>
+                <h3 class="text-2xl font-medium leading-tight mb-5">
+                    Let's have a quick chat and see what we can do for you – 100% FREE.
+                </h3>
+                <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
+                    We help businsses in this new and every evolving industry grow with easy to use growth systems that have been carefully fine tuned since 2015. No buzzwords, just results.
+                </p>
+                <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
+                    We are always around to answer your questions about next steps. We try to respond to all e-mails same day, so feel free to shoot us over any question you may have and we can get the ball rolling.
+                </p>
+                <p class="text-[#ff520e] text-base leading-relaxed font-medium mb-4">
+                    Leave your credit card at home, we don't do hyper forward sales calls.
+                </p>
+                <p class="text-base text-gray-300 leading-relaxed">
+                    Prefer Email? <a href="mailto:info@aminomarketing.com" class="underline hover:text-white transition-colors duration-300">info@aminomarketing.com</a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Right Section: Navigation Links -->
+        <div class="flex flex-col sm:flex-row text-base space-y-8 sm:space-y-0 sm:space-x-24 pt-4">
+            <!-- Column 1 -->
+            <div class="flex flex-col space-y-4">
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Process</a>
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Work</a>
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Services</a>
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">About</a>
+            </div>
+            <!-- Column 2 -->
+            <div class="flex flex-col space-y-4">
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Jobs</a>
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Terms of Service</a>
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-[#ff520e] transition-colors duration-300">Refund Policy</a>
+            </div>
+        </div>
+
+    </div>
+</footer>

@@ -3,114 +3,76 @@ body {
 }
 
 
-       /* CSS to ensure the animation is perfectly linear (constant speed) */
-        .swiper-wrapper {
-            transition-timing-function: linear !important;
-        }
-        
-        /* Styling for the logos */
-        .brand-logo {
-            filter: grayscale(1);
-            opacity: 0.6;
-            transition: all 0.3s ease;
-            height: 32px; /* Fixed height for all logos */
-            width: auto;  /* Width adjusts to maintain aspect ratio */
-            object-fit: contain;
-        }
-        
-        .brand-logo:hover {
-            opacity: 1;
-            filter: grayscale(0);
-        }
+/* CSS to ensure the animation is perfectly linear (constant speed) */
+.swiper-wrapper {
+ transition-timing-function: linear !important;
+}
 
-        /* --- YAHAN NAYA CODE ADD KIYA GAYA HAI --- */
+/* Styling for the logos */
+.brand-logo {
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  height: 32px; /* Fixed height for all logos */
+  width: auto;  /* Width adjusts to maintain aspect ratio */
+  object-fit: contain;
+}
 
-        /* Slider container ke liye relative positioning */
-        .brand-slider {
-            position: relative;
-        }
+.brand-logo:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
 
-        /* Baayein taraf (left side) ka shadow */
-        .brand-slider::before,
-        .brand-slider::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100px; /* Shadow ki chaudai (width) */
-            z-index: 2;
-            pointer-events: none; /* Mouse hover ko kaam karne deta hai */
-        }
-        
-        .brand-slider::before {
-            left: 0;
-            background: linear-gradient(to right, #0d0d0d, rgba(255, 255, 255, 0));
-        }
+/* --- YAHAN NAYA CODE ADD KIYA GAYA HAI --- */
 
-        .brand-slider::after {
-            right: 0;
-            background: linear-gradient(to left, #0d0d0d, rgba(255, 255, 255, 0));
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /* From Uiverse.io by mobinkakei */ 
-.btn {
-  width: 140px;
-  height: 50px;
-  background: linear-gradient(to top, #00154c, #12376e, #23487f);
-  color: #fff;
-  border-radius: 50px;
-  border: none;
-  outline: none;
-  cursor: pointer;
+/* Slider container ke liye relative positioning */
+.brand-slider {
   position: relative;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
 }
 
-.btn span {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: top 0.8s;
-}
-
-.btn-text-one {
+/* Baayein taraf (left side) ka shadow */
+.brand-slider::before,
+.brand-slider::after {
+  content: '';
   position: absolute;
-  width: 100%;
-  top: 50%;
+  top: 0;
+  bottom: 0;
+  width: 100px; /* Shadow ki chaudai (width) */
+  z-index: 2;
+  pointer-events: none; /* Mouse hover ko kaam karne deta hai */
+}
+
+.brand-slider::before {
   left: 0;
-  transform: translateY(-50%);
+  background: linear-gradient(to right, #0d0d0d, rgba(255, 255, 255, 0));
 }
 
-.btn-text-two {
-  position: absolute;
-  width: 100%;
-  top: 150%;
-  left: 0;
-  transform: translateY(-50%);
+.brand-slider::after {
+  right: 0;
+  background: linear-gradient(to left, #0d0d0d, rgba(255, 255, 255, 0));
 }
 
-.btn:hover .btn-text-one {
-  top: -100%;
+
+a[data-text]::after {
+content: attr(data-text); /* 'data-text' attribute se text leta hai */
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+color: #ff520e; /* Hover state ka color */
+
+/* Text ko vertically aur horizontally center karta hai */
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* Shuru mein yeh neeche chupa rehta hai */
+transform: translateY(100%);
+transition: transform 0.5s ease-in-out;
 }
 
-.btn:hover .btn-text-two {
-  top: 50%;
+/* Jab parent 'a' tag par hover ho, to '::after' element apni jagah par aa jata hai */
+a[data-text]:hover::after {
+transform: translateY(0);
 }
