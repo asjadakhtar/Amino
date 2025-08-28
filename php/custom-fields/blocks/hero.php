@@ -7,7 +7,7 @@
         loop
         muted
         playsinline>
-        <source src="http://localhost/amino/wp-content/uploads/2025/08/istockphoto-619025058-640_adpp_is.mp4" type="video/mp4">
+        <source src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/08/istockphoto-619025058-640_adpp_is.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
