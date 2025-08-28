@@ -49,5 +49,18 @@
             </div>
 
         </div>
+
+        <div class="mt-12 text-center">
+            <a href="#"
+            class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
+            data-text="Book a call">
+
+                <!-- The visible text that slides up -->
+                <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+                    Book a call
+                </span>
+            </a>
+        </div>
+        
     </div>
 </section>

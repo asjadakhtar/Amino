@@ -1,11 +1,10 @@
-<!-- Footer Section with Decorative Gradient -->
-<footer class="relative overflow-hidden text-white py-12 px-4 sm:px-6 lg:px-8">
+<footer class="relative overflow-hidden text-white py-12 px-4 md:px-4">
     
     <!-- Decorative Gradient Blur Element -->
     <div class="absolute bottom-0 right-0 h-[320px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>
 
     <!-- Footer Content Wrapper -->
-    <div class="relative z-10 max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-start space-y-10 md:space-y-0 md:space-x-12">
+    <div class="relative z-10 max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0 md:space-x-12">
         
         <!-- Left Section: Logo and Text Content -->
         <div class="flex flex-col space-y-6 md:w-1/2">
@@ -25,7 +24,7 @@
                     Let's have a quick chat and see what we can do for you – 100% FREE.
                 </h3>
                 <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
-                    We help businsses in this new and every evolving industry grow with easy to use growth systems that have been carefully fine tuned since 2015. No buzzwords, just results.
+                    We help businesses in this new and ever-evolving industry grow with easy to use growth systems that have been carefully fine-tuned since 2015. No buzzwords, just results.
                 </p>
                 <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
                     We are always around to answer your questions about next steps. We try to respond to all e-mails same day, so feel free to shoot us over any question you may have and we can get the ball rolling.
@@ -42,6 +41,9 @@
 
         <!-- Right Section: Contact Form -->
         <div class="md:w-1/2 mt-10 md:mt-0 w-full"> <!-- Added w-full here to make the form full width on small screens -->
+            <h3 class="text-2xl sm:text-3xl font-medium leading-tight mb-6">
+                Get in Touch
+            </h3>
             <form class="space-y-4">
                 <!-- First Name and Last Name -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -78,11 +80,11 @@
                         <select id="monthly-revenue" name="monthly-revenue"
                                 class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer text-sm sm:text-base">
                             <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]">Monthly Revenue</option>
-                            <option value="0-1k" class="bg-[#0d0d0d]">Less than $1,000</option>
-                            <option value="1k-5k" class="bg-[#0d0d0d]">$1,000 - $5,000</option>
-                            <option value="5k-10k" class="bg-[#0d0d0d]">$5,000 - $10,000</option>
+                            <option value="1-10k" class="bg-[#0d0d0d]">$1,000 - $10,000</option>
                             <option value="10k-50k" class="bg-[#0d0d0d]">$10,000 - $50,000</option>
-                            <option value="50k+" class="bg-[#0d0d0d]">$50,000+</option>
+                            <option value="50k-100k" class="bg-[#0d0d0d]">$50,000 - $100,000</option>
+                            <option value="100k-150k" class="bg-[#0d0d0d]">$100,000 - $150,000</option>
+                            <option value="50k+" class="bg-[#0d0d0d]">$150,000+</option>
                         </select>
                         <!-- Custom arrow for dropdown -->
                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
@@ -101,6 +103,21 @@
                     </button>
                 </div>
             </form>
+        </div>
+    </div>
+
+    <!-- Bottom Section: Copyright and Social Icons -->
+    <div class="relative z-10 max-w-4xl mx-auto mt-12 pt-8 border-t border-white/20 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400 space-y-4 sm:space-y-0">
+        <!-- Copyright -->
+        <p>&copy; 2025 Amino Marketing. All rights reserved.</p>
+
+        <!-- Social Icons -->
+        <div class="flex space-x-4">
+            <a href="https://www.facebook.com/aminomarketing" target="_blank" rel="noopener noreferrer" class="hover:text-[#ff520e] transition-colors duration-300">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22c4.781-.75 8.438-4.887 8.438-9.878z" clip-rule="evenodd" />
+                </svg>
+            </a>
         </div>
     </div>
 </footer>
