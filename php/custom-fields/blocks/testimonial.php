@@ -1,37 +1,5 @@
-
-    <style>
-    .swiper-wrapper {
-        transition-timing-function: linear !important;
-    }
-
-    .swiper-container-wrapper {
-        position: relative;
-    }
-
-    .swiper-container-wrapper::before,
-    .swiper-container-wrapper::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 200px;
-        z-index: 10;
-        pointer-events: none;
-    }
-
-    .swiper-container-wrapper::before {
-        left: 0;
-        background: linear-gradient(to right, #0d0d0d, rgba(255, 255, 255, 0));
-    }
-
-    .swiper-container-wrapper::after {
-        right: 0;
-        background: linear-gradient(to left, #0d0d0d, rgba(255, 255, 255, 0));
-    }
-</style>
-
 <section class="py-24">
-    <div class="max-w-screen-xl mx-auto px-4">
+    <div class="max-w-4xl mx-auto px-4">
         <!-- Section Heading -->
         <h2 class="text-5xl font-normal text-white text-center mb-16">
             What Our Clients Say
@@ -151,32 +119,3 @@
         </div>
     </div>
 </section>
-
-<!-- Swiper.js JS CDN -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- Swiper Initialization -->
-<script>
-    const swiper = new Swiper('.testimonials-slider', {
-        loop: true,
-        autoplay: {
-            delay: 0, 
-            disableOnInteraction: false,
-        },
-        speed: 9000,
-        slidesPerView: 1,
-        spaceBetween: 20,
-        breakpoints: {
-            // 768px 
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 30,
-            },
-            // 1024px 
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-            },
-        },
-    });
-</script>

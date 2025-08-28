@@ -1,0 +1,106 @@
+<!-- Footer Section with Decorative Gradient -->
+<footer class="relative overflow-hidden text-white py-12 px-4 sm:px-6 lg:px-8">
+    
+    <!-- Decorative Gradient Blur Element -->
+    <div class="absolute bottom-0 right-0 h-[320px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>
+
+    <!-- Footer Content Wrapper -->
+    <div class="relative z-10 max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-start space-y-10 md:space-y-0 md:space-x-12">
+        
+        <!-- Left Section: Logo and Text Content -->
+        <div class="flex flex-col space-y-6 md:w-1/2">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-3 w-10">
+                <svg viewBox="0 0 227 222" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M128.534 83.2519H29.1311V0.985596H128.534C175.46 0.985596 213.904 37.893 213.904 83.2519C213.904 128.611 175.46 165.518 128.534 165.518H86.2731V221.014H29.1311V83.2519H128.534Z" fill="white"/>
+                </svg>
+            </a>
+            
+            <!-- Text Content -->
+            <div class="mt-4 max-w-xl">
+                <p class="font-medium tracking-widest text-sm uppercase mb-3">
+                    CONTACT AMINO MARKETING
+                </p>
+                <h3 class="text-2xl font-medium leading-tight mb-5">
+                    Let's have a quick chat and see what we can do for you – 100% FREE.
+                </h3>
+                <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
+                    We help businsses in this new and every evolving industry grow with easy to use growth systems that have been carefully fine tuned since 2015. No buzzwords, just results.
+                </p>
+                <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
+                    We are always around to answer your questions about next steps. We try to respond to all e-mails same day, so feel free to shoot us over any question you may have and we can get the ball rolling.
+                </p>
+                <p class="text-[#ff520e] text-base leading-relaxed font-medium mb-4">
+                    Leave your credit card at home, we don't do hyper forward sales calls.
+                </p>
+                <p class="text-base text-gray-300 leading-relaxed">
+                    Prefer Email? <a href="mailto:info@aminomarketing.com" class="underline hover:text-white transition-colors duration-300">info@aminomarketing.com</a>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Right Section: Contact Form -->
+        <div class="md:w-1/2 mt-10 md:mt-0">
+            <form class="space-y-4">
+                <!-- First Name and Last Name -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label for="first-name" class="sr-only">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name"
+                               class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                    </div>
+                    <div>
+                        <label for="last-name" class="sr-only">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name"
+                               class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div>
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email"
+                           class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                </div>
+
+                <!-- Website URL -->
+                <div>
+                    <label for="website-url" class="sr-only">Website URL</label>
+                    <input type="url" id="website-url" name="website-url" placeholder="Website URL"
+                           class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                </div>
+
+                <!-- Monthly Revenue Dropdown -->
+                <div>
+                    <label for="monthly-revenue" class="sr-only">Monthly Revenue</label>
+                    <div class="relative">
+                        <select id="monthly-revenue" name="monthly-revenue"
+                                class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer">
+                            <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]">Monthly Revenue</option>
+                            <option value="0-1k" class="bg-[#0d0d0d]">Less than $1,000</option>
+                            <option value="1k-5k" class="bg-[#0d0d0d]">$1,000 - $5,000</option>
+                            <option value="5k-10k" class="bg-[#0d0d0d]">$5,000 - $10,000</option>
+                            <option value="10k-50k" class="bg-[#0d0d0d]">$10,000 - $50,000</option>
+                            <option value="50k+" class="bg-[#0d0d0d]">$50,000+</option>
+                        </select>
+                        <!-- Custom arrow for dropdown -->
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
+                            <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit"
+                            class="w-full bg-[#ff520e] text-white font-medium py-3 px-6 rounded-lg text-base hover:bg-[rgb(224,72,12)] transition-colors duration-300">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>

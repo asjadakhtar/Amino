@@ -47,5 +47,12 @@
         "description": "This is the testimonial section of a webpage.",
         "template": "testimonial",
         "keywords": "testimonial, section, webpage"
+    },
+    {
+        "name": "faq",
+        "title": "FAQ Section",
+        "description": "This is the faq section of a webpage.",
+        "template": "faq",
+        "keywords": "faq, section, webpage"
     }
 ]

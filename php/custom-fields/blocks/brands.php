@@ -2,7 +2,7 @@
 <section id="brands" class="py-16 sm:py-24">
     <div class="overflow-hidden mx-auto text-center">
 
-        <h2 class="text-base tracking-widest text-[#D6D6D6] uppercase mb-12">
+        <h2 class="text-xl tracking-widest text-[#D6D6D6] uppercase mb-12">
             Brands
         </h2>
 
