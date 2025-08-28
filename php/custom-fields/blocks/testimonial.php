@@ -1,7 +1,7 @@
-<section class="py-24">
+<section class="py-12 md:py-24">
     <div class="max-w-4xl mx-auto px-4">
         <!-- Section Heading -->
-        <h2 class="text-5xl font-normal text-white text-center mb-16">
+        <h2 class="text-4xl sm:text-4xl lg:text-5xl font-normal text-white text-center mb-10 sm:mb-12">
             What Our Clients Say
         </h2>
 

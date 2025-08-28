@@ -21,7 +21,7 @@
                 <p class="font-medium tracking-widest text-sm uppercase mb-3">
                     CONTACT AMINO MARKETING
                 </p>
-                <h3 class="text-2xl font-medium leading-tight mb-5">
+                <h3 class="text-2xl sm:text-3xl font-medium leading-tight mb-5">
                     Let's have a quick chat and see what we can do for you – 100% FREE.
                 </h3>
                 <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
@@ -41,19 +41,19 @@
         </div>
 
         <!-- Right Section: Contact Form -->
-        <div class="md:w-1/2 mt-10 md:mt-0">
+        <div class="md:w-1/2 mt-10 md:mt-0 w-full"> <!-- Added w-full here to make the form full width on small screens -->
             <form class="space-y-4">
                 <!-- First Name and Last Name -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <label for="first-name" class="sr-only">First Name</label>
                         <input type="text" id="first-name" name="first-name" placeholder="First Name"
-                               class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                               class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                     </div>
                     <div>
                         <label for="last-name" class="sr-only">Last Name</label>
                         <input type="text" id="last-name" name="last-name" placeholder="Last Name"
-                               class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                               class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                     </div>
                 </div>
 
@@ -61,14 +61,14 @@
                 <div>
                     <label for="email" class="sr-only">Email</label>
                     <input type="email" id="email" name="email" placeholder="Email"
-                           class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                           class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                 </div>
 
                 <!-- Website URL -->
                 <div>
                     <label for="website-url" class="sr-only">Website URL</label>
                     <input type="url" id="website-url" name="website-url" placeholder="Website URL"
-                           class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none">
+                           class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                 </div>
 
                 <!-- Monthly Revenue Dropdown -->
@@ -76,7 +76,7 @@
                     <label for="monthly-revenue" class="sr-only">Monthly Revenue</label>
                     <div class="relative">
                         <select id="monthly-revenue" name="monthly-revenue"
-                                class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer">
+                                class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer text-sm sm:text-base">
                             <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]">Monthly Revenue</option>
                             <option value="0-1k" class="bg-[#0d0d0d]">Less than $1,000</option>
                             <option value="1k-5k" class="bg-[#0d0d0d]">$1,000 - $5,000</option>
