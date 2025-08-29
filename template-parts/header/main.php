@@ -5,7 +5,7 @@
     <div class="absolute top-0 right-0 h-[212px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>
 
     <!-- Header Content Wrapper -->
-    <div class="relative max-w-screen-xl mx-auto flex justify-between items-center p-5 text-white overflow-hidden">
+    <div class="relative max-w-4xl mx-auto flex justify-between items-center p-5 text-white overflow-hidden">
         
         <!-- Logo -->
         <div class="w-10">
