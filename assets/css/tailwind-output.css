@@ -526,6 +526,9 @@
   .max-w-\[648px\] {
     max-width: 648px;
   }
+  .max-w-\[850px\] {
+    max-width: 850px;
+  }
   .max-w-full {
     max-width: 100%;
   }
@@ -1782,6 +1785,11 @@
     @media (width >= 48rem) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .lg\:mt-\[120px\] {
+    @media (width >= 64rem) {
+      margin-top: 120px;
     }
   }
   .lg\:grid-cols-2 {

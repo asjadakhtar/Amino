@@ -54,5 +54,12 @@
         "description": "This is the faq section of a webpage.",
         "template": "faq",
         "keywords": "faq, section, webpage"
+    },
+    {
+        "name": "editor",
+        "title": "Editor Section",
+        "description": "This is the editor section of a webpage.",
+        "template": "editor",
+        "keywords": "editor, section, webpage"
     }
 ]
