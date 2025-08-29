@@ -21,9 +21,9 @@
                 <li>
                     <a href="#" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
-                    data-text="How it works">
+                    data-text="Services">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                            How it works
+                            Services
                         </span>
                     </a>
                 </li>
@@ -31,9 +31,9 @@
                 <li>
                     <a href="#" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
-                    data-text="Techstack">
+                    data-text="About">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                            Techstack
+                            About
                         </span>
                     </a>
                 </li>
@@ -41,9 +41,9 @@
                 <li>
                     <a href="#" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
-                    data-text="Pricings">
+                    data-text="Blog">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                            Pricings
+                            Blog
                         </span>
                     </a>
                 </li>
