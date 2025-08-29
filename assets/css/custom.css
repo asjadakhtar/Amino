@@ -124,15 +124,17 @@ transform: translateY(0);
 #detail-page h4,
 #detail-page h5,
 #detail-page h6 {
-    color: white;
-    font-size: 28px;
+    color: #ff520e; 
+    font-size: 22px;
+    padding-bottom: 12px;
+    font-weight: 500;
 }
 
 #detail-page p {
     color: #d6d6d6;
-    font-size: 20px;
-    margin-bottom: 1em; /* Add some spacing between paragraphs */
-    line-height: 1.6; /* Improve readability */
+    font-size: 16px;
+    margin-bottom: 28px;
+    line-height: 1.6;
 }
 
 #detail-page ul,
