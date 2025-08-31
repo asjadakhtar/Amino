@@ -61,5 +61,12 @@
         "description": "This is the editor section of a webpage.",
         "template": "editor",
         "keywords": "editor, section, webpage"
+    },
+    {
+        "name": "blogs",
+        "title": "Blogs Section",
+        "description": "This is the blogs section of a webpage.",
+        "template": "blogs",
+        "keywords": "blogs, section, webpage"
     }
 ]
