@@ -8,7 +8,7 @@
       <!-- Blog Card 1 -->
       <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
         <a href="#">
-          <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" class="w-full h-48 object-cover rounded-lg" alt="Blog Post Image">
+          <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" class="w-full h-60 object-cover rounded-lg" alt="Blog Post Image">
         </a>
         <div class="mt-4">
           <div class="post-date text-[#d6d6d6] text-sm mb-3">
@@ -29,12 +29,11 @@
       <!-- Blog Card 2 -->
       <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
         <a href="#">
-          <img src="https://via.placeholder.com/400x250" class="w-full h-48 object-cover" alt="Blog Post Image">
+          <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" class="w-full h-60 object-cover rounded-lg" alt="Blog Post Image">
         </a>
-        <div>
+        <div class="mt-4">
           <div class="post-date text-[#d6d6d6] text-sm mb-3">
             <span>Posted on December 15, 2022</span>
-            <hr class="border-[#d6d6d6] mt-1" />
           </div>
           <h5 class="text-white text-xl font-medium mb-4">The Future of Web Development: Key Trends to Watch</h5>
           <a href="#" class="blog-anchor text-white flex items-center hover:text-gray-300 transition-colors duration-300">
@@ -51,12 +50,11 @@
       <!-- Blog Card 3 -->
       <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
         <a href="#">
-          <img src="https://via.placeholder.com/400x250" class="w-full h-48 object-cover" alt="Blog Post Image">
+          <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" class="w-full h-60 object-cover rounded-lg" alt="Blog Post Image">
         </a>
-        <div>
+        <div class="mt-4">
           <div class="post-date text-[#d6d6d6] text-sm mb-3">
             <span>Posted on November 28, 2022</span>
-            <hr class="border-[#d6d6d6] mt-1" />
           </div>
           <h5 class="text-white text-xl font-medium mb-4">Effective Digital Marketing Strategies for Startups</h5>
           <a href="#" class="blog-anchor text-white flex items-center hover:text-gray-300 transition-colors duration-300">
@@ -73,12 +71,11 @@
       <!-- Blog Card 4 -->
       <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
         <a href="#">
-          <img src="https://via.placeholder.com/400x250" class="w-full h-48 object-cover" alt="Blog Post Image">
+          <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" class="w-full h-60 object-cover rounded-lg" alt="Blog Post Image">
         </a>
-        <div>
+        <div class="mt-4">
           <div class="post-date text-[#d6d6d6] text-sm mb-3">
             <span>Posted on November 28, 2022</span>
-            <hr class="border-[#d6d6d6] mt-1" />
           </div>
           <h5 class="text-white text-xl font-medium mb-4">Effective Digital Marketing Strategies for Startups</h5>
           <a href="#" class="blog-anchor text-white flex items-center hover:text-gray-300 transition-colors duration-300">

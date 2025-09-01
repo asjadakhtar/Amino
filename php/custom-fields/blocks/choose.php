@@ -4,7 +4,7 @@
         <!-- Section Heading -->
         <div class="text-center mb-8 md:mb-12">
             <h2 class="text-4xl sm:text-4xl lg:text-5xl font-normal text-white text-center mb-10 sm:mb-12">
-                Choose Us
+                Why Peptide Brands Choose Us
             </h2>
         </div>
 
@@ -25,8 +25,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.21a12.007 12.007 0 011.881 2.31M15 17v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-5l2.293-2.293A2 2 0 015.414 12H10m2-4a2 2 0 100-4 2 2 0 000 4z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Compliance-Aware Marketing</h3>
-                    <p class="text-sm md:text-base text-[#D6D6D6]">Campaigns designed to avoid ad rejections and keep you growing safely.</p>
+                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Niche Expertise</h3>
+                    <p class="text-sm md:text-base text-[#D6D6D6]">We specialize exclusively in peptide marketing. Our deep industry knowledge means we understand your unique challenges and tailor strategies that truly resonate with your target audience.</p>
                 </div>
             </div>
 
@@ -44,9 +44,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">End-to-End Solutions</h3>
+                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Compliance-First Marketing</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
-                        From ad setup to full-funnel automation. We handle every step of the process to ensure a seamless experience. This means you can focus on your core business while we manage the complexities of digital marketing.
+                        Navigating complex platform rules is our expertise. We design every campaign with compliance in mind to avoid ad rejections and suspensions, enabling you to scale safely and confidently.
                     </p>
                 </div>
             </div>
@@ -65,8 +65,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Data-Driven Results</h3>
-                    <p class="text-sm md:text-base text-[#D6D6D6]">Strategies that bring consistent ROI, not just traffic.</p>
+                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">End-to-End Growth Solutions</h3>
+                    <p class="text-sm md:text-base text-[#D6D6D6]">Beyond just ads or SEO, we build comprehensive automated funnels that attract, nurture, and convert leads 24/7. Our systems are designed to integrate with all major platforms, from Meta to emerging opportunities on Reddit, providing a sustainable growth engine for your brand.</p>
                 </div>
             </div>
 
@@ -84,9 +84,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                         </svg>
                     </div>
-                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">End-to-End Solutions</h3>
+                    <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Data-Driven, ROI-Focused Results</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
-                        From ad setup to full-funnel automation. We handle every step of the process to ensure a seamless experience. This means you can focus on your core business while we manage the complexities of digital marketing.
+                        Our success is measured by your profitability, not just traffic or clicks. We continuously optimize campaigns using real-time data to maximize your return on investment.
                     </p>
                 </div>
             </div>

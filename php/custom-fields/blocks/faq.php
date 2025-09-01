@@ -9,14 +9,14 @@
         <!-- FAQ Item 1 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">What happens after you deliver the MVP?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">How can I safely advertise my peptide products online?</span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-4 pb-3 sm:pb-4 text-sm sm:text-base text-[#D6D6D6]">
-                    Once we deliver your MVP, we provide ongoing support for 30 days (Starter Plan) or extended support (Standard Plan). We can help with bug fixes, improvements, and updates based on feedback.
+                    The key is a compliance-first approach. Safe advertising involves carefully crafted ad copy that avoids medical claims, precise audience targeting that aligns with platform policies, and a website landing page that is professional and transparent. We specialize in managing all these elements to ensure your campaigns are both safe and effective.
                 </div>
             </div>
         </div>
@@ -24,14 +24,14 @@
         <!-- FAQ Item 2 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">How do you build a product in just six weeks?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">Why do my peptide ads keep getting rejected on Facebook and Google? </span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-4 pb-3 sm:pb-4 text-sm sm:text-base text-[#D6D6D6]">
-                    We use agile methodologies, pre-built components, and proven frameworks to accelerate development. Our experienced team focuses on core features first, ensuring we deliver a functional MVP within the timeline while maintaining quality standards.
+                   This is a common frustration. Ads are typically rejected by automated systems that flag certain trigger words (related to dosage, health claims, or specific conditions), non-compliant imagery, or issues on your landing page. Our expertise lies in understanding and navigating these sensitive triggers to create ads that get approved.
                 </div>
             </div>
         </div>
@@ -39,14 +39,14 @@
         <!-- FAQ Item 3 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">Are hosting costs and tools included?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">What are the rules for advertising peptides on Meta (Facebook/Instagram)?</span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-6 pb-3 sm:pb-6 text-sm sm:text-base text-[#D6D6D6]">
-                    Basic hosting setup is included in our packages. However, ongoing hosting costs and premium tools may be additional depending on your specific requirements and chosen plan. We'll provide clear pricing for any additional services upfront.
+                    Meta policies are complex and strict. The core rules involve avoiding the promotion of unapproved substances for consumption, making no direct or implied medical claims, and ensuring all content is positioned for a "research" context. These rules are constantly evolving, which is why having an expert team managing your campaigns is crucial for safety.
                 </div>
             </div>
         </div>
@@ -54,14 +54,14 @@
         <!-- FAQ Item 4 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">What kind of MVPs do you specialize in?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">How is SEO different for peptide websites? </span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-6 pb-3 sm:pb-6 text-sm sm:text-base text-[#D6D6D6]">
-                    We specialize in web applications, mobile apps, SaaS platforms, e-commerce solutions, and API-driven products. Our team has experience across various industries including fintech, healthcare, education, and marketplace platforms.
+                    Peptide SEO is highly specialized. Unlike regular SEO, it requires a deep focus on compliance. This means selecting keywords that avoid medical claims (e.g., "BPC-157 for research" instead of "BPC-157 for healing"), creating educational content that doesn't violate policies, and building authority in a way that search engines trust.
                 </div>
             </div>
         </div>
@@ -69,14 +69,14 @@
         <!-- FAQ Item 5 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">Are there any hidden costs?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">What keywords are safe to use in peptide marketing? </span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-4 pb-3 sm:pb-4 text-sm sm:text-base text-[#D6D6D6]">
-                    No hidden costs! Our pricing is transparent and includes everything outlined in your chosen package. Any additional features or services beyond the agreed scope will be discussed and approved before implementation with clear pricing.
+                    Safe keywords focus on research intent, not medical outcomes. We focus on terms like "[Peptide Name] for research," "lab supply," "research chemicals," and educational phrases. We strictly avoid keywords that imply human consumption, treatment, or performance enhancement, as these can lead to penalties.
                 </div>
             </div>
         </div>
@@ -84,14 +84,14 @@
         <!-- FAQ Item 6 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">When does the six-week timeline begin?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white"> What causes peptide ads accounts to get suspended or banned? </span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-4 pb-3 sm:pb-4 text-sm sm:text-base text-[#D6D6D6]">
-                    The six-week timeline begins after we complete the discovery phase, finalize requirements, receive initial payment, and both parties sign the project agreement. This ensures we have all necessary information to deliver your MVP successfully.
+                    Suspensions are rarely caused by a single ad rejection. They usually result from a pattern of violations, such as repeated attempts to run non-compliant ads, trying to trick the system's review process, or having a website that doesn't meet platform standards. Our job is to maintain a healthy account history to prevent this.
                 </div>
             </div>
         </div>
@@ -99,14 +99,14 @@
         <!-- FAQ Item 7 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">How do I get started?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">Can small peptide brands actually compete with larger companies online? </span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-4 pb-3 sm:pb-4 text-sm sm:text-base text-[#D6D6D6]">
-                    Getting started is simple! Contact us through our website or email, and we'll schedule a free consultation to discuss your project. We'll then provide a detailed proposal with timeline, features, and pricing tailored to your needs.
+                    Absolutely. Small brands can succeed by being smarter, not just richer. We help you compete by focusing on hyper-targeted niche audiences, creating high-value educational content that big brands ignore, and implementing efficient automation systems that maximize your budget and impact.
                 </div>
             </div>
         </div>
@@ -114,14 +114,14 @@
         <!-- FAQ Item 8 -->
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-4 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
-                <span class="text-base sm:text-lg md:text-xl font-medium text-white">What payment methods do you accept?</span>
+                <span class="text-base sm:text-lg md:text-xl font-medium text-white">How long does it take to see results from peptide marketing?</span>
                 <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
             <div class="accordion-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
                 <div class="px-3 sm:px-4 pb-3 sm:pb-4 text-sm sm:text-base text-[#D6D6D6]">
-                    We accept various payment methods including bank transfers, credit cards, PayPal, and cryptocurrency. Payment is typically structured as 50% upfront and 50% upon delivery, though we can discuss flexible payment plans for larger projects.
+                    It depends on the strategy. With Paid Ads, you can start seeing traffic and leads within the first few weeks. With SEO, it's a long-term investment that typically starts showing significant results in 3-6 months, building a foundation for sustainable, free traffic for years to come.
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@
 
         <!-- Subheading -->
         <p class="text-base sm:text-lg lg:text-xl max-w-2xl mx-auto mb-8 text-gray-300">
-            We help peptide businesses overcome compliance challenges, generate leads on autopilot, and turn clicks into loyal customers.
+            Stop worrying about peptides ads rejections and stagnant sales. We build complete, compliance-first marketing systems that deliver results. Our mission is to provide safe, scalable, and profitable growth for your brand.
         </p>
 
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
