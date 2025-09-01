@@ -19,7 +19,7 @@
             <ul class="flex items-center space-x-10 text-base text-gray-200">
                 
                 <li>
-                    <a href="#" 
+                    <a href="https://beige-grasshopper-864950.hostingersite.com/projects/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
                     data-text="Projects">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
@@ -29,7 +29,7 @@
                 </li>
 
                 <li>
-                    <a href="#" 
+                    <a href="https://beige-grasshopper-864950.hostingersite.com/about/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
                     data-text="About">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
@@ -39,7 +39,7 @@
                 </li>
 
                 <li>
-                    <a href="#" 
+                    <a href="https://beige-grasshopper-864950.hostingersite.com/blogs/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
                     data-text="Blog">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
@@ -49,7 +49,7 @@
                 </li>
 
                 <li>
-                    <a href="#" 
+                    <a href="https://beige-grasshopper-864950.hostingersite.com/faqs/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
                     data-text="FAQs">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
