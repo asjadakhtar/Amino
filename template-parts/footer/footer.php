@@ -107,7 +107,7 @@
     </div>
 
     <!-- Bottom Section: Copyright and Social Icons -->
-    <div class="relative z-10 max-w-4xl mx-auto mt-12 pt-8 border-t border-white/20 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400 space-y-4 sm:space-y-0">
+    <div class="relative z-10 max-w-4xl mx-auto mt-12 pt-8 border-t border-white/20 flex flex-col sm:flex-row justify-between items-center text-sm text-[#d6d6d6] space-y-4 sm:space-y-0">
         <!-- Copyright -->
         <p>&copy; 2025 Amino Marketing. All rights reserved.</p>
 
