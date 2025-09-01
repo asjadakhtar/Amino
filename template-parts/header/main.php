@@ -21,9 +21,9 @@
                 <li>
                     <a href="#" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
-                    data-text="Services">
+                    data-text="Projects">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                            Services
+                            Projects
                         </span>
                     </a>
                 </li>
