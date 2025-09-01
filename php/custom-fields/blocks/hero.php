@@ -7,7 +7,7 @@
         loop
         muted
         playsinline>
-        <source src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/WhatsApp-Video-2025-09-01-at-4.18.54-PM.mp4" type="video/mp4">
+        <source src="http://localhost/amino/wp-content/uploads/2025/09/WhatsApp-Video-2025-09-01-at-4.18.54-PM.mp4" src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/WhatsApp-Video-2025-09-01-at-4.18.54-PM.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
