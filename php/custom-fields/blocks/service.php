@@ -19,17 +19,10 @@
                     <h3 class="text-xl sm:text-2xl font-medium text-white mb-3 sm:mb-4">
                         Peptide Meta Ads & Paid Marketing
                     </h3>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
+                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative">
                         We design and manage compliant, conversion-focused ad campaigns on platforms like Meta and Google to drive sales and attract qualified leads.
-                    </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                        Our primary focus is keeping your ad accounts safe from suspension while we aggressively optimize every campaign for maximum ROI.
-                    </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                        We handle the entire process from start to finish, so you can focus on your business while we deliver a steady stream of new customers.
+                        We design and manage compliant, conversion-focused ad campaigns on platforms like Meta and Google to drive sales and attract qualified leads.
+                        We design and manage compliant, conversion-focused ad campaigns on platforms like Meta and Google to drive sales and attract qualified leads.
                     </p>
 
                     <div>
