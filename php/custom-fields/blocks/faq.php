@@ -1,4 +1,4 @@
-<div class="container mx-auto max-w-4xl py-12 md:py-24 px-4 md:px-4">
+<div class="container mx-auto max-w-4xl py-12 md:py-24 px-4 md:px-4 my-0 md:my-24">
     <!-- Header -->
     <div class="text-center mb-8 sm:mb-10 md:mb-12">
         <h2 class="text-4xl sm:text-4xl lg:text-5xl font-normal text-white text-center mb-10 sm:mb-12">Our FAQs</h2>
