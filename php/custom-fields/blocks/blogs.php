@@ -11,8 +11,10 @@
           <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" class="w-full h-60 object-cover rounded-lg" alt="Blog Post Image">
         </a>
         <div class="mt-4">
-          <div class="post-date text-[#d6d6d6] text-sm mb-3">
-            <span>Posted on January 1, 2023</span>
+          <div class="mb-3">
+            <span class="inline-block bg-[#ffffff12] text-[#d6d6d6] text-sm px-3 py-1 rounded-full uppercase tracking-wide">
+              Fashion
+            </span>
           </div>
           <h5 class="text-white text-xl font-medium mb-4">Mastering UI Design Principles for Web and Mobile</h5>
           <a href="#" class="text-white flex items-center hover:text-gray-300 transition-colors duration-300">
