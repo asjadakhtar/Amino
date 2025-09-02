@@ -1,4 +1,4 @@
-<section class="py-12 md:py-24">
+<section class="py-12 md:py-24 my-0 md:my-24">
     <div class="max-w-4xl mx-auto px-4">
 
         <!-- Section Heading -->
@@ -10,7 +10,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
             <!-- Work Card 1 -->
-            <div class="group border border-white/20 rounded-xl overflow-hidden p-6 flex flex-col transition-all duration-300 ease-in-out hover:shadow-lg">
+            <div class="group border border-white/20 rounded-xl overflow-hidden p-8 flex flex-col transition-all duration-300 ease-in-out hover:shadow-lg">
                 <!-- Content -->
                 <div class="flex-grow flex flex-col pb-4">
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 group-hover:text-[#ff520e] transition-colors duration-300">
@@ -30,7 +30,7 @@
             </div>
 
             <!-- Work Card 2  -->
-            <div class="group border border-white/20 rounded-xl overflow-hidden p-6 flex flex-col transition-all duration-300 ease-in-out hover:shadow-lg">
+            <div class="group border border-white/20 rounded-xl overflow-hidden p-8 flex flex-col transition-all duration-300 ease-in-out hover:shadow-lg">
                 <!-- Content -->
                 <div class="flex-grow flex flex-col pb-4">
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 group-hover:text-[#ff520e] transition-colors duration-300">
@@ -51,6 +51,7 @@
         </div>
 
         <div class="mt-12 text-center">
+            <div class="mb-4 text-sm md:text-base text-[#D6D6D6]">Ready to take your brand to the next level?</div>
             <a href="#"
             class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Book a call">

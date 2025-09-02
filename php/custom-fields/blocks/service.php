@@ -1,5 +1,5 @@
 <section class="py-16 sm:py-20 lg:py-24">
-    <div class="max-w-xl md:max-w-4xl mx-auto px-4">
+    <div class="max-w-xl md:max-w-4xl mx-auto px-4 md:px-4">
 
         <!-- Section Heading -->
         <h2 class="text-4xl sm:text-4xl lg:text-5xl font-normal text-white text-center mb-10 sm:mb-12">
@@ -10,7 +10,7 @@
         <div class="bg-[#ffffff12] border border-white/5 rounded-xl p-6 sm:p-8 mb-10 sm:mb-12">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <!-- Image Column -->
-                <div class="w-full max-w-[550px] h-[250px] sm:h-[300px] md:h-[320px] mx-auto md:mx-0">
+                <div class="h-full w-full max-w-[550px] mx-auto md:mx-0">
                     <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Team discussing project" class="rounded-xl object-cover w-full h-full">
                 </div>
 
@@ -90,7 +90,7 @@
                 </div>
 
                 <!-- Image Column (order-1 on mobile, order-2 on md and up) -->
-                <div class="w-full max-w-[550px] h-[250px] sm:h-[300px] md:h-[320px] mx-auto md:mx-0 md:order-2 order-1">
+                <div class="h-full w-full max-w-[550px] mx-auto md:mx-0 md:order-2 order-1">
                     <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit-crop&w=1170&q=80" alt="Team working on a strategy" class="rounded-xl object-cover w-full h-full">
                 </div>
             </div>
@@ -102,7 +102,7 @@
         <div class="bg-[#ffffff12] border border-white/5 rounded-xl p-6 sm:p-8 mb-10 sm:mb-12">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <!-- Image Column -->
-                <div class="w-full max-w-[550px] h-[250px] sm:h-[300px] md:h-[320px] mx-auto md:mx-0">
+                <div class="w-full max-w-[550px] h-full mx-auto md:mx-0">
                     <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Team discussing project" class="rounded-xl object-cover w-full h-full">
                 </div>
 
@@ -182,7 +182,7 @@
                 </div>
 
                 <!-- Image Column (order-1 on mobile, order-2 on md and up) -->
-                <div class="w-full max-w-[550px] h-[250px] sm:h-[300px] md:h-[320px] mx-auto md:mx-0 md:order-2 order-1">
+                <div class="w-full max-w-[550px] h-full mx-auto md:mx-0 md:order-2 order-1">
                     <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit-crop&w=1170&q=80" alt="Team working on a strategy" class="rounded-xl object-cover w-full h-full">
                 </div>
             </div>

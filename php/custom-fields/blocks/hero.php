@@ -12,7 +12,7 @@
     </video>
 
     <!-- Video Overlay -->
-    <div class="absolute top-0 left-0 w-full h-full bg-[#0d0d0d]/70"></div>
+    <div class="absolute top-0 left-0 w-full h-full bg-[#0d0d0d]/80"></div>
 
     <!-- Content Container -->
     <div class="relative z-10 max-w-4xl mx-auto text-white">
