@@ -53,7 +53,7 @@
         <div class="mt-12 text-center">
             <div class="mb-4 text-sm md:text-base text-[#D6D6D6]">Ready to take your brand to the next level?</div>
             <a href="#"
-            class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
+            class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Book a call">
 
                 <!-- The visible text that slides up -->

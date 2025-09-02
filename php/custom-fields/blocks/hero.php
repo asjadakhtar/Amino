@@ -44,7 +44,7 @@
 
             <!-- Secondary CTA Button (already has the slide-up effect) -->
             <a href="#"
-            class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
+            class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Learn More">
 
                 <!-- The visible text that slides up -->
