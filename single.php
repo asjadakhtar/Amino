@@ -147,7 +147,6 @@
     }
 </style>
 
-
 <!-- Main Content -->
 <main class="max-w-screen-xl mx-auto px-4 mt-12">
     
@@ -247,7 +246,20 @@
                 <?php endforeach; wp_reset_query(); ?>
             </div>
 
-
+            <!-- Categories -->
+            <div class="sidebar-widget">
+                <h3 class="widget-title">Categories</h3>
+                <div class="flex flex-wrap gap-2">
+                    <?php   
+                        $categories = get_categories();
+                        foreach( $categories as $cat ) :
+                    ?>
+                        <p <?php echo get_category_link($cat->term_id); ?> class="bg-[#F5F5F0] text-[#535353] text-xs px-3 py-1 rounded-full">
+                            <?php echo esc_html($cat->name); ?>
+                        </p>
+                    <?php endforeach; ?>
+                </div>
+            </div>
         </aside>
     </div>
 

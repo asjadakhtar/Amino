@@ -335,6 +335,9 @@
   .mt-24 {
     margin-top: calc(var(--spacing) * 24);
   }
+  .mt-32 {
+    margin-top: calc(var(--spacing) * 32);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -515,6 +518,9 @@
   .max-w-\[648px\] {
     max-width: 648px;
   }
+  .max-w-\[1320px\] {
+    max-width: 1320px;
+  }
   .max-w-full {
     max-width: 100%;
   }
@@ -575,6 +581,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
