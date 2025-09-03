@@ -26,7 +26,7 @@
 
                     <div>
                         <a href="#"
-                        class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
+                        class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[6px] text-base text-white transition-colors duration-500">
 
                             <!-- The visible text that slides up on hover -->
                             <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">

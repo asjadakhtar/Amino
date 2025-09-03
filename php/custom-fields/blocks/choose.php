@@ -21,9 +21,7 @@
                 <div class="relative z-20 flex flex-col h-full">
                     <!-- Icon for Card 1 -->
                     <div class="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 border border-white/10">
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.21a12.007 12.007 0 011.881 2.31M15 17v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-5l2.293-2.293A2 2 0 015.414 12H10m2-4a2 2 0 100-4 2 2 0 000 4z"></path>
-                        </svg>
+                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/target-1.svg" alt="Target Icon" class="w-5 h-5 md:w-6 md:h-6">
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Niche Expertise</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6]">We understand the peptide industry and know how to reach the right audience.</p>
@@ -40,9 +38,7 @@
                 <div class="relative z-20 flex flex-col h-full">
                     <!-- Icon for Card 2 -->
                     <div class="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 border border-white/10">
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                        </svg>
+                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/calendar-1.svg" alt="Calendar Icon" class="w-5 h-5 md:w-6 md:h-6">
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Compliance-First Marketing</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
@@ -60,10 +56,7 @@
                 <div class="relative z-20 flex flex-col h-full">
                     <!-- Icon for Card 3 -->
                     <div class="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 border border-white/10">
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
-                        </svg>
+                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/banknote-arrow-up.svg" alt="Chart Icon" class="w-5 h-5 md:w-6 md:h-6">
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">End-to-End Growth Solutions</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6]">From branding and design to SEO, ads, and email marketing, we cover everything your brand needs to grow.</p>
@@ -80,9 +73,7 @@
                 <div class="relative z-20 flex flex-col h-full">
                     <!-- Icon for Card 4 -->
                     <div class="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 border border-white/10">
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                        </svg>
+                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/chart-no-axes-combined.svg" alt="Chart Icon" class="w-5 h-5 md:w-6 md:h-6">
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Data-Driven, ROI-Focused Results</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
