@@ -11,6 +11,16 @@ $background_video_url = '';
 if ($background_video_file && is_array($background_video_file) && isset($background_video_file['url'])) {
     $background_video_url = $background_video_file['url'];
 }
+
+// Extract primary button details
+$primary_btn_url = isset($primary_button['url']) ? esc_url($primary_button['url']) : '';
+$primary_btn_text = isset($primary_button['title']) ? esc_html($primary_button['title']) : '';
+$primary_btn_target = isset($primary_button['target']) ? esc_attr($primary_button['target']) : '_self';
+
+// Extract secondary button details
+$secondary_btn_url = isset($secondary_button['url']) ? esc_url($secondary_button['url']) : '';
+$secondary_btn_text = isset($secondary_button['title']) ? esc_html($secondary_button['title']) : '';
+$secondary_btn_target = isset($secondary_button['target']) ? esc_attr($secondary_button['target']) : '_self';
 ?>
 
 <section class="relative h-screen w-full flex items-center justify-center text-center overflow-hidden px-4 sm:px-6 lg:px-8">
