@@ -20,10 +20,9 @@
                         Peptide Meta Ads & Paid Marketing
                     </h3>
                     <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative">
-                        We design and manage compliant, conversion-focused ad campaigns on platforms like Meta and Google to drive sales and attract qualified leads.
-                        We design and manage compliant, conversion-focused ad campaigns on platforms like Meta and Google to drive sales and attract qualified leads.
-                        We design and manage compliant, conversion-focused ad campaigns on platforms like Meta and Google to drive sales and attract qualified leads.
+                        Most peptide brands struggle with getting their ads approved. We know how frustrating rejections can be. That’s why we create compliance-focused Meta and Google Ads that not only get approved but also perform. From campaign setup to audience targeting and scaling, we make sure your brand grows safely and profitably.
                     </p>
+                    <p class="text-sm font-medium sm:text-base text-white mb-3 relative">Tired of rejecting your peptide ads again and again?</p>
 
                     <div>
                         <a href="#"
@@ -31,12 +30,12 @@
 
                             <!-- The visible text that slides up on hover -->
                             <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                                Book a call
+                                Run Ads Safely
                             </span>
 
                             <!-- The hover text that slides down from above -->
                             <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                                Book a call
+                                Run Ads Safely
                             </span>
                         </a>
                     </div>
@@ -50,20 +49,12 @@
                 <!-- Content Column (order-2 on mobile, order-1 on md and up) -->
                 <div class="flex flex-col justify-center text-gray-200 md:order-1 order-2">
                     <h3 class="text-xl sm:text-2xl font-medium text-white mb-3 sm:mb-4">
-                      Peptide Website Development & SEO
+                      Copywriting & Email Marketing for Peptides
                     </h3>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                       We build fast, compliant, and user-friendly websites designed to serve as the powerful foundation for your brand's online presence.
+                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative">
+                       We write emails and ad content that really speaks to your peptide customers. Each campaign is designed to keep your leads interested, encourage engagement, and increase sales, all while following the industry rules. Our copy makes sure your messages are clear, honest, and trustworthy.
                     </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                       Our proven SEO strategies are integrated from day one to boost your Google rankings and drive a consistent stream of high-quality organic traffic.
-                    </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                       Our all-in-one approach transforms visitors into loyal customers, ensuring you stay visible and competitive in the specialized peptide market.
-                    </p>
+                    <p class="text-sm font-medium sm:text-base text-white mb-3 relative">Looking to enhance your email marketing and lead nurturing?</p>
 
                     <div>
                         <a href="#"
@@ -71,12 +62,12 @@
 
                             <!-- The visible text that slides up on hover -->
                             <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                                Book a call
+                                Schedule a Call
                             </span>
 
                             <!-- The hover text that slides down from above -->
                             <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                                Book a call
+                                Schedule a Call
                             </span>
                         </a>
                     </div>
@@ -102,20 +93,12 @@
                 <!-- Content Column -->
                 <div class="flex flex-col justify-center text-gray-200">
                     <h3 class="text-xl sm:text-2xl font-medium text-white mb-3 sm:mb-4">
-                        Copywriting & Email Marketing for Peptides
+                        Peptide Website Design & Development
                     </h3>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                        We craft clear, compelling, and compliant content—from persuasive ad copy to automated email sequences, designed to resonate deeply with your audience.
+                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative">
+                       We create fast, clean, and professional websites for peptide brands. Your site will have custom visuals, product mockups, logos, colors, and fonts to keep your brand consistent and recognizable. Each website also includes important compliance features like disclaimers, policy pages, and clear product labeling. It’s mobile-friendly, easy to use, and SEO-ready. All of this helps your brand stand out, attract more customers, and build lasting trust.
                     </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                        Our strategic approach to copywriting is designed to foster engagement, nurture your leads, and build lasting relationships with your customers.
-                    </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                        Our all-in-one content solution drives conversions while adhering strictly to industry standards, ensuring your brand's message is both powerful and safe.
-                    </p>
+                    <p class="text-sm font-medium sm:text-base text-white mb-3 relative">Ready to launch a professional brand online?</p>
 
                     <div>
                         <a href="#"
@@ -123,12 +106,12 @@
 
                             <!-- The visible text that slides up on hover -->
                             <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                                Book a call
+                                Start Your Project
                             </span>
 
                             <!-- The hover text that slides down from above -->
                             <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                                Book a call
+                                Start Your Project
                             </span>
                         </a>
                     </div>
@@ -142,20 +125,13 @@
                 <!-- Content Column (order-2 on mobile, order-1 on md and up) -->
                 <div class="flex flex-col justify-center text-gray-200 md:order-1 order-2">
                     <h3 class="text-xl sm:text-2xl font-medium text-white mb-3 sm:mb-4">
-                      Brand Design & Product Mockups
+                      SEO Solutions for Peptide Websites
                     </h3>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                       We build a strong and professional visual identity for your brand, including custom logos, color palettes, and complete brand guidelines.
+                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-3 relative">
+                       We optimize your peptide website to help it show up in search engines and reach the right audience. Our SEO includes keyword optimization, clear page titles and headings, high-quality content, fast mobile-friendly pages, and proper compliance with industry rules. We also make sure your website structure and links boost your credibility and search visibility.
                     </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                       Our strategy includes creating high-quality product mockups that make your peptides look credible, trustworthy, and ready for a competitive market.
-                    </p>
-                    <p class="text-sm sm:text-base text-[#D6D6D6] mb-4 relative pl-5">
-                        <span class="absolute left-0 top-2 w-2 h-2 bg-orange-500 rounded-full"></span>
-                       This all-in-one approach ensures your brand stands out, attracts more customers, and builds the lasting trust needed to succeed.
-                    </p>
+                    <p class="text-sm font-medium sm:text-base text-white mb-3 relative">Want to rank higher on Google?</p>
+
 
                     <div>
                         <a href="#"
@@ -163,12 +139,12 @@
 
                             <!-- The visible text that slides up on hover -->
                             <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                                Book a call
+                                Book SEO Consultation
                             </span>
 
                             <!-- The hover text that slides down from above -->
                             <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                                Book a call
+                                Book SEO Consultation
                             </span>
                         </a>
                     </div>

@@ -18,12 +18,12 @@
     <div class="relative z-10 max-w-4xl mx-auto text-white">
         <!-- Main Heading -->
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-medium leading-tight mb-4">
-            Scale Your Peptide Brand with Proven Marketing Strategies
+            Proven Marketing Strategies to Grow Peptide Brands Safely
         </h1>
 
         <!-- Subheading -->
         <p class="text-base sm:text-lg lg:text-xl max-w-2xl mx-auto mb-8 text-gray-300">
-            Stop worrying about peptides ads rejections and stagnant sales. We build complete, compliance-first marketing systems that deliver results. Our mission is to provide safe, scalable, and profitable growth for your brand.
+            From Meta Ads to SEO and web development, we make sure your peptide brand scales smoothly, with marketing systems that actually work
         </p>
 
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
@@ -33,25 +33,23 @@
 
                 <!-- The visible text that slides up on hover -->
                 <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                    Book a call
+                    Book a consultation
                 </span>
 
                 <!-- The hover text that slides down from above -->
                 <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                    Book a call
+                    Book a consultation
                 </span>
             </a>
 
             <!-- Secondary CTA Button (already has the slide-up effect) -->
-            <a href="#"
+            <!-- <a href="#"
             class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Learn More">
-
-                <!-- The visible text that slides up -->
                 <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
                     Learn More
                 </span>
-            </a>
+            </a> -->
         </div>
 
     </div>

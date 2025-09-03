@@ -26,7 +26,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Niche Expertise</h3>
-                    <p class="text-sm md:text-base text-[#D6D6D6]">We specialize exclusively in peptide marketing. Our deep industry knowledge means we understand your unique challenges and tailor strategies that truly resonate with your target audience.</p>
+                    <p class="text-sm md:text-base text-[#D6D6D6]">We understand the peptide industry and know how to reach the right audience.</p>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Compliance-First Marketing</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
-                        Navigating complex platform rules is our expertise. We design every campaign with compliance in mind to avoid ad rejections and suspensions, enabling you to scale safely and confidently.
+                        Every campaign and website feature is designed to follow industry rules and stay safe from ad rejections.
                     </p>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">End-to-End Growth Solutions</h3>
-                    <p class="text-sm md:text-base text-[#D6D6D6]">Beyond just ads or SEO, we build comprehensive automated funnels that attract, nurture, and convert leads 24/7. Our systems are designed to integrate with all major platforms, from Meta to emerging opportunities on Reddit, providing a sustainable growth engine for your brand.</p>
+                    <p class="text-sm md:text-base text-[#D6D6D6]">From branding and design to SEO, ads, and email marketing, we cover everything your brand needs to grow.</p>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Data-Driven, ROI-Focused Results</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
-                        Our success is measured by your profitability, not just traffic or clicks. We continuously optimize campaigns using real-time data to maximize your return on investment.
+                        We track performance and focus on strategies that deliver measurable growth for your brand.
                     </p>
                 </div>
             </div>
@@ -94,7 +94,7 @@
         </div>
 
         <div class="mt-12 text-center">
-            <div class="mb-4 text-sm md:text-base text-[#D6D6D6]">Ready to take your brand to the next level?</div>
+            <div class="mb-4 text-sm md:text-base text-[#D6D6D6]">Ready to get a marketing strategy that’s safe, complete, and ROI-focused?</div>
             <a href="#"
             class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Book a call">

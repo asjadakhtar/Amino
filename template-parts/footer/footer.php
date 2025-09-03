@@ -18,19 +18,16 @@
             <!-- Text Content -->
             <div class="mt-4 max-w-xl">
                 <p class="font-medium tracking-widest text-sm uppercase mb-3">
-                    CONTACT AMINO MARKETING
+                    Contact Amino Marketing
                 </p>
                 <h3 class="text-2xl sm:text-3xl font-medium leading-tight mb-5">
-                    Let's have a quick chat and see what we can do for you – 100% FREE.
+                    Ready to Grow Safely? Let's Talk.
                 </h3>
                 <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
-                    We help businesses in this new and ever-evolving industry grow with easy to use growth systems that have been carefully fine-tuned since 2015. No buzzwords, just results.
+                    We help brands in the peptide industry grow using simple, proven marketing systems. No buzzwords, just results.
                 </p>
                 <p class="text-base text-[#d6d6d6] leading-relaxed mb-4">
-                    We are always around to answer your questions about next steps. We try to respond to all e-mails same day, so feel free to shoot us over any question you may have and we can get the ball rolling.
-                </p>
-                <p class="text-[#ff520e] text-base leading-relaxed font-medium mb-4">
-                    Leave your credit card at home, we don't do hyper forward sales calls.
+                   Our team is always ready to answer your questions and guide you on the next steps.
                 </p>
                 <p class="text-base text-gray-300 leading-relaxed">
                     Prefer Email? <a href="mailto:info@aminomarketing.com" class="underline hover:text-white transition-colors duration-300">info@aminomarketing.com</a>
