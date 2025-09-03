@@ -38,7 +38,7 @@
                 <div class="relative z-20 flex flex-col h-full">
                     <!-- Icon for Card 2 -->
                     <div class="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 border border-white/10">
-                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/calendar-1.svg" alt="Calendar Icon" class="w-5 h-5 md:w-6 md:h-6">
+                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/circle-check-big.svg" alt="Calendar Icon" class="w-5 h-5 md:w-6 md:h-6">
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">Compliance-First Marketing</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6] flex-grow">
@@ -56,7 +56,7 @@
                 <div class="relative z-20 flex flex-col h-full">
                     <!-- Icon for Card 3 -->
                     <div class="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-full bg-white/10 border border-white/10">
-                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/banknote-arrow-up.svg" alt="Chart Icon" class="w-5 h-5 md:w-6 md:h-6">
+                        <img src="https://beige-grasshopper-864950.hostingersite.com/wp-content/uploads/2025/09/boxes.svg" alt="Chart Icon" class="w-5 h-5 md:w-6 md:h-6">
                     </div>
                     <h3 class="text-xl md:text-2xl font-medium text-white mb-3 md:mb-4">End-to-End Growth Solutions</h3>
                     <p class="text-sm md:text-base text-[#D6D6D6]">From branding and design to SEO, ads, and email marketing, we cover everything your brand needs to grow.</p>
