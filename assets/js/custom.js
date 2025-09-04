@@ -80,3 +80,30 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleAccordion(firstAccordion);
     }
 });
+
+
+
+// Contact Form 7 Modal Popup
+function openModal() {
+    const modal = document.getElementById("cf7Modal");
+    modal.classList.remove("hidden");
+    setTimeout(() => {
+      modal.classList.add("opacity-100");
+      modal.classList.remove("opacity-0");
+      modal.querySelector("div").classList.add("scale-100");
+      modal.querySelector("div").classList.remove("scale-95");
+    }, 10);
+    modal.classList.add("flex");
+  }
+
+  function closeModal() {
+    const modal = document.getElementById("cf7Modal");
+    modal.classList.remove("opacity-100");
+    modal.classList.add("opacity-0");
+    modal.querySelector("div").classList.remove("scale-100");
+    modal.querySelector("div").classList.add("scale-95");
+    setTimeout(() => {
+      modal.classList.remove("flex");
+      modal.classList.add("hidden");
+    }, 300); // wait for animation to finish
+  }

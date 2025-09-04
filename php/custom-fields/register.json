@@ -68,5 +68,12 @@
         "description": "This is the blogs section of a webpage.",
         "template": "blogs",
         "keywords": "blogs, section, webpage"
+    },
+    {
+        "name": "formpdf",
+        "title": "Form PDF Section",
+        "description": "This is the form pdf section of a webpage.",
+        "template": "formpdf",
+        "keywords": "form pdf, section, webpage"
     }
 ]
