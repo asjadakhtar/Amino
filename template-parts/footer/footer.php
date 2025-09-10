@@ -77,7 +77,7 @@
                         <select id="monthly-revenue" name="monthly-revenue"
                                 class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer text-sm sm:text-base">
                             <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]">Monthly Revenue</option>
-                            <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]"></option>
+                            <option value="1-10k" class="bg-[#0d0d0d]">New Bussiness</option>
                             <option value="1-10k" class="bg-[#0d0d0d]">$1,000 - $10,000</option>
                             <option value="10k-50k" class="bg-[#0d0d0d]">$10,000 - $50,000</option>
                             <option value="50k-100k" class="bg-[#0d0d0d]">$50,000 - $100,000</option>
