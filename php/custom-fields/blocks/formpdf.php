@@ -1,9 +1,18 @@
 <!-- Button -->
-<div class="text-center">
-  <button onclick="openModal()" 
-    class="bg-[#ff520e] hover:bg-[rgb(224,72,12)] text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 cursor-pointer">
-    Book our free compliance book
-  </button>
+<div class="text-center py-12">
+  <button onclick="openModal()"
+    class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500 cursor-pointer">
+
+        <!-- The visible text that slides up on hover -->
+        <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+            Book our free compliance book
+        </span>
+
+        <!-- The hover text that slides down from above -->
+        <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
+            Book our free compliance book
+        </span>
+    </button>
 </div>
 
 <!-- Modal -->
