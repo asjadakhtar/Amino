@@ -25,7 +25,7 @@
       <!-- Image on the Left -->
       <div class="md:w-1/2 w-full flex items-center justify-center p-4">
         <!-- Replace 'your-image-url.jpg' with your actual image path -->
-        <img src="https://via.placeholder.com/400x300/ff520e/ffffff?text=Your+Book+Cover" alt="Compliance Book Cover" class="max-w-full h-auto rounded-lg shadow-lg">
+        <img src="https://aminomarketing.com/wp-content/uploads/2025/09/cover.png" alt="Compliance Book Cover" class="max-w-full h-auto rounded-lg shadow-lg">
       </div>
 
       <!-- Form Content on the Right -->
@@ -44,48 +44,3 @@
     
   </div>
 </div>
-
-<style>
-/* Basic Modal Show/Hide using JavaScript */
-/* This is a very basic implementation. For a production site, you might use a more robust JS library or framework. */
-#cf7Modal.hidden {
-  display: none;
-}
-
-#cf7Modal.show {
-  display: flex;
-  opacity: 1;
-}
-
-#cf7Modal.show > div {
-  transform: scale(1);
-}
-</style>
-
-<script>
-function openModal() {
-  const modal = document.getElementById('cf7Modal');
-  modal.classList.remove('hidden');
-  // Trigger opacity and scale transition after display is set to flex
-  setTimeout(() => {
-    modal.classList.add('show');
-  }, 10); // Small delay to allow reflow
-}
-
-function closeModal() {
-  const modal = document.getElementById('cf7Modal');
-  modal.classList.remove('show');
-  // Hide the modal after transition completes
-  modal.addEventListener('transitionend', function handler() {
-    modal.classList.add('hidden');
-    modal.removeEventListener('transitionend', handler);
-  });
-}
-
-// Close modal when clicking outside (optional)
-document.getElementById('cf7Modal').addEventListener('click', function(event) {
-  if (event.target === this) {
-    closeModal();
-  }
-});
-</script>
