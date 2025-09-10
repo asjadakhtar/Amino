@@ -1,4 +1,4 @@
-<section class="relative 80vh w-full flex items-center justify-center text-center overflow-hidden px-4 sm:px-6 lg:px-8">
+<section class="relative h-[80vh] w-full flex items-center justify-center text-center overflow-hidden px-4 sm:px-6 lg:px-8">
 
     <!-- Background Video -->
     <video
