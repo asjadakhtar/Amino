@@ -107,3 +107,197 @@ function openModal() {
       modal.classList.add("hidden");
     }, 300); // wait for animation to finish
   }
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const roasChartContainer = document.getElementById('roasChartContainer');
+    const chartBars = roasChartContainer.querySelectorAll('.chart-bar');
+    const chartValues = roasChartContainer.querySelectorAll('.text-sm.mb-1'); // Select the value spans
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // When the chart is in view, apply the animation class
+                chartBars.forEach((bar, index) => {
+                    // Set the target height
+                    bar.style.height = bar.dataset.height;
+                    bar.classList.add('animate');
+
+                    // Animate the value text
+                    const valueSpan = chartValues[index];
+                    const targetValue = parseFloat(valueSpan.dataset.value);
+                    let currentValue = 0;
+                    const duration = 1000; // 1 second for the value count-up
+                    const increment = targetValue / (duration / 10); // Adjust 10ms for smoother animation
+
+                    const animateValue = setInterval(() => {
+                        currentValue += increment;
+                        if (currentValue >= targetValue) {
+                            currentValue = targetValue;
+                            clearInterval(animateValue);
+                        }
+                        valueSpan.textContent = currentValue.toFixed(1) + ' x'; // Format as 'X.X x'
+                    }, 10);
+                });
+                observer.unobserve(entry.target); // Stop observing once animated
+            }
+        });
+    }, {
+        threshold: 0.5 // Trigger when 50% of the element is visible
+    });
+
+    observer.observe(roasChartContainer);
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const observerOptions = {
+        root: null, // relative to the viewport
+        rootMargin: '0px',
+        threshold: 0.5 // Trigger when 50% of the element is visible
+    };
+
+    const countUp = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const element = entry.target;
+                const target = parseFloat(element.getAttribute('data-target'));
+                const suffix = element.getAttribute('data-suffix') || '';
+                const duration = 2000; // 2 seconds
+                let start = 0;
+                let startTime = null;
+
+                const animate = (currentTime) => {
+                    if (!startTime) startTime = currentTime;
+                    const progress = (currentTime - startTime) / duration;
+
+                    if (progress < 1) {
+                        const current = start + (target - start) * progress;
+                        element.textContent = current.toFixed(1) + suffix; // .toFixed(1) for one decimal place
+                        requestAnimationFrame(animate);
+                    } else {
+                        element.textContent = target.toFixed(1) + suffix;
+                    }
+                };
+
+                requestAnimationFrame(animate);
+                observer.unobserve(element); // Stop observing once animation starts
+            }
+        });
+    };
+
+    const observer = new IntersectionObserver(countUp, observerOptions);
+
+    document.querySelectorAll('.counting-number').forEach(numberElement => {
+        observer.observe(numberElement);
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    const closeButton = document.querySelector('.close-button');
+    const prevButton = document.querySelector('.prev-button');
+    const nextButton = document.querySelector('.next-button');
+    const galleryImages = document.querySelectorAll('.gallery-image');
+
+    let currentImageIndex = 0;
+    let images = [];
+
+    // Populate the images array
+    galleryImages.forEach((img, index) => {
+        images.push(img.src);
+    });
+
+    // Function to open the modal
+    function openModal(index) {
+        modal.style.display = 'block';
+        currentImageIndex = index;
+        updateModalImage();
+    }
+
+    // Function to update the image in the modal
+    function updateModalImage() {
+        modalImage.src = images[currentImageIndex];
+    }
+
+    // Event listeners for opening the modal
+    galleryImages.forEach((img, index) => {
+        img.addEventListener('click', () => {
+            openModal(index);
+        });
+    });
+
+    // Event listener for closing the modal
+    closeButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    // Close modal when clicking outside the image content
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+    // Event listener for previous button
+    prevButton.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent modal from closing if clicked on background
+        currentImageIndex--;
+        if (currentImageIndex < 0) {
+            currentImageIndex = images.length - 1; // Loop back to last image
+        }
+        updateModalImage();
+    });
+
+    // Event listener for next button
+    nextButton.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent modal from closing if clicked on background
+        currentImageIndex++;
+        if (currentImageIndex >= images.length) {
+            currentImageIndex = 0; // Loop back to first image
+        }
+        updateModalImage();
+    });
+
+    // Keyboard navigation (optional)
+    document.addEventListener('keydown', (e) => {
+        if (modal.style.display === 'block') {
+            if (e.key === 'ArrowLeft') {
+                prevButton.click();
+            } else if (e.key === 'ArrowRight') {
+                nextButton.click();
+            } else if (e.key === 'Escape') {
+                closeButton.click();
+            }
+        }
+    });
+});

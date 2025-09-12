@@ -111,6 +111,29 @@ transform: translateY(0);
 }
 
 
+/* Base state: bars are scaled to 0 height at the bottom */
+.chart-bar {
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 1s ease-out; /* Animation duration */
+}
+
+/* Class to apply when the animation should run */
+.chart-bar.animate {
+    transform: scaleY(1);
+}
+
+/* Value labels - initially hidden or scaled to 0, then appear */
+.chart-bar-value {
+    opacity: 0;
+    transform: translateY(10px); /* Slightly move down */
+    transition: opacity 0.5s ease-out 0.8s, transform 0.5s ease-out 0.8s; /* Delay to appear after bar */
+}
+
+.chart-bar.animate + .chart-bar-value { /* Selects the value span immediately after an animated bar */
+    opacity: 1;
+    transform: translateY(0);
+}
 
 
 
@@ -249,4 +272,116 @@ transform: translateY(0);
   border: none;
   padding: 0px;
   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modal (Lightbox) Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 900px;
+    position: relative; /* Needed for prev/next buttons positioning */
+}
+
+/* Add Animation */
+.modal-content, #modalImage {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 1001; /* Ensure close button is above everything */
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Previous & Next buttons */
+.prev-button, .next-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 1001; /* Ensure buttons are above the image */
+}
+
+/* Position the "next button" to the right */
+.next-button {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background with a little bit see-through */
+.prev-button:hover, .next-button:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Make sure the image is responsive */
+#modalImage {
+    max-width: 100%;
+    max-height: 80vh; /* Adjust as needed */
+    display: block; /* Remove extra space below image */
+    margin: auto; /* Center image */
 }
