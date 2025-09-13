@@ -1626,6 +1626,20 @@
       padding-bottom: calc(var(--spacing) * 0);
     }
   }
+  .hover\:mb-0 {
+    &:hover {
+      @media (hover: hover) {
+        margin-bottom: calc(var(--spacing) * 0);
+      }
+    }
+  }
+  .hover\:mb-2 {
+    &:hover {
+      @media (hover: hover) {
+        margin-bottom: calc(var(--spacing) * 2);
+      }
+    }
+  }
   .hover\:-translate-y-2 {
     &:hover {
       @media (hover: hover) {
