@@ -15,90 +15,32 @@
                         transition-all duration-500 ease-out
                         group-hover:border-[#ff520e]
                         group-hover:bg-black/40
-                        group-hover:p-4
                         group-hover:shadow-[inset_0_0_20px_rgba(255,82,14,0.5)]">
                         
                     <!-- Title & Stats -->
-                    <div class="flex items-center justify-between mb-4
-                                transition-all duration-500 ease-out
-                                group-hover:opacity-0 group-hover:mb-2">
-                    <h2 class="text-white text-xl font-medium">Klutch</h2>
+                    <div class="flex items-center justify-between pb-4
+                                transition-all duration-500 ease-out group-hover:opacity-0"> 
+                    <h2 class="text-white text-xl font-medium">Apex Amino</h2>
                     <div class="flex items-center text-[#9ca3af] text-sm">
                         <span>3.9K</span>
                     </div>
                     </div>
 
                     <!-- Tags -->
-                    <div class="flex flex-wrap gap-2 mb-6
-                                transition-all duration-500 ease-out
-                                group-hover:opacity-0 group-hover:mb-2">
-                    <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">Shadcn</span>
-                    <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">Stripe</span>
-                    <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">AWS</span>
-                    <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">Preact</span>
+                    <div class="flex flex-wrap gap-1 pb-6
+                        transition-all duration-500 ease-out group-hover:opacity-0">
+                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-2 py-1 rounded-full font-medium">Meta Ad Marketing</span>
+                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-2 py-1 rounded-full font-medium">Product Mockups</span>
+                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-2 py-1 rounded-full font-medium">Website Optimization</span>
                     </div>
 
-                    <!-- Image -->
-                    <div class="relative h-60 rounded-lg overflow-hidden group-hover:overflow-visible -mb-6">
-                    <img src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=1170&q=80"
-                        alt="Klutch website screenshot"
-                        class="absolute inset-0 w-full h-full object-cover rounded-lg
-                                transition-transform duration-700 ease-out
-                                group-hover:translate-y-[-4.5rem]">
-                    <a href="#"
-                        class="absolute bottom-0 left-0 right-0 flex items-center justify-between text-white text-lg font-medium
-                                px-2 py-6
-                                opacity-0 translate-y-full
-                                transition-all duration-500 ease-out
-                                group-hover:opacity-100 group-hover:translate-y-0">
-                        Visit Project
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="relative group w-full cursor-pointer mx-auto overflow-hidden rounded-xl">
-                <div
-                    class="bg-[#ffffff12] border border-white/5 p-6 rounded-xl shadow-lg
-                        transition-all duration-500 ease-out
-                        group-hover:border-[#ff520e]
-                        group-hover:bg-black/40
-                        group-hover:p-4
-                        group-hover:shadow-[inset_0_0_20px_rgba(255,82,14,0.5)]">
-                        
-                    <!-- Title & Stats -->
-                    <div class="flex items-center justify-between mb-4
-                                transition-all duration-500 ease-out
-                                group-hover:opacity-0 group-hover:mb-2">
-                        <h2 class="text-white text-xl font-medium">Klutch</h2>
-                        <div class="flex items-center text-[#9ca3af] text-sm">
-                            <span>3.9K</span>
-                        </div>
-                    </div>
-
-                    <!-- Tags -->
-                    <div class="flex flex-wrap gap-2 mb-6
-                        transition-all duration-500 ease-out
-                        group-hover:opacity-0 group-hover:mb-2">
-                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">Shadcn</span>
-                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">Stripe</span>
-                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">AWS</span>
-                        <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-3 py-1 rounded-full">Preact</span>
-                    </div>
-
-                    <!-- Image -->
+                    <!-- Image Container -->
                     <div class="relative h-60 rounded-lg overflow-hidden group-hover:overflow-visible -mb-6">
                         <img src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?auto=format&fit=crop&w=1170&q=80"
                             alt="Klutch website screenshot"
                             class="absolute inset-0 w-full h-full object-cover rounded-lg
-                                    transition-transform duration-700 ease-out
-                                    group-hover:translate-y-[-4.5rem]">
+                                    transition-transform duration-500 ease-out
+                                    group-hover:translate-y-[-5.5rem]">
                         <a href="#"
                             class="absolute bottom-0 left-0 right-0 flex items-center justify-between text-white text-lg font-medium
                                     px-2 py-6
@@ -110,7 +52,6 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
                         </a>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -135,3 +76,15 @@
         
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
