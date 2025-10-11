@@ -1,27 +1,27 @@
 [
     {
-        "post_type": "testimonials",
-        "slug": "testimonials",
+        "post_type": "projects",
+        "slug": "projects",
         "supports": ["title", "excerpt", "author", "thumbnail"],
         "labels": {
-            "name": "Testimonials",
-            "add_new_item": "Add Testimonial",
-            "edit_item": "Edit Testimonial",
-            "all_items": "All Testimonials",
-            "singular_name": "Testimonial"
+            "name": "Projects",
+            "add_new_item": "Add Project",
+            "edit_item": "Edit Project",
+            "all_items": "All Projects",
+            "singular_name": "Project"
         },
-        "menu_icon": "dashicons-admin-comments",
+        "menu_icon": "dashicons-portfolio",
         "has_featured_option": true,
         "taxonomy": {
-            "name": "testimonial_category",
+            "name": "project_category",
             "labels": {
-                "name": "Testimonial Categories",
-                "singular_name": "Testimonial Category",
-                "menu_name": "Testimonials Categories",
-                "all_items": "All Testimonial Categories",
-                "add_new_item": "Add New Testimonial Category",
-                "edit_item": "Edit Testimonial Category",
-                "view_item": "View Testimonial Category"
+                "name": "Project Categories",
+                "singular_name": "Project Category",
+                "menu_name": "Projects Categories",
+                "all_items": "All Project Categories",
+                "add_new_item": "Add New Project Category",
+                "edit_item": "Edit Project Category",
+                "view_item": "View Project Category"
             }
         }
     }

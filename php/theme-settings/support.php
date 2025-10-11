@@ -5,7 +5,7 @@
  * Enables the following WordPress features
  * with proper configuration
  *
- * @package TheTriibe
+ * @package Amino
  * @version 1.0.0
  */
 
@@ -88,40 +88,6 @@ function get_svg($icon_name, $class = '') {
     }
     
     return $svg_content;
-}
-
-// Remove the WooCommerce styles
-add_filter('woocommerce_enqueue_styles', '__return_empty_array');
-
-// Convert WooCommerce variation dropdown to buttons
-add_filter( 'woocommerce_dropdown_variation_attribute_options_html', 'hy_convert_variation_dropdown_to_buttons', 20, 2 );
-function hy_convert_variation_dropdown_to_buttons( $html, $args ) {
-    if ( ! isset( $args['options'], $args['attribute'] ) ) return $html;
-    
-    $options   = $args['options'];
-    $attribute = $args['attribute'];
-    $product   = $args['product'];
-    $name      = esc_attr( $attribute );
-    $id        = esc_attr( $attribute );
-    $selected  = isset( $args['selected'] ) ? $args['selected'] : '';
-
-    if ( empty( $options ) && ! empty( $product ) && ! empty( $attribute ) ) {
-        $attributes = $product->get_variation_attributes();
-        $options    = $attributes[ $attribute ];
-    }
-
-    if ( empty( $options ) ) return $html;
-
-    $buttons = '<div class="hy-variation-buttons" data-attribute_name="attribute_' . esc_attr( $attribute ) . '">';
-    foreach ( $options as $option ) {
-        $selected_class = sanitize_title( $selected ) === sanitize_title( $option ) ? ' selected' : '';
-        $buttons .= '<button type="button" class="hy-variation-button' . $selected_class . '" data-value="' . esc_attr( $option ) . '">' . esc_html( $option ) . '</button>';
-    }
-    $buttons .= '</div>';
-
-    // Hide original dropdown (for fallback/accessibility)
-    $html = '<div class="hy-hidden-dropdown" style="display:none;">' . $html . '</div>' . $buttons;
-    return $html;
 }
 
 // Add ACF Menu Item
@@ -211,41 +177,4 @@ class ACF_Walker extends Walker_Nav_Menu {
     }
 }
 
-// Single Page Quantity controller
-add_action('woocommerce_before_add_to_cart_quantity', 'custom_quantity_minus_button');
-add_action('woocommerce_after_add_to_cart_quantity', 'custom_quantity_plus_button');
-
-function custom_quantity_minus_button() {
-    global $product;
-    if ( ! $product->is_sold_individually() ) {
-        echo '<div class="quantity-wrapper"><button type="button" class="qty-btn qty-minus">-</button>';
-    }
-}
-
-function custom_quantity_plus_button() {
-    global $product;
-    if ( ! $product->is_sold_individually() ) {
-        echo '<button type="button" class="qty-btn qty-plus">+</button></div>';
-    }
-}
-
-// Single Page
-add_filter('woocommerce_hide_invisible_variations', '__return_false');
-
-add_filter('woocommerce_product_single_add_to_cart_text', 'change_add_to_cart_text');
-function change_add_to_cart_text() {
-    return 'Book an Appointment';
-}
-
-add_action('woocommerce_before_single_variation', 'add_size_guide_next_to_sizes', 10);
-function add_size_guide_next_to_sizes() {
-    ?>
-    <div id="sizeGuideBtn" class="flex items-center gap-2 text-base font-medium text-black font-secondary cursor-pointer mb-11 hover:bg-[rgba(0,0,0,0.05)] transition-all duration-300 p-2 rounded underline w-fit">
-        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5563 1.41421C16.3374 0.633165 17.6037 0.633165 18.3848 1.41421L22.6274 5.65685C23.4085 6.4379 23.4085 7.70423 22.6274 8.48528L8.48527 22.6274C7.70422 23.4085 6.43789 23.4085 5.65684 22.6274L1.4142 18.3848C0.633153 17.6037 0.633154 16.3374 1.4142 15.5563L15.5563 1.41421ZM16.2634 3.53553C16.654 3.14501 17.2871 3.14501 17.6777 3.53553L20.5061 6.36396C20.8966 6.75449 20.8966 7.38765 20.5061 7.77817L19.799 7.07107C19.4085 6.68054 18.7753 6.68054 18.3848 7.07107C17.9942 7.46159 17.9942 8.09476 18.3848 8.48528L19.0919 9.19239L17.6777 10.6066L15.5563 8.48528C15.1658 8.09476 14.5326 8.09476 14.1421 8.48528C13.7516 8.87581 13.7516 9.50897 14.1421 9.89949L16.2634 12.0208L14.8492 13.435L14.1421 12.7279C13.7516 12.3374 13.1184 12.3374 12.7279 12.7279C12.3374 13.1184 12.3374 13.7516 12.7279 14.1421L13.435 14.8492L12.0208 16.2635L9.89948 14.1421C9.50896 13.7516 8.87579 13.7516 8.48527 14.1421C8.09475 14.5327 8.09475 15.1658 8.48527 15.5563L10.6066 17.6777L9.19238 19.0919L8.48527 18.3848C8.09475 17.9943 7.46158 17.9943 7.07106 18.3848C6.68053 18.7753 6.68053 19.4085 7.07106 19.799L7.77816 20.5061C7.38764 20.8966 6.75447 20.8966 6.36395 20.5061L3.53552 17.6777C3.145 17.2871 3.145 16.654 3.53552 16.2635L16.2634 3.53553Z" fill="#0F0F0F"/>
-        </svg>
-        Size Guide
-   </div>
-    <?php
-}
 
