@@ -9,11 +9,11 @@
         <!-- Left Section: Logo and Text Content -->
         <div class="flex flex-col space-y-6 md:w-1/2">
             <!-- Logo -->
-            <a href="#" class="flex items-center space-x-3 w-10">
-                <svg viewBox="0 0 227 222" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M128.534 83.2519H29.1311V0.985596H128.534C175.46 0.985596 213.904 37.893 213.904 83.2519C213.904 128.611 175.46 165.518 128.534 165.518H86.2731V221.014H29.1311V83.2519H128.534Z" fill="white"/>
-                </svg>
-            </a>
+            <div class="w-32">
+                <a href="https://aminomarketing.com" target="_blank" rel="noopener">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo">
+                </a>
+            </div>
             
             <!-- Text Content -->
             <div class="mt-4 max-w-xl">
