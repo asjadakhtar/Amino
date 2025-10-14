@@ -8,9 +8,12 @@
                 while( have_rows('works_grid') ): the_row(); 
                     $logo = get_sub_field('project_logo');
                     $name = get_sub_field('project_name');
-                    $link = get_sub_field('project_link');
                     $tags = get_sub_field('project_tags');
                     $hero_image = get_sub_field('project_hero_image');
+
+                    // Get the post object instead of manual link
+                    $project_post = get_sub_field('project_post'); // Make this a Post Object ACF field
+                    $link = $project_post ? get_permalink($project_post->ID) : '#';
             ?>
             <div class="relative group w-full cursor-pointer mx-auto overflow-hidden rounded-xl">
                 <a href="<?php echo esc_url($link); ?>">
