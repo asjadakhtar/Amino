@@ -35,11 +35,11 @@
         "keywords": "choose, section, webpage"
     },
     {
-        "name": "work",
-        "title": "Work Section",
-        "description": "This is the work section of a webpage.",
-        "template": "work",
-        "keywords": "work, section, webpage"
+        "name": "project",
+        "title": "Project Section",
+        "description": "This is the project section of a webpage.",
+        "template": "project",
+        "keywords": "project, section, webpage"
     },
     {
         "name": "testimonial",
