@@ -152,7 +152,7 @@
 
                 <!-- Image Column (order-1 on mobile, order-2 on md and up) -->
                 <div class="w-full max-w-[550px] h-full mx-auto md:mx-0 md:order-2 order-1">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit-crop&w=1170&q=80" alt="Team working on a strategy" class="rounded-xl object-cover w-full h-full">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/10/d.png" alt="Team working on a strategy" class="rounded-xl object-cover w-full h-full">
                 </div>
             </div>
         </div>
