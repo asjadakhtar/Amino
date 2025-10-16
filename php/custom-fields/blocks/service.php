@@ -11,7 +11,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <!-- Image Column -->
                 <div class="h-full w-full max-w-[550px] mx-auto md:mx-0">
-                    <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Team discussing project" class="rounded-xl object-cover w-full h-full">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/10/a.png" alt="Team discussing project" class="rounded-xl object-cover w-full h-full">
                 </div>
 
                 <!-- Content Column -->
@@ -75,7 +75,7 @@
 
                 <!-- Image Column (order-1 on mobile, order-2 on md and up) -->
                 <div class="h-full w-full max-w-[550px] mx-auto md:mx-0 md:order-2 order-1">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit-crop&w=1170&q=80" alt="Team working on a strategy" class="rounded-xl object-cover w-full h-full">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/10/b.png" alt="Team working on a strategy" class="rounded-xl object-cover w-full h-full">
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <!-- Image Column -->
                 <div class="w-full max-w-[550px] h-full mx-auto md:mx-0">
-                    <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Team discussing project" class="rounded-xl object-cover w-full h-full">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/10/e.png" alt="Team discussing project" class="rounded-xl object-cover w-full h-full">
                 </div>
 
                 <!-- Content Column -->
