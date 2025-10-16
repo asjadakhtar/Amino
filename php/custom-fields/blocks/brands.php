@@ -2,7 +2,7 @@
 <section id="brands" class="py-16 sm:py-24">
     <div class="max-w-4xl overflow-hidden mx-auto text-center">
 
-        <h2 class="text-sm tracking-widest text-[#D6D6D6] uppercase mb-12">
+        <h2 class="text-sm tracking-widest text-[#D6D6D6] uppercase mb-12 font-light">
             TRUSTED BY THE FASTEST-GROWING PEPTIDES MARKETING
         </h2>
 
