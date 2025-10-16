@@ -1,6 +1,6 @@
 <section class="py-12 md:py-24 my-0 md:my-24">
     <div class="max-w-4xl mx-auto px-4">
-        <h2 class="text-4xl sm:text-4xl lg:text-5xl font-normal text-white text-center mb-10 sm:mb-12">Works</h2>
+        <h2 class="text-4xl sm:text-4xl lg:text-5xl font-normal text-white text-center mb-10 sm:mb-12">Projects</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <?php 

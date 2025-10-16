@@ -10,7 +10,7 @@
         <div class="flex flex-col space-y-6 md:w-1/2">
             <!-- Logo -->
             <div class="w-32">
-                <a href="https://aminomarketing.com" target="_blank" rel="noopener">
+                <a href="https://aminomarketing.com" rel="noopener">
                     <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo">
                 </a>
             </div>
