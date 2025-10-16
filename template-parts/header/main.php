@@ -20,11 +20,11 @@
             <ul class="flex items-center space-x-10 text-base text-gray-200">
                 
                 <li>
-                    <a href="https://aminomarketing.com/projects/" 
+                    <a href="https://aminomarketing.com/project/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
-                    data-text="Projects">
+                    data-text="Project">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                            Projects
+                            Project
                         </span>
                     </a>
                 </li>
