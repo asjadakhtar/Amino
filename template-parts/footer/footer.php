@@ -41,17 +41,17 @@
             <h3 class="text-2xl sm:text-3xl font-medium leading-tight mb-6">
                 Get in Touch
             </h3>
-            <form class="space-y-4">
+           <form class="space-y-4">
                 <!-- First Name and Last Name -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <label for="first-name" class="sr-only">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="First Name"
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required
                             class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                     </div>
                     <div>
                         <label for="last-name" class="sr-only">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Last Name"
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required
                             class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                     </div>
                 </div>
@@ -59,14 +59,15 @@
                 <!-- Email -->
                 <div>
                     <label for="email" class="sr-only">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email"
+                    <input type="email" id="email" name="email" placeholder="Email" required
                         class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                 </div>
 
                 <!-- Phone Number -->
                 <div>
                     <label for="phone" class="sr-only">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Phone Number"
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required
+                        inputmode="tel" pattern="[0-9+ ]{6,15}"
                         class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
                 </div>
 
@@ -82,7 +83,7 @@
                     <label for="monthly-revenue" class="sr-only">Monthly Revenue</label>
                     <div class="relative">
                         <select id="monthly-revenue" name="monthly-revenue"
-                                class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer text-sm sm:text-base">
+                            class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer text-sm sm:text-base">
                             <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]">Monthly Revenue</option>
                             <option value="new" class="bg-[#0d0d0d]">New Business</option>
                             <option value="1-10k" class="bg-[#0d0d0d]">$1,000 - $10,000</option>
@@ -96,7 +97,7 @@
                             <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd"
                                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"/>
+                                    clip-rule="evenodd" />
                             </svg>
                         </div>
                     </div>
@@ -105,11 +106,12 @@
                 <!-- Submit Button -->
                 <div>
                     <button type="submit"
-                            class="w-full bg-[#ff520e] text-white font-medium py-3 px-6 rounded-lg text-base hover:bg-[rgb(224,72,12)] transition-colors duration-300">
+                        class="w-full bg-[#ff520e] text-white font-medium py-3 px-6 rounded-lg text-base hover:bg-[rgb(224,72,12)] transition-colors duration-300">
                         Submit
                     </button>
                 </div>
             </form>
+
 
         </div>
     </div>
