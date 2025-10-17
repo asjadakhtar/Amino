@@ -33,12 +33,12 @@
 
                 <!-- The visible text that slides up on hover -->
                 <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                    Book a consultation
+                    Book a free consultation
                 </span>
 
                 <!-- The hover text that slides down from above -->
                 <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                    Book a consultation
+                    Book a free consultation
                 </span>
             </a>
 
