@@ -9,7 +9,7 @@
         
         <!-- Logo -->
         <div class="w-32">
-            <a href="https://aminomarketing.com" target="_blank" rel="noopener">
+            <a href="https://aminomarketing.com" rel="noopener">
                 <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo">
             </a>
         </div>
@@ -24,7 +24,7 @@
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
                     data-text="Project">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                            Project
+                            Projects
                         </span>
                     </a>
                 </li>
@@ -66,11 +66,11 @@
         <div>
             <a href="#" 
             class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
-            data-text="Book a call">
+            data-text="Get Free Audit">
                 
                 <!-- The visible text that slides up -->
                 <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                    Book a call
+                    Get Free Audit
                 </span>
             </a>
         </div>
