@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
-                                "Before working with Danish, our peptide ads kept getting rejected and we couldn’t scale. His team fixed everything — from compliance to creative — and helped us finally launch campaigns that got approved and performed amazingly well."
+                                "Before working with Danish, our peptide ads kept getting rejected and we couldn’t scale. His team fixed everything, from compliance to creative, and helped us finally launch campaigns that got approved and performed amazingly well."
                             </p>
                             <div class="flex items-center">
                                 <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Avatar of Rachel">
