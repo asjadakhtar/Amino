@@ -25,12 +25,12 @@
                                 </div>
                             </div>
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
-                                "MVP FlexLab Studio exceeded our expectations and was ready and kicking within six weeks!"
+                                "Amazing experience! amino marketing team helped us grow our peptide brand fast with a great website and powerful marketing campaigns."
                             </p>
                             <div class="flex items-center">
-                                <img class="w-12 h-12 rounded-full mr-4" src="https://i.pravatar.cc/150?img=1" alt="Avatar of Surya">
+                                <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Avatar of Surya">
                                 <div>
-                                    <p class="text-white font-bold">Surya</p>
+                                    <p class="text-white font-bold">Nextech Labs</p>
                                     <p class="text-gray-400 text-sm">Product Lead @ Skillify</p>
                                 </div>
                             </div>
@@ -51,12 +51,12 @@
                                 </div>
                             </div>
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
-                                "The team at FlexLab Studio really understood our vision and brought it to life. Amazing experience! Bravo!"
+                                "Before working with Danish, our peptide ads kept getting rejected and we couldn’t scale. His team fixed everything — from compliance to creative — and helped us finally launch campaigns that got approved and performed amazingly well."
                             </p>
                             <div class="flex items-center">
-                                <img class="w-12 h-12 rounded-full mr-4" src="https://i.pravatar.cc/150?img=2" alt="Avatar of Rachel">
+                                <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Avatar of Rachel">
                                 <div>
-                                    <p class="text-white font-bold">Rachel</p>
+                                    <p class="text-white font-bold">Apex Amino</p>
                                     <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
                                 </div>
                             </div>
@@ -103,12 +103,12 @@
                                 </div>
                             </div>
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
-                                "The team at FlexLab Studio really understood our vision and brought it to life. Amazing experience! Bravo!"
+                                "Our peptide ads kept getting rejected — Danish fixed it fast and got us scaling again."
                             </p>
                             <div class="flex items-center">
                                 <img class="w-12 h-12 rounded-full mr-4" src="https://i.pravatar.cc/150?img=2" alt="Avatar of Rachel">
                                 <div>
-                                    <p class="text-white font-bold">Rachel</p>
+                                    <p class="text-white font-bold">Compound Purity</p>
                                     <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
                                 </div>
                             </div>
