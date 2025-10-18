@@ -80,7 +80,7 @@
                                 "Our peptide ads kept getting rejected — Danish fixed it fast and got us scaling again."
                             </p>
                             <div class="flex items-center">
-                                <img class="w-12 h-12 rounded-full mr-4" src="https://i.pravatar.cc/150?img=2" alt="Avatar of Rachel">
+                                <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Avatar of Rachel">
                                 <div>
                                     <p class="text-white font-bold">Compound Purity</p>
                                     <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
