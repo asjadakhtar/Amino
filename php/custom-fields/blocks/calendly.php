@@ -7,10 +7,6 @@
              data-url="<?php echo esc_url($calendly_link); ?>" 
              style="min-width:320px;height:750px;">
         </div>
-        <script type="text/javascript" 
-                src="https://assets.calendly.com/assets/external/widget.js" 
-                async>
-        </script>
     <?php else: ?>
         <p class="text-center text-gray-500">Calendly link not set. Please add it in ACF.</p>
     <?php endif; ?>
