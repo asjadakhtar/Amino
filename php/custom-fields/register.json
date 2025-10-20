@@ -75,5 +75,12 @@
         "description": "This is the form pdf section of a webpage.",
         "template": "formpdf",
         "keywords": "form pdf, section, webpage"
+    },
+    {
+        "name": "calendly",
+        "title": "Calendly Section",
+        "description": "This is the calendly section of a webpage.",
+        "template": "calendly",
+        "keywords": "calendly, section, webpage"
     }
 ]
