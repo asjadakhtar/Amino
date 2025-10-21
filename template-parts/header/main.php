@@ -22,7 +22,7 @@
                 <li>
                     <a href="https://aminomarketing.com/project/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
-                    data-text="Project">
+                    data-text="Projects">
                         <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
                             Projects
                         </span>
@@ -64,7 +64,7 @@
 
        <!-- CTA Button with a clean, best-practice swipe effect -->
         <div>
-            <a href="#" 
+            <a href="https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&month=2025-10" 
             class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Get Free Audit">
                 

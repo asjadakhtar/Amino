@@ -1,4 +1,4 @@
-<footer class="relative overflow-hidden text-white py-12 px-4 md:px-4">
+<footer class="relative overflow-hidden text-white py-12 px-4 md:px-4" id="form">
     
     <!-- Decorative Gradient Blur Element -->
     <div class="absolute bottom-0 right-0 h-[320px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>

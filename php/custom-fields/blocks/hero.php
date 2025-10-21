@@ -28,7 +28,7 @@
 
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <!-- Primary CTA Button with slide-up transition -->
-            <a href="#"
+            <a href="https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&month=2025-10"
             class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
 
                 <!-- The visible text that slides up on hover -->
