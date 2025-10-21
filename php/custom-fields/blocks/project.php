@@ -4,16 +4,19 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <?php 
-            if( have_rows('works_grid') ): 
+            if( have_rows('works_grid') ): // Repeater for multiple works
                 while( have_rows('works_grid') ): the_row(); 
-                    $name = get_sub_field('project_name');
                     $logo = get_sub_field('project_logo');
-                    $hero_image = get_sub_field('project_hero_image');
-                    $link = get_sub_field('project_link');
+                    $name = get_sub_field('project_name');
                     $tags = get_sub_field('project_tags');
+                    $hero_image = get_sub_field('project_hero_image');
+
+                    // Get the post object instead of manual link
+                    $project_post = get_sub_field('project_post'); // Make this a Post Object ACF field
+                    $link = $project_post ? get_permalink($project_post->ID) : '#';
             ?>
             <div class="relative group w-full cursor-pointer mx-auto overflow-hidden rounded-xl">
-                <a href="<?php echo esc_url($link); ?>" rel="noopener">
+                <a href="<?php echo esc_url($link); ?>">
                     <div class="bg-[#ffffff12] border border-white/5 p-6 rounded-xl shadow-lg
                         transition-all duration-500 ease-out
                         group-hover:border-[#ff520e]
@@ -31,13 +34,11 @@
                         <?php if( $tags ): ?>
                         <div class="flex flex-wrap gap-1 pb-6
                             transition-all duration-500 ease-out group-hover:opacity-0">
-                            <?php while( have_rows('project_tags') ): the_row(); 
-                                $tag = get_sub_field('tag');
-                            ?>
+                            <?php foreach( $tags as $tag ): ?>
                                 <span class="bg-[#2a2a2a] text-[#8e8e8e] text-xs px-2 py-1 rounded-full font-medium">
-                                    <?php echo esc_html($tag); ?>
+                                    <?php echo esc_html($tag['tag']); ?>
                                 </span>
-                            <?php endwhile; ?>
+                            <?php endforeach; ?>
                         </div>
                         <?php endif; ?>
 
