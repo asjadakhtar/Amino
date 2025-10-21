@@ -1,11 +1,19 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Single Project
+ * Template for displaying single project posts
+ * Save this file as: single-projects.php in your theme directory
+ */
+
+get_header(); ?>
 
 <section class="py-12 md:py-24 my-0 md:my-24">
     <?php 
-    $logo = get_field('project_logo');
-    $name = get_field('project_name');
-    $website = get_field('project_website');
-    $tags = get_field('project_tags');
+    while (have_posts()) : the_post();
+        $logo = get_field('project_logo');
+        $name = get_field('project_name');
+        $website = get_field('project_website');
+        $tags = get_field('project_tags');
     ?>
 
     <div class="max-w-4xl mx-auto px-4">
@@ -152,7 +160,7 @@
 
 
 
-    <section class="py-12"> <!-- Increased padding here -->
+    <section class="py-12">
         <div class="max-w-4xl mx-auto px-4">
 
             <div class="group relative bg-[#ffffff12] border border-white/5 py-10 px-6 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden">
@@ -240,7 +248,7 @@
     </section>
 
 
-    <!-- The Modal Structure (Add this outside your section, usually at the end of the body) -->
+    <!-- The Modal Structure -->
     <div id="imageModal" class="modal">
         <span class="close-button">&times;</span>
         <div class="modal-content">
@@ -289,9 +297,9 @@
     <?php
     $heading = get_field('testimonial_heading');
     $rating = get_field('testimonial_rating');
-    $text = get_field('testimonial_text');
-    $image = get_field('testimonial_image');
-    $name = get_field('testimonial_name');
+    $testimonial_text = get_field('testimonial_text');
+    $testimonial_image = get_field('testimonial_image');
+    $testimonial_name = get_field('testimonial_name');
     $position = get_field('testimonial_position');
     ?>
 
@@ -318,19 +326,19 @@
                     <?php endif; ?>
                 </div>
 
-                <?php if( $text ): ?>
+                <?php if( $testimonial_text ): ?>
                     <p class="text-white text-lg font-normal mb-6 flex-grow">
-                        “<?php echo esc_html($text); ?>”
+                        "<?php echo esc_html($testimonial_text); ?>"
                     </p>
                 <?php endif; ?>
 
                 <div class="flex items-center">
-                    <?php if( $image ): ?>
-                        <img class="w-12 h-12 rounded-full mr-4" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+                    <?php if( $testimonial_image ): ?>
+                        <img class="w-12 h-12 rounded-full mr-4" src="<?php echo esc_url($testimonial_image['url']); ?>" alt="<?php echo esc_attr($testimonial_image['alt']); ?>">
                     <?php endif; ?>
                     <div>
-                        <?php if( $name ): ?>
-                            <p class="text-white font-bold"><?php echo esc_html($name); ?></p>
+                        <?php if( $testimonial_name ): ?>
+                            <p class="text-white font-bold"><?php echo esc_html($testimonial_name); ?></p>
                         <?php endif; ?>
                         <?php if( $position ): ?>
                             <p class="text-gray-400 text-sm"><?php echo esc_html($position); ?></p>
@@ -376,7 +384,7 @@
 
                         <?php if( $project_website ): ?>
                             <div>
-                                <a href="<?php echo esc_url($project_website); ?>" class="text-sm md:text-base text-[#D6D6D6] hover:text-[#ff520e] transition-all duration-500 ease-in-out">View project</a>
+                                <a href="<?php echo esc_url($project_website); ?>" target="_blank" class="text-sm md:text-base text-[#D6D6D6] hover:text-[#ff520e] transition-all duration-500 ease-in-out">View project</a>
                             </div>
                         <?php endif; ?>
                     </div>
@@ -386,7 +394,8 @@
         </div>
     </section>
 
-</section>
+    <?php endwhile; ?>
 
+</section>
 
 <?php get_footer(); ?>
