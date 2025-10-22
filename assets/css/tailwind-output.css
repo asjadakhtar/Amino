@@ -47,6 +47,7 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --tracking-wide: 0.025em;
+    --tracking-wider: 0.05em;
     --tracking-widest: 0.1em;
     --leading-tight: 1.25;
     --leading-snug: 1.375;
@@ -956,6 +957,9 @@
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
   }
+  .py-48 {
+    padding-block: calc(var(--spacing) * 48);
+  }
   .py-\[6px\] {
     padding-block: 6px;
   }
@@ -1063,6 +1067,10 @@
   .tracking-wide {
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
+  }
+  .tracking-wider {
+    --tw-tracking: var(--tracking-wider);
+    letter-spacing: var(--tracking-wider);
   }
   .tracking-widest {
     --tw-tracking: var(--tracking-widest);

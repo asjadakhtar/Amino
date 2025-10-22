@@ -1,16 +1,17 @@
 <!-- Button -->
-<div class="text-center py-12">
+<div class="text-center py-24">
+  <h4 class="text-sm tracking-widest text-[#D6D6D6] uppercase mb-8">Not sure if you need our services?</h4>
   <button onclick="openModal()"
     class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-all duration-500 hover:border-[#ff520e] hover:text-[#ff520e] cursor-pointer">
 
     <!-- The visible text that slides up on hover -->
     <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-        Book our free compliance book
+        Get free compliance guide book 
     </span>
 
     <!-- The same text slides down from top -->
     <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-        Book our free compliance book
+        Get free compliance guide book 
     </span>
 </button>
 
