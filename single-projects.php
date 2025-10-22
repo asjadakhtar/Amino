@@ -9,76 +9,100 @@ get_header(); ?>
 
 <section class="py-12 md:py-24 my-0 md:my-24">
     <?php 
-    while (have_posts()) : the_post();
-        $logo = get_field('project_logo');
-        $name = get_field('project_name');
-        $website = get_field('project_website');
-        $tags = get_field('project_tags');
-    ?>
+while (have_posts()) : the_post();
+    $logo = get_field('project_logo');
+    
+    // Get project name - ACF field or post title
+    $name = get_field('project_name');
+    if (!$name) {
+        $name = get_the_title();
+    }
+    
+    $website = get_field('project_website');
+    
+    // Get project tags - ACF field or taxonomy
+    $tags = get_field('project_tags');
+    if (!$tags) {
+        $taxonomy_tags = get_the_terms(get_the_ID(), 'project_category');
+        if ($taxonomy_tags && !is_wp_error($taxonomy_tags)) {
+            $tags = array();
+            foreach ($taxonomy_tags as $tax_tag) {
+                $tags[] = array('tag' => $tax_tag->name);
+            }
+        }
+    }
+    
+    // Get featured image or hero image
+    $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
+    if (!$featured_image) {
+        $hero_image_field = get_field('project_hero_image');
+        $featured_image = $hero_image_field ? $hero_image_field['url'] : '';
+    }
+?>
 
-    <div class="max-w-4xl mx-auto px-4">
-        <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
+<div class="max-w-4xl mx-auto px-4">
+    <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
 
-            <!-- Hover Gradient Blur Effect -->
-            <div class="absolute bottom-[-45px] right-[-233px] h-[126px] w-[621px] bg-[#ff520e] opacity-0 blur-[100px] transition-opacity duration-500 ease-in-out group-hover:opacity-25 z-10" aria-hidden="true"></div>
+        <!-- Hover Gradient Blur Effect -->
+        <div class="absolute bottom-[-45px] right-[-233px] h-[126px] w-[621px] bg-[#ff520e] opacity-0 blur-[100px] transition-opacity duration-500 ease-in-out group-hover:opacity-25 z-10" aria-hidden="true"></div>
 
-            <!-- Content Wrapper -->
-            <div class="relative z-20 flex flex-col h-full">
-                <div class="flex items-center mb-8 gap-6">
-                    <!-- Project Logo -->
-                    <div class="w-24 h-24 flex items-center justify-center rounded-xl bg-white/10 border border-white/10">
-                        <?php if ($logo): ?>
-                            <img src="<?php echo esc_url($logo['url']); ?>" alt="<?php echo esc_attr($logo['alt']); ?>" class="w-8 h-8 md:w-16 md:h-16">
-                        <?php endif; ?>
-                    </div>
-
-                    <!-- Project Name & Website -->
-                    <div>
-                        <?php if ($name): ?>
-                            <h3 class="text-3xl md:text-4xl font-medium text-white mb-2">
-                                <?php echo esc_html($name); ?>
-                            </h3>
-                        <?php endif; ?>
-
-                        <?php if ($website): ?>
-                            <p class="text-sm md:text-base text-[#D6D6D6]">
-                                <?php echo esc_url($website); ?>
-                            </p>
-                        <?php endif; ?>
-                    </div>
+        <!-- Content Wrapper -->
+        <div class="relative z-20 flex flex-col h-full">
+            <div class="flex items-center mb-8 gap-6">
+                <!-- Project Logo or Featured Image -->
+                <div class="w-24 h-24 flex items-center justify-center rounded-xl bg-white/10 border border-white/10 overflow-hidden">
+                    <?php if ($logo): ?>
+                        <img src="<?php echo esc_url($logo['url']); ?>" alt="<?php echo esc_attr($logo['alt']); ?>" class="w-8 h-8 md:w-16 md:h-16 object-contain">
+                    <?php elseif ($featured_image): ?>
+                        <img src="<?php echo esc_url($featured_image); ?>" alt="<?php echo esc_attr($name); ?>" class="w-full h-full object-cover">
+                    <?php endif; ?>
                 </div>
 
-                <!-- Project Tags -->
-                <?php if ($tags): ?>
-                    <div class="flex flex-wrap gap-4 mt-auto">
-                        <?php foreach ($tags as $tag): ?>
-                            <span class="px-6 py-3 text-xs md:text-sm text-[#D6D6D6] bg-white/10 rounded-full">
-                                <?php echo esc_html($tag['tag']); ?>
-                            </span>
-                        <?php endforeach; ?>
-                    </div>
-                <?php endif; ?>
+                <!-- Project Name & Website -->
+                <div>
+                    <?php if ($name): ?>
+                        <h3 class="text-3xl md:text-4xl font-medium text-white mb-2">
+                            <?php echo esc_html($name); ?>
+                        </h3>
+                    <?php endif; ?>
+
+                    <?php if ($website): ?>
+                        <p class="text-sm md:text-base text-[#D6D6D6]">
+                            <?php echo esc_url($website); ?>
+                        </p>
+                    <?php endif; ?>
+                </div>
+            </div>
+
+            <!-- Project Tags -->
+            <?php if ($tags): ?>
+                <div class="flex flex-wrap gap-4 mt-auto">
+                    <?php foreach ($tags as $tag): ?>
+                        <span class="px-6 py-3 text-xs md:text-sm text-[#D6D6D6] bg-white/10 rounded-full">
+                            <?php echo esc_html($tag['tag']); ?>
+                        </span>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
+<?php 
+$project_hero_image = get_field('project_hero_image'); 
+if ($project_hero_image): ?>
+<section class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="relative bg-[#ffffff12] border border-white/5 rounded-xl overflow-hidden">
+            <div class="relative w-full p-6 flex items-center justify-center h-[480px]">
+                <img src="<?php echo esc_url($project_hero_image['url']); ?>" 
+                    alt="<?php echo esc_attr($project_hero_image['alt']); ?>" 
+                    class="w-full h-full object-cover block rounded-md">
             </div>
         </div>
     </div>
-
-
-
-    <?php 
-    $project_hero_image = get_field('project_hero_image'); 
-    if ($project_hero_image): ?>
-    <section class="py-12">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="relative bg-[#ffffff12] border border-white/5 rounded-xl overflow-hidden">
-                <div class="relative w-full p-6 flex items-center justify-center h-[480px]">
-                    <img src="<?php echo esc_url($project_hero_image['url']); ?>" 
-                        alt="<?php echo esc_attr($project_hero_image['alt']); ?>" 
-                        class="w-full h-full object-cover block rounded-md">
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php endif; ?>
+</section>
+<?php endif; ?>
 
 
 
