@@ -12,8 +12,8 @@
                 <div class="swiper-wrapper">
 
                     <!-- Testimonial Card 1 -->
-                    <div class="swiper-slide">
-                        <div class="border border-white/5 rounded-lg p-8 h-full flex flex-col bg-[#0F0F0F]">
+                    <div class="swiper-slide h-auto">
+                        <div class="border border-white/5 rounded-lg p-8 h-full flex flex-col bg-[#0F0F0F] min-h-[400px]">
                             <div class="flex items-center mb-4">
                                 <!-- Stars -->
                                 <div class="text-[#ff520e] flex">
@@ -27,8 +27,8 @@
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
                                 "Amazing experience! amino marketing team helped us grow our peptide brand fast with a great website and powerful marketing campaigns."
                             </p>
-                            <div class="flex items-center">
-                                <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Avatar of Surya">
+                            <div class="flex items-center mt-auto">
+                                <img class="w-12 h-12 rounded-full mr-4 object-contain" src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Avatar of Surya">
                                 <div>
                                     <p class="text-white font-bold">Nextech Labs</p>
                                     <p class="text-gray-400 text-sm">Product Lead @ Skillify</p>
@@ -38,8 +38,8 @@
                     </div>
 
                     <!-- Testimonial Card 2 -->
-                    <div class="swiper-slide">
-                        <div class="border border-white/5 rounded-lg p-8 h-full flex flex-col bg-[#0F0F0F]">
+                    <div class="swiper-slide h-auto">
+                        <div class="border border-white/5 rounded-lg p-8 h-full flex flex-col bg-[#0F0F0F] min-h-[400px]">
                             <div class="flex items-center mb-4">
                                  <!-- Stars -->
                                  <div class="text-[#ff520e] flex">
@@ -51,10 +51,10 @@
                                 </div>
                             </div>
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
-                                "Before working with Danish, our peptide ads kept getting rejected and we couldn’t scale. His team fixed everything, from compliance to creative, and helped us finally launch campaigns that got approved and performed amazingly well."
+                                "Before working with Danish, our peptide ads kept getting rejected and we couldn't scale. His team fixed everything, from compliance to creative, and helped us finally launch campaigns that got approved and performed amazingly well."
                             </p>
-                            <div class="flex items-center">
-                                <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Avatar of Rachel">
+                            <div class="flex items-center mt-auto">
+                                <img class="w-12 h-12 rounded-full mr-4 object-contain" src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Avatar of Rachel">
                                 <div>
                                     <p class="text-white font-bold">Apex Amino</p>
                                     <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
@@ -64,8 +64,8 @@
                     </div>
                     
                     <!-- Testimonial Card 3 -->
-                    <div class="swiper-slide">
-                        <div class="border border-white/5 rounded-lg p-8 h-full flex flex-col bg-[#0F0F0F]">
+                    <div class="swiper-slide h-auto">
+                        <div class="border border-white/5 rounded-lg p-8 h-full flex flex-col bg-[#0F0F0F] min-h-[400px]">
                             <div class="flex items-center mb-4">
                                  <!-- Stars -->
                                  <div class="text-[#ff520e] flex">
@@ -79,8 +79,8 @@
                             <p class="text-white text-lg font-normal mb-6 flex-grow">
                                 "Our peptide ads kept getting rejected — Danish fixed it fast and got us scaling again."
                             </p>
-                            <div class="flex items-center">
-                                <img class="w-12 h-12 rounded-full mr-4" src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Avatar of Rachel">
+                            <div class="flex items-center mt-auto">
+                                <img class="w-12 h-12 rounded-full mr-4 object-contain" src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Avatar of Rachel">
                                 <div>
                                     <p class="text-white font-bold">Compound Purity</p>
                                     <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
