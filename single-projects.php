@@ -125,9 +125,9 @@ if ($project_hero_image): ?>
 
             <?php if ($approach_steps): ?>
                 <h3 class="text-2xl md:text-3xl font-medium text-white mb-6">Our Approach</h3>
-                <ul class="list-disc list-inside text-base md:text-lg text-[#D6D6D6] space-y-2">
+                <ul class="list-disc pl-5 text-base md:text-lg text-[#D6D6D6] space-y-2">
                     <?php foreach ($approach_steps as $step): ?>
-                        <li><?php echo esc_html($step['step']); ?></li>
+                        <li class="break-words pr-2"><?php echo esc_html($step['step']); ?></li>
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
