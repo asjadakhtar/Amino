@@ -1,21 +1,23 @@
-<?php
-/* Template Name: Calendly Page */
-get_header();
-?>
-
-<section class="py-12 md:py-24 my-0 md:my-24">
+<section class="py-32 md:py-24 my-0 md:my-24">
   <div class="max-w-4xl mx-auto px-4">
     <?php 
-      $calendly_link = get_field('calendly_link');
-      if( $calendly_link ): ?>
-        <div class="calendly-inline-widget" 
-             data-url="<?php echo esc_url($calendly_link); ?>" 
-             style="min-width:320px;height:750px;">
+      $calendly_type = get_field('calendly_link');
+
+      if( $calendly_type === 'iframe' ): 
+        $iframe_url = 'https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&background_color=1a1a1a&text_color=ffffff';
+    ?>
+        <div class="w-full h-[700px] sm:h-[750px] md:h-[950px] overflow-hidden rounded-xl shadow-lg">
+          <iframe 
+            src="<?php echo esc_url($iframe_url); ?>" 
+            class="w-full h-full border-0" 
+            style="overflow:hidden;" 
+            scrolling="no" 
+            allowfullscreen
+            title="Calendly Scheduling">
+          </iframe>
         </div>
     <?php else: ?>
-        <p class="text-center text-gray-500">Calendly link not set. Please add it in ACF.</p>
+        <p class="text-center text-gray-500">Please select the Calendly type in ACF.</p>
     <?php endif; ?>
   </div>
 </section>
-
-<?php get_footer(); ?>
