@@ -64,7 +64,7 @@
 
        <!-- CTA Button with a clean, best-practice swipe effect -->
         <div>
-            <a href="https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&month=2025-10" 
+            <a href="https://aminomarketing.com/calendly/" 
             class="group relative inline-block overflow-hidden rounded-lg border border-white/5 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
             data-text="Get Free Audit">
                 

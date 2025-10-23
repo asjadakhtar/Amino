@@ -4,7 +4,7 @@
       $calendly_type = get_field('calendly_link');
 
       if( $calendly_type === 'iframe' ): 
-        $iframe_url = 'https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&background_color=1a1a1a&text_color=ffffff';
+        $iframe_url = 'https://calendly.com/aminomarketing-info/business-consultation?';
     ?>
         <div class="w-full h-[700px] sm:h-[750px] md:h-[950px] overflow-hidden rounded-xl shadow-lg">
           <iframe 

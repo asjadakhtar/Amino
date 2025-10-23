@@ -57,7 +57,7 @@
                     <p class="text-sm font-medium sm:text-base text-white mb-3 relative">Looking to enhance your email marketing and lead nurturing?</p>
 
                     <div>
-                        <a href="https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&month=2025-10"
+                        <a href="https://aminomarketing.com/calendly/"
                         class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
 
                             <!-- The visible text that slides up on hover -->
@@ -101,7 +101,7 @@
                     <p class="text-sm font-medium sm:text-base text-white mb-3 relative">Ready to launch a professional brand online?</p>
 
                     <div>
-                        <a href="https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&month=2025-10"
+                        <a href="https://aminomarketing.com/calendly/"
                         class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
 
                             <!-- The visible text that slides up on hover -->
@@ -134,7 +134,7 @@
 
 
                     <div>
-                        <a href="https://calendly.com/aminomarketing-info/business-consultation?primary_color=ff5c07&month=2025-10"
+                        <a href="https://aminomarketing.com/calendly/"
                         class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
 
                             <!-- The visible text that slides up on hover -->
