@@ -61,7 +61,7 @@ while (have_posts()) : the_post();
                 <!-- Project Name & Website -->
                 <div>
                     <?php if ($name): ?>
-                        <h3 class="text-3xl md:text-4xl font-medium text-white mb-2">
+                        <h3 class="text-xl md:text-4xl font-medium text-white mb-2">
                             <?php echo esc_html($name); ?>
                         </h3>
                     <?php endif; ?>
@@ -76,14 +76,15 @@ while (have_posts()) : the_post();
 
             <!-- Project Tags -->
             <?php if ($tags): ?>
-                <div class="flex flex-wrap gap-4 mt-auto">
+                <div class="flex flex-wrap gap-3 sm:gap-4 mt-auto justify-center sm:justify-start">
                     <?php foreach ($tags as $tag): ?>
-                        <span class="px-6 py-3 text-xs md:text-sm text-[#D6D6D6] bg-white/10 rounded-full">
+                        <span class="w-full sm:w-auto text-center px-6 py-3 text-xs text-[#D6D6D6] bg-white/10 rounded-full">
                             <?php echo esc_html($tag['tag']); ?>
                         </span>
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
+
         </div>
     </div>
 </div>
