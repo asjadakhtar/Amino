@@ -379,45 +379,61 @@ if ($project_hero_image): ?>
 
 
     <?php
-    $project_logo = get_field('project_logo');
-    $project_name = get_field('project_name');
-    $project_website = get_field('project_website');
-    ?>
+$project_logo = get_field('project_logo');
+$project_name = get_field('project_name');
+$project_website = get_field('project_website');
+?>
 
-    <section class="py-12">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
+<section class="py-8 sm:py-12">
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="group relative bg-[#ffffff12] border border-white/5 p-4 sm:p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
 
-                <!-- Content Wrapper -->
-                <div class="relative z-20 flex flex-col h-full">
-                    <div class="flex justify-between items-center">
-                        <div class="flex gap-6 items-center">
-                            <?php if( $project_logo ): ?>
-                                <div class="w-24 h-24 flex items-center justify-center rounded-xl bg-white/10 border border-white/10">
-                                    <img src="<?php echo esc_url($project_logo['url']); ?>" alt="<?php echo esc_attr($project_name); ?>" class="w-8 h-8 md:w-16 md:h-16">
-                                </div>
-                            <?php endif; ?>
-                            <div>
-                                <?php if( $project_name ): ?>
-                                    <h3 class="text-3xl md:text-4xl font-medium text-white mb-2"><?php echo esc_html($project_name); ?></h3>
-                                <?php endif; ?>
-                                <?php if( $project_website ): ?>
-                                    <p class="text-sm md:text-base text-[#D6D6D6]"><?php echo esc_url($project_website); ?></p>
-                                <?php endif; ?>
-                            </div>
-                        </div>
+            <!-- Content Wrapper -->
+            <div class="relative z-20 flex flex-col h-full">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6 sm:gap-8">
 
-                        <?php if( $project_website ): ?>
-                            <div>
-                                <a href="<?php echo esc_url($project_website); ?>" target="_blank" class="text-sm md:text-base text-[#D6D6D6] hover:text-[#ff520e] transition-all duration-500 ease-in-out">View project</a>
+                    <!-- Left Side -->
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 sm:text-left">
+                        <?php if( $project_logo ): ?>
+                            <div class="w-20 h-20 sm:w-24 sm:h-24 sm:mx-0 flex items-center justify-center rounded-xl bg-white/10 border border-white/10">
+                                <img src="<?php echo esc_url($project_logo['url']); ?>" 
+                                     alt="<?php echo esc_attr($project_name); ?>" 
+                                     class="w-10 h-10 sm:w-16 sm:h-16">
                             </div>
                         <?php endif; ?>
-                    </div>
-                </div>
 
+                        <div>
+                            <?php if( $project_name ): ?>
+                                <h3 class="text-2xl sm:text-3xl md:text-4xl font-medium text-white mb-2">
+                                    <?php echo esc_html($project_name); ?>
+                                </h3>
+                            <?php endif; ?>
+                            <?php if( $project_website ): ?>
+                                <p class="text-sm sm:text-base text-[#D6D6D6] break-words">
+                                    <?php echo esc_url($project_website); ?>
+                                </p>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+
+                    <!-- Right Side -->
+                    <?php if( $project_website ): ?>
+                        <div class="sm:text-right">
+                            <a href="<?php echo esc_url($project_website); ?>" 
+                               target="_blank" 
+                               class="text-sm sm:text-base text-[#D6D6D6] hover:text-[#ff520e] transition-all duration-500 ease-in-out">
+                                View project
+                            </a>
+                        </div>
+                    <?php endif; ?>
+
+                </div>
             </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
 
     <?php endwhile; ?>
 
