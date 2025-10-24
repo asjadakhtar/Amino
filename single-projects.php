@@ -113,7 +113,7 @@ if ($project_hero_image): ?>
     $approach_steps = get_field('approach_steps');
     ?>
 
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
             
             <?php if ($client_success_story): ?>
@@ -136,7 +136,7 @@ if ($project_hero_image): ?>
     </section>
 
 
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
             <div id="roasChartContainer" class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl overflow-hidden">
                 <!-- Hover Gradient Blur Effect -->
@@ -186,7 +186,7 @@ if ($project_hero_image): ?>
 
 
 
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
 
             <div class="group relative bg-[#ffffff12] border border-white/5 py-10 px-6 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden">
@@ -249,7 +249,7 @@ if ($project_hero_image): ?>
     $text = get_field('projects_gallery_text');
     ?>
 
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
             <div class="group relative bg-[#ffffff12] border border-white/5 p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden">
                 <div class="relative z-20">
@@ -292,7 +292,7 @@ if ($project_hero_image): ?>
     $para2 = get_field('project_paragraph_2');
     ?>
 
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
             <div class="group relative bg-[#ffffff12] border border-white/5 rounded-xl overflow-hidden">
                 <div class="relative z-20 w-full p-6 flex items-center justify-center h-full sm:h-[480px]">
@@ -329,7 +329,7 @@ if ($project_hero_image): ?>
     $position = get_field('testimonial_position');
     ?>
 
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-2xl mx-auto px-4">
             <?php if( $heading ): ?>
                 <div class="text-center mb-12">
