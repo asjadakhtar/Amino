@@ -420,8 +420,7 @@ $project_website = get_field('next_project_website');
                     <!-- Right Side -->
                     <?php if( $project_website ): ?>
                         <div class="sm:text-right">
-                            <a href="<?php echo esc_url($project_website); ?>" 
-                               target="_blank" 
+                            <a href="<?php echo esc_url($project_website); ?>"  
                                class="text-sm sm:text-base text-[#D6D6D6] hover:text-[#ff520e] transition-all duration-500 ease-in-out">
                                 View project
                             </a>
