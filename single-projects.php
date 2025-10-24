@@ -225,7 +225,7 @@ if ($project_hero_image): ?>
     ?>
 
     <?php if ($graphics_title || $graphics_content): ?>
-    <section class="py-12">
+    <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
             <?php if ($graphics_title): ?>
                 <h2 class="text-3xl md:text-4xl font-medium text-white mb-6">
