@@ -396,9 +396,17 @@ transform: translateY(0);
 
 
 
+/* ===========================
+   Get In Touch Form Styles
+   =========================== */
+
 .get-in-touch-form {
   width: 100%;
   margin-top: 2.5rem; /* mt-10 */
+}
+
+.get-in-touch-form br {
+  display: none; /* Remove default line breaks */
 }
 
 .get-in-touch-form h2 {
@@ -409,20 +417,20 @@ transform: translateY(0);
   line-height: 1.2;
 }
 
-/* Form rows */
-.get-in-touch-form .form-row {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+/* ===========================
+   Field Spacing (applies to all fields)
+   =========================== */
+.get-in-touch-form p {
+  margin-bottom: 1rem; /* gap between each field */
 }
 
-@media (min-width: 640px) {
-  .get-in-touch-form .form-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.get-in-touch-form p:last-of-type {
+  margin-bottom: 0; /* remove bottom space from last field */
 }
 
-/* Input, Select, Textarea */
+/* ===========================
+   Input, Select, Textarea Styles
+   =========================== */
 .get-in-touch-form input[type="text"],
 .get-in-touch-form input[type="email"],
 .get-in-touch-form input[type="tel"],
@@ -441,11 +449,13 @@ transform: translateY(0);
 }
 
 .get-in-touch-form input::placeholder,
-.get-in-touch-form select,
 .get-in-touch-form textarea::placeholder {
   color: #9ca3af; /* placeholder-gray-400 */
 }
 
+/* ===========================
+   Select Styling
+   =========================== */
 .get-in-touch-form select {
   appearance: none;
   cursor: pointer;
@@ -460,10 +470,12 @@ transform: translateY(0);
 .get-in-touch-form select:focus,
 .get-in-touch-form textarea:focus {
   border-color: #ff520e;
-  box-shadow: 0 0 0 2px rgba(255, 82, 14, 0.25); /* focus:ring-[#ff520e] */
+  box-shadow: 0 0 0 2px rgba(255, 82, 14, 0.25);
 }
 
-/* Submit button */
+/* ===========================
+   Submit Button
+   =========================== */
 .get-in-touch-form input[type="submit"],
 .get-in-touch-form button[type="submit"] {
   width: 100%;
@@ -489,7 +501,9 @@ transform: translateY(0);
   color: #fff;
 }
 
-/* Responsive fix for smaller screens */
+/* ===========================
+   Responsive Tweaks
+   =========================== */
 @media (max-width: 640px) {
   .get-in-touch-form h2 {
     font-size: 1.5rem;
