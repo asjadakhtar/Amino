@@ -38,79 +38,7 @@
 
         <!-- Right Section: Contact Form -->
         <div class="md:w-1/2 mt-10 md:mt-0 w-full"> <!-- Added w-full here to make the form full width on small screens -->
-            <h3 class="text-2xl sm:text-3xl font-medium leading-tight mb-6">
-                Get in Touch
-            </h3>
-           <form class="space-y-4">
-                <!-- First Name and Last Name -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                        <label for="first-name" class="sr-only">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required
-                            class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
-                    </div>
-                    <div>
-                        <label for="last-name" class="sr-only">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required
-                            class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
-                    </div>
-                </div>
-
-                <!-- Email -->
-                <div>
-                    <label for="email" class="sr-only">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email" required
-                        class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
-                </div>
-
-                <!-- Phone Number -->
-                <div>
-                    <label for="phone" class="sr-only">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required
-                        inputmode="tel" pattern="[0-9+ ]{6,15}"
-                        class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
-                </div>
-
-                <!-- Website URL -->
-                <div>
-                    <label for="website-url" class="sr-only">Website URL</label>
-                    <input type="url" id="website-url" name="website-url" placeholder="Website URL"
-                        class="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 outline-none text-sm sm:text-base">
-                </div>
-
-                <!-- Monthly Revenue Dropdown -->
-                <div>
-                    <label for="monthly-revenue" class="sr-only">Monthly Revenue</label>
-                    <div class="relative">
-                        <select id="monthly-revenue" name="monthly-revenue"
-                            class="block w-full px-4 pr-10 py-3 rounded-lg bg-white/10 border border-white/5 focus:ring-[#ff520e] focus:border-[#ff520e] text-white placeholder-gray-400 transition-colors duration-300 appearance-none outline-none cursor-pointer text-sm sm:text-base">
-                            <option value="" disabled selected class="text-gray-400 bg-[#0d0d0d]">Monthly Revenue</option>
-                            <option value="new" class="bg-[#0d0d0d]">New Business</option>
-                            <option value="1-10k" class="bg-[#0d0d0d]">$1,000 - $10,000</option>
-                            <option value="10k-50k" class="bg-[#0d0d0d]">$10,000 - $50,000</option>
-                            <option value="50k-100k" class="bg-[#0d0d0d]">$50,000 - $100,000</option>
-                            <option value="100k-150k" class="bg-[#0d0d0d]">$100,000 - $150,000</option>
-                            <option value="150k+" class="bg-[#0d0d0d]">$150,000+</option>
-                        </select>
-                        <!-- Custom arrow -->
-                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
-                            <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Submit Button -->
-                <div>
-                    <button type="submit"
-                        class="w-full bg-[#ff520e] text-white font-medium py-3 px-6 rounded-lg text-base hover:bg-[rgb(224,72,12)] transition-colors duration-300">
-                        Submit
-                    </button>
-                </div>
-            </form>
+            <?php echo do_shortcode('[contact-form-7 id="0c78af1" title="Get in Touch"]'); ?>
 
 
         </div>
@@ -130,4 +58,8 @@
             </a>
         </div>
     </div>
+
+
+
+
 </footer>
