@@ -38,12 +38,9 @@
 
         <!-- Right Section: Contact Form -->
         <div class="md:w-1/2 mt-10 md:mt-0 w-full"> <!-- Added w-full here to make the form full width on small screens -->
-            <!-- <?php echo do_shortcode('[contact-form-7 id="0c78af1" title="Get in Touch"]'); ?> -->
             <?php echo do_shortcode('[contact-form-7 id="ed5c48f" title="Get in Touch"]'); ?>
-
-
-
         </div>
+        
     </div>
 
     <!-- Bottom Section: Copyright and Social Icons -->

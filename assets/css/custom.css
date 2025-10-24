@@ -385,3 +385,118 @@ transform: translateY(0);
     display: block; /* Remove extra space below image */
     margin: auto; /* Center image */
 }
+
+
+
+
+
+
+
+
+
+
+
+.get-in-touch-form {
+  width: 100%;
+  margin-top: 2.5rem; /* mt-10 */
+}
+
+.get-in-touch-form h2 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 500;
+  margin-bottom: 1.5rem; /* mb-6 */
+  color: #fff;
+  line-height: 1.2;
+}
+
+/* Form rows */
+.get-in-touch-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .get-in-touch-form .form-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Input, Select, Textarea */
+.get-in-touch-form input[type="text"],
+.get-in-touch-form input[type="email"],
+.get-in-touch-form input[type="tel"],
+.get-in-touch-form input[type="url"],
+.get-in-touch-form select,
+.get-in-touch-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem; /* py-3 px-4 */
+  border-radius: 0.5rem; /* rounded-lg */
+  background-color: rgba(255, 255, 255, 0.1); /* bg-white/10 */
+  border: 1px solid rgba(255, 255, 255, 0.05); /* border-white/5 */
+  color: #fff;
+  font-size: 1rem; /* text-base */
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.get-in-touch-form input::placeholder,
+.get-in-touch-form select,
+.get-in-touch-form textarea::placeholder {
+  color: #9ca3af; /* placeholder-gray-400 */
+}
+
+.get-in-touch-form select {
+  appearance: none;
+  cursor: pointer;
+  padding-right: 2.5rem;
+  background-image: url("data:image/svg+xml,%3Csvg fill='white' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+.get-in-touch-form input:focus,
+.get-in-touch-form select:focus,
+.get-in-touch-form textarea:focus {
+  border-color: #ff520e;
+  box-shadow: 0 0 0 2px rgba(255, 82, 14, 0.25); /* focus:ring-[#ff520e] */
+}
+
+/* Submit button */
+.get-in-touch-form input[type="submit"],
+.get-in-touch-form button[type="submit"] {
+  width: 100%;
+  background-color: #ff520e;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-in-touch-form input[type="submit"]:hover,
+.get-in-touch-form button[type="submit"]:hover {
+  background-color: rgb(224, 72, 12);
+}
+
+/* Adjust select option colors */
+.get-in-touch-form select option {
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 640px) {
+  .get-in-touch-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .get-in-touch-form input,
+  .get-in-touch-form select {
+    font-size: 0.875rem; /* text-sm */
+  }
+}
