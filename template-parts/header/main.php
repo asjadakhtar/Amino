@@ -39,7 +39,7 @@
                     </a>
                 </li>
 
-                <li>
+                <!-- <li>
                     <a href="https://aminomarketing.com/blogs/" 
                     class="group relative inline-block overflow-hidden transition-colors duration-500 hover:text-[#ff520e]"
                     data-text="Blog">
@@ -47,7 +47,7 @@
                             Blog
                         </span>
                     </a>
-                </li>
+                </li> -->
 
                 <li>
                     <a href="https://aminomarketing.com/faqs/" 
