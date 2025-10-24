@@ -380,9 +380,9 @@ if ($project_hero_image): ?>
 
 
     <?php
-$project_logo = get_field('project_logo');
-$project_name = get_field('project_name');
-$project_website = get_field('project_website');
+$project_logo = get_field('next_project_logo');
+$project_name = get_field('next_project_name');
+$project_website = get_field('next_project_website');
 ?>
 
 <section class="py-8 sm:py-12">
