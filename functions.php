@@ -46,3 +46,22 @@ require_once THEME_DIR . '/php/theme-settings/components.php';
  * Custom Post Types
  */
 require_once THEME_DIR . '/php/custom-post-types/config.php';
+
+
+
+
+
+// ✅ Show server-side path in the WordPress Media Library
+add_filter('attachment_fields_to_edit', 'show_server_file_path_in_media', 10, 2);
+
+function show_server_file_path_in_media($form_fields, $post) {
+    $file_path = get_attached_file($post->ID);
+    if ($file_path) {
+        $form_fields['server_file_path'] = array(
+            'label' => 'Server File Path',
+            'input' => 'html',
+            'html'  => '<input type="text" readonly value="' . esc_attr($file_path) . '" style="width:100%; background:#f3f4f6; border:1px solid #ccc; padding:6px;">'
+        );
+    }
+    return $form_fields;
+}
