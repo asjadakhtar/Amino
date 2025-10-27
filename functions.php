@@ -20,7 +20,7 @@ defined('THEME_URI') || define('THEME_URI', get_template_directory_uri());
 /*
  * WordPress Theme Security
  */
-require_once THEME_DIR . '/php/theme-settings/security.php';
+// require_once THEME_DIR . '/php/theme-settings/security.php';
 
 /*
  * WordPress Theme Support
