@@ -95,7 +95,7 @@ if ($project_hero_image): ?>
 <section class="py-12">
     <div class="max-w-4xl mx-auto px-4">
         <div class="relative bg-[#ffffff12] border border-white/5 rounded-xl overflow-hidden">
-            <div class="relative w-full p-6 flex items-center justify-center h-full sm:h-[480px]">
+            <div class="relative w-full p-6 flex items-center justify-center h-full sm:h-[650px]">
                 <img src="<?php echo esc_url($project_hero_image['url']); ?>" 
                     alt="<?php echo esc_attr($project_hero_image['alt']); ?>" 
                     class="w-full h-full object-cover block rounded-md">
