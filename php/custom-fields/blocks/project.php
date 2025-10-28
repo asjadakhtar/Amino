@@ -76,11 +76,11 @@
             <div class="relative h-60 rounded-lg overflow-hidden group-hover:overflow-visible -mb-6">
               <img src="<?php echo esc_url($featured_image); ?>" 
                    alt="<?php echo esc_attr($name); ?>" 
-                   class="absolute inset-0 w-full h-full object-cover rounded-lg
+                   class="absolute inset-0 w-full object-cover rounded-lg
                           transition-transform duration-500 ease-out
                           group-hover:translate-y-[-5.5rem]">
               <div class="absolute bottom-0 left-0 right-0 flex items-center justify-between text-white text-lg font-medium
-                          px-2 py-6
+                          px-2 py-3
                           opacity-0 translate-y-full
                           transition-all duration-500 ease-out
                           group-hover:opacity-100 group-hover:translate-y-0">
