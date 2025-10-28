@@ -59,9 +59,6 @@
             <div class="flex items-center justify-between pb-4
                 transition-all duration-500 ease-out group-hover:opacity-0">
               <h2 class="text-white text-xl font-medium"><?php echo esc_html($name); ?></h2>
-              <div class="flex items-center text-[#9ca3af] text-sm">
-                <span>3.9K</span>
-              </div>
             </div>
 
             <?php if( $tags ): ?>
