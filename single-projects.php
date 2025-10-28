@@ -295,7 +295,7 @@ if ($project_hero_image): ?>
     <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
             <div class="group relative bg-[#ffffff12] border border-white/5 rounded-xl overflow-hidden">
-                <div class="relative z-20 w-full p-6 flex items-center justify-center h-full sm:h-[480px]">
+                <div class="relative z-20 w-full p-6 flex items-center justify-center h-full sm:h-[650px]">
                     <?php if( $image ): ?>
                         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="w-full h-full object-cover block rounded-md">
                     <?php endif; ?>
