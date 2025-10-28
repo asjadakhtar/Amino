@@ -31,7 +31,6 @@
                                 <img class="w-12 h-12 rounded-full mr-4 object-contain" src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Avatar of Surya">
                                 <div>
                                     <p class="text-white font-bold">Nextech Labs</p>
-                                    <p class="text-gray-400 text-sm">Product Lead @ Skillify</p>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +56,6 @@
                                 <img class="w-12 h-12 rounded-full mr-4 object-contain" src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Avatar of Rachel">
                                 <div>
                                     <p class="text-white font-bold">Apex Amino</p>
-                                    <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +81,6 @@
                                 <img class="w-12 h-12 rounded-full mr-4 object-contain" src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Avatar of Rachel">
                                 <div>
                                     <p class="text-white font-bold">Compound Purity</p>
-                                    <p class="text-gray-400 text-sm">Co-founder @ StartWell</p>
                                 </div>
                             </div>
                         </div>
