@@ -188,36 +188,31 @@ if ($project_hero_image): ?>
 
     <section class="sm:py-12 py-6">
         <div class="max-w-4xl mx-auto px-4">
-
-            <div class="group relative bg-[#ffffff12] border border-white/5 py-10 px-6 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden">
-
-                <div class="relative z-20">
-                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
-                        <!-- Stat Card 1 -->
-                        <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="6.4" data-suffix="x">0x</div>
-                            <div class="text-sm md:text-base text-[#D6D6D6]">ROAS Achieved</div>
-                        </div>
-                        <!-- Stat Card 2 -->
-                        <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="41145" data-suffix="$">$0</div>
-                            <div class="text-sm md:text-base text-[#D6D6D6]">Monthly Revenue</div>
-                        </div>
-                        <!-- Stat Card 3 -->
-                        <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="4.25" data-suffix="%">0%</div>
-                            <div class="text-sm md:text-base text-[#D6D6D6]">Conversion Rate</div>
-                        </div>
-                        <!-- Stat Card 4 -->
-                        <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="180+" data-suffix="$">$0</div>
-                            <div class="text-sm md:text-base text-[#D6D6D6]">Average Order Value</div>
+            <?php if (have_rows('case_study_stats')): ?>
+                <div class="group relative bg-[#ffffff12] border border-white/5 py-10 px-6 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden">
+                    <div class="relative z-20">
+                        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+                            <?php while (have_rows('case_study_stats')): the_row(); 
+                                $number = get_sub_field('number');
+                                $suffix = get_sub_field('suffix');
+                                $label = get_sub_field('label');
+                            ?>
+                                <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
+                                    <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3"
+                                        data-target="<?php echo esc_attr($number); ?>"
+                                        data-suffix="<?php echo esc_attr($suffix); ?>">
+                                        <?php echo esc_html($suffix === '$' ? '$0' : '0' . $suffix); ?>
+                                    </div>
+                                    <div class="text-sm md:text-base text-[#D6D6D6]"><?php echo esc_html($label); ?></div>
+                                </div>
+                            <?php endwhile; ?>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php endif; ?>
         </div>
     </section>
+
 
     <?php 
     $graphics_title = get_field('graphics_title');
