@@ -50,18 +50,14 @@
 
         <!-- Social Icons -->
         <div class="flex space-x-4">
-            <a href="https://www.facebook.com/profile.php?id=61581491033468" target="_blank" rel="noopener noreferrer" class="hover:text-[#ff520e] transition-colors duration-300">
+            <!-- <a href="https://www.facebook.com/profile.php?id=61581491033468" target="_blank" rel="noopener noreferrer" class="hover:text-[#ff520e] transition-colors duration-300"> -->
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22c4.781-.75 8.438-4.887 8.438-9.878z" clip-rule="evenodd" />
                 </svg>
             </a>
 
             <a href="https://www.instagram.com/amino_marketing/" target="_blank" rel="noopener noreferrer" class="hover:text-[#ff520e] transition-colors duration-300">
-                <svg fill="#fff" class="w-6 h-6" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                    viewBox="0 0 32 32" xml:space="preserve">
-                    <path d="M23,0H9C4,0,0,4,0,9v6v8c0,5,4,9,9,9h14c5,0,9-4,9-9v-8V9C32,4,28,0,23,0z M16,10c3.3,0,6,2.7,6,6s-2.7,6-6,6s-6-2.7-6-6
-                    S12.7,10,16,10z M22,7c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S22,8.1,22,7z"/>
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
             </a>
         </div>
     </div>
