@@ -195,22 +195,22 @@ if ($project_hero_image): ?>
                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
                         <!-- Stat Card 1 -->
                         <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-5xl font-medium text-white counting-number mb-3" data-target="6.4" data-suffix="x">0x</div>
+                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="6.4" data-suffix="x">0x</div>
                             <div class="text-sm md:text-base text-[#D6D6D6]">ROAS Achieved</div>
                         </div>
                         <!-- Stat Card 2 -->
                         <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-5xl font-medium text-white counting-number mb-3" data-target="41145" data-suffix="$">$0</div>
+                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="41145" data-suffix="$">$0</div>
                             <div class="text-sm md:text-base text-[#D6D6D6]">Monthly Revenue</div>
                         </div>
                         <!-- Stat Card 3 -->
                         <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-5xl font-medium text-white counting-number mb-3" data-target="4.25" data-suffix="%">0%</div>
+                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="4.25" data-suffix="%">0%</div>
                             <div class="text-sm md:text-base text-[#D6D6D6]">Conversion Rate</div>
                         </div>
                         <!-- Stat Card 4 -->
                         <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-5xl font-medium text-white counting-number mb-3" data-target="180+" data-suffix="$">$0</div>
+                            <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3" data-target="180+" data-suffix="$">$0</div>
                             <div class="text-sm md:text-base text-[#D6D6D6]">Average Order Value</div>
                         </div>
                     </div>
