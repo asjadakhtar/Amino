@@ -208,7 +208,7 @@ if ($project_hero_image): ?>
                             <?php endwhile; ?>
                         </div>
 
-                        <div class="text-center text-sm md:text-base text-[#D6D6D6] mt-4">
+                        <div class="text-center text-sm md:text-base text-[#D6D6D6] mt-5">
                             <p>Current Monthly Spend October 2025</p>
                         </div>
                     </div>
