@@ -385,15 +385,13 @@ $project_name = get_field('next_project_name');
 $project_website = get_field('next_project_website');
 ?>
 
-<section class="py-8 sm:py-12">
+<!-- <section class="py-8 sm:py-12">
     <div class="max-w-4xl mx-auto px-4">
         <div class="group relative bg-[#ffffff12] border border-white/5 p-4 sm:p-6 md:p-8 rounded-xl transition-colors duration-500 ease-in-out overflow-hidden h-full flex flex-col">
 
-            <!-- Content Wrapper -->
             <div class="relative z-20 flex flex-col h-full">
                 <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6 sm:gap-8">
 
-                    <!-- Left Side -->
                     <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 sm:text-left">
                         <?php if( $project_logo ): ?>
                             <div class="w-20 h-20 sm:w-24 sm:h-24 sm:mx-0 flex items-center justify-center rounded-xl bg-white/10 border border-white/10">
@@ -417,7 +415,6 @@ $project_website = get_field('next_project_website');
                         </div>
                     </div>
 
-                    <!-- Right Side -->
                     <?php if( $project_website ): ?>
                         <div class="sm:text-right">
                             <a href="<?php echo esc_url($project_website); ?>"  
@@ -432,7 +429,7 @@ $project_website = get_field('next_project_website');
 
         </div>
     </div>
-</section>
+</section> -->
 
 
     <?php endwhile; ?>
