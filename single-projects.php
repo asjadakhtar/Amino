@@ -200,7 +200,7 @@ if ($project_hero_image): ?>
                         </div>
                         <!-- Stat Card 2 -->
                         <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                            <div class="text-3xl md:text-5xl font-medium text-white counting-number mb-3" data-target="$41145" data-suffix="x">$0</div>
+                            <div class="text-3xl md:text-5xl font-medium text-white counting-number mb-3" data-target="41145" data-suffix="x">$0</div>
                             <div class="text-sm md:text-base text-[#D6D6D6]">Monthly Revenue</div>
                         </div>
                         <!-- Stat Card 3 -->
