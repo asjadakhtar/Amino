@@ -198,7 +198,7 @@ if ($project_hero_image): ?>
                                 $label = get_sub_field('label');
                             ?>
                                 <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                                    <div class="text-3xl md:text-4xl font-medium text-white counting-number mb-3"
+                                    <div class="text-3xl font-medium text-white counting-number mb-3"
                                         data-target="<?php echo esc_attr($number); ?>"
                                         data-suffix="<?php echo esc_attr($suffix); ?>">
                                         <?php echo esc_html($suffix === '$' ? '$0' : '0' . $suffix); ?>
@@ -206,6 +206,10 @@ if ($project_hero_image): ?>
                                     <div class="text-sm md:text-base text-[#D6D6D6]"><?php echo esc_html($label); ?></div>
                                 </div>
                             <?php endwhile; ?>
+                        </div>
+
+                        <div class="text-center text-sm md:text-base text-[#D6D6D6] mt-4">
+                            <p>Current Monthly Spend October 2025</p>
                         </div>
                     </div>
                 </div>
