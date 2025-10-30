@@ -10,7 +10,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">How can I safely advertise my peptide products online?</span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -25,7 +25,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">Why do my peptide ads keep getting rejected on Facebook and Google? </span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -40,7 +40,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">What are the rules for advertising peptides on Meta (Facebook/Instagram)?</span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -55,7 +55,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">How is SEO different for peptide websites? </span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -70,7 +70,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">What keywords are safe to use in peptide marketing? </span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -85,7 +85,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white"> What causes peptide ads accounts to get suspended or banned? </span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -100,7 +100,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">Can small peptide brands actually compete with larger companies online? </span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
@@ -115,7 +115,7 @@
         <div class="accordion-item">
             <button class="accordion-button w-full px-3 sm:px-8 py-3 sm:py-4 text-left flex justify-between items-center" onclick="toggleAccordion(this)">
                 <span class="text-base sm:text-lg md:text-xl font-medium text-white">How long does it take to see results from peptide marketing?</span>
-                <svg class="accordion-icon w-5 h-5 sm:w-6 sm:h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="accordion-icon w-6 h-6 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
             </button>
