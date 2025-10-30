@@ -514,3 +514,63 @@ transform: translateY(0);
     font-size: 0.875rem; /* text-sm */
   }
 }
+
+
+
+
+
+/* Newsletter Block Custom CSS */
+.newsletter-flex-wrapper .wpcf7-form {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.newsletter-flex-wrapper .newsletter-attached {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter-flex-wrapper .email-newsletter {
+    flex: 1;
+}
+
+.newsletter-flex-wrapper .email-newsletter input[type="email"] {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.newsletter-flex-wrapper .subscribe-newsletter {
+    position: relative;
+}
+
+.newsletter-flex-wrapper .subscribe-newsletter input[type="submit"] {
+    padding: 10px 32px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+/* Loader ko button ke andar center mein rakhna */
+.newsletter-flex-wrapper .wpcf7-spinner {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+    opacity: 0.8;
+}
+
+/* Hover effect for the entire section */
+.newsletter-hover-wrapper:hover .newsletter-glow {
+    opacity: 0.25;
+}
