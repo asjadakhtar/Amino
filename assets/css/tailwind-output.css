@@ -402,6 +402,9 @@
   .block {
     display: block;
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
   }
@@ -410,6 +413,9 @@
   }
   .hidden {
     display: none;
+  }
+  .inline {
+    display: inline;
   }
   .inline-block {
     display: inline-block;
@@ -1284,6 +1290,13 @@
   .last\:pb-0 {
     &:last-child {
       padding-bottom: calc(var(--spacing) * 0);
+    }
+  }
+  .hover\:overflow-hidden {
+    &:hover {
+      @media (hover: hover) {
+        overflow: hidden;
+      }
     }
   }
   .hover\:border-\[\#ff520e\] {
