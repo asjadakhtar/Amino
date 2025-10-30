@@ -13,7 +13,7 @@
             <div class="absolute bottom-[-45px] right-[-233px] h-[126px] w-[621px] bg-[#ff520e] opacity-0 blur-[100px] transition-opacity duration-500 ease-in-out z-10 newsletter-glow" aria-hidden="true"></div>
 
             <div class="relative z-20 newsletter-flex-wrapper">
-                <?php echo do_shortcode('[contact-form-7 id="b8a6ef3" title="Newsletter"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="3d1b9cd" title="Newsletter"]'); ?>
             </div>
         </div>
 
