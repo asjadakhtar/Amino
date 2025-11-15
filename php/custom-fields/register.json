@@ -82,5 +82,12 @@
         "description": "This is the newsletter section of a webpage.",
         "template": "newsletter",
         "keywords": "newsletter, section, webpage"
+    },
+    {
+        "name": "process",
+        "title": "Process Section",
+        "description": "This is the process section of a webpage.",
+        "template": "process",
+        "keywords": "process, section, webpage"
     }
 ]
