@@ -988,3 +988,12 @@
   
   </div>
 </section>
+
+<style>
+    footer#form {
+        display: none !important;
+    }
+    header#site-header {
+        display: none !important;
+    }
+</style>

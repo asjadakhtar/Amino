@@ -1,5 +1,5 @@
 <!-- Header with Decorative Gradient -->
-<header class="absolute top-0 left-0 w-full z-20 bg-transparent">
+<header class="absolute top-0 left-0 w-full z-20 bg-transparent" id="site-header">
     
     <!-- Decorative Gradient Blur Element -->
     <div class="absolute top-0 right-0 h-[212px] w-[1047px] max-w-full bg-[#ff520e] opacity-50 blur-[100px]" aria-hidden="true"></div>
