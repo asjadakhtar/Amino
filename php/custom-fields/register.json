@@ -89,5 +89,12 @@
         "description": "This is the process section of a webpage.",
         "template": "process",
         "keywords": "process, section, webpage"
+    },
+    {
+        "name": "growth",
+        "title": "Growth Section",
+        "description": "This is the growth section of a webpage.",
+        "template": "growth",
+        "keywords": "growth, section, webpage"
     }
 ]

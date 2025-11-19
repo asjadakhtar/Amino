@@ -301,3 +301,83 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const rows = document.querySelectorAll('.process-row');
+    let firstStepCompleted = false;  // To track the completion of the first step
+
+    function updateProgress() {
+        rows.forEach((row, index) => {
+            const track = row.querySelector('.slider-track');
+            const processIcon = row.querySelector('.process-icon');
+            const contentDiv = row.querySelector('.contant'); // Select the content div
+            const rowRect = row.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+            
+            // Calculate the start and end points for filling (halfway down the viewport)
+            const startFill = windowHeight * 0.5; // Start filling when halfway through the viewport
+            const endFill = windowHeight * 0.2;   // Complete filling when 20% of the way down the screen
+            
+            if (rowRect.top <= startFill && rowRect.bottom >= endFill) {
+                // Calculate progress based on position
+                const total = startFill - endFill;
+                const current = startFill - rowRect.top;
+                const progress = Math.min(Math.max((current / total) * 100, 0), 100);
+                
+                track.style.height = `${progress}%`;
+                
+                // Add active class to control opacity for both icon and content
+                processIcon.classList.add('active');
+                if (contentDiv) contentDiv.classList.add('active'); // Also activate content
+
+                // Check if the first step is completed
+                if (index === 0 && progress === 100) {
+                    firstStepCompleted = true;
+                }
+
+                // If the first step is completed, start the second step's progress
+                if (index === 1 && firstStepCompleted) {
+                    track.style.height = `${progress}%`;
+                }
+            } else if (rowRect.top > startFill) {
+                // Reset progress when above starting point
+                track.style.height = '0%';
+                processIcon.classList.remove('active');
+                if (contentDiv) contentDiv.classList.remove('active'); // Deactivate content
+            } else if (rowRect.bottom < endFill) {
+                // Keep full when below ending point
+                track.style.height = '100%';
+                processIcon.classList.add('active');
+                if (contentDiv) contentDiv.classList.add('active'); // Keep content active
+            }
+        });
+    }
+
+    // Update on scroll
+    window.addEventListener('scroll', updateProgress);
+    
+    // Initial update
+    updateProgress();
+});
