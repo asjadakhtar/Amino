@@ -3,8 +3,10 @@
     <div class="flex justify-between items-center h-16">
       
       <!-- Logo Section -->
-      <div class="flex-shrink-0">
-        <span class="text-gray-900">PeptideGrowth</span>
+      <div class="w-32">
+          <a href="https://aminomarketing.com" rel="noopener">
+              <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo">
+          </a>
       </div>
 
       <!-- Desktop Navigation -->
