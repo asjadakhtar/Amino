@@ -84,6 +84,13 @@
         "keywords": "newsletter, section, webpage"
     },
     {
+        "name": "calendly",
+        "title": "Calendly Section",
+        "description": "This is the calendly section of a webpage.",
+        "template": "calendly",
+        "keywords": "calendly, section, webpage"
+    },
+    {
         "name": "process",
         "title": "Process Section",
         "description": "This is the process section of a webpage.",
