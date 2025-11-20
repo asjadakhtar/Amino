@@ -5,7 +5,7 @@
       <!-- Logo Section -->
       <div class="w-32">
           <a href="https://aminomarketing.com" rel="noopener">
-              <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo">
+              <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo" class="invert">
           </a>
       </div>
 
