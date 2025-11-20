@@ -998,4 +998,7 @@
     header#site-header {
         display: none !important;
     }
+    .invert {
+        filter: invert(1);
+    }
 </style>
