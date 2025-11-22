@@ -103,5 +103,12 @@
         "description": "This is the growth section of a webpage.",
         "template": "growth",
         "keywords": "growth, section, webpage"
+    },
+    {
+        "name": "about",
+        "title": "About Section",
+        "description": "This is the about section of a webpage.",
+        "template": "about",
+        "keywords": "about, section, webpage"
     }
 ]
