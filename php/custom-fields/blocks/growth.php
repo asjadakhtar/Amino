@@ -111,35 +111,37 @@
 
 <section class="py-16 bg-white border-y border-orange-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <p class="text-4xl font-normal text-black mb-10 sm:mb-12 text-center">Brands &amp; clinics we work with</p>
+    <p class="text-4xl font-normal text-black mb-10 sm:mb-12 text-center">
+      Brands & clinics we work with
+    </p>
     
     <div class="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
-      
+
       <!-- Brand 1 -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 sm:w-100 w-auto">
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-ad-12.png" 
-             alt="Brand 1" 
+      <div class="w-full sm:w-auto flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
+        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-ad-12.png"
+             alt="Brand 1"
              class="h-12 w-auto object-contain">
       </div>
-      
+
       <!-- Brand 2 -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 sm:w-100 w-auto">
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_38_Group-33.png" 
-             alt="Brand 2" 
+      <div class="w-full sm:w-auto flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
+        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_38_Group-33.png"
+             alt="Brand 2"
              class="h-12 w-auto object-contain">
       </div>
 
       <!-- Brand 3 -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 sm:w-100 w-auto">
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_21_68c42946120d8d0835091ef5.png" 
-             alt="Brand 3" 
+      <div class="w-full sm:w-auto flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
+        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_21_68c42946120d8d0835091ef5.png"
+             alt="Brand 3"
              class="h-12 w-auto object-contain">
       </div>
 
     </div>
-
   </div>
 </section>
+
 
 
 
