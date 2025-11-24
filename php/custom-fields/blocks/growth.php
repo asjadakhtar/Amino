@@ -115,57 +115,6 @@
     
     <div class="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
       
-      <!-- Brand A -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 text-base">
-        <span class="text-gray-400">Brand A</span>
-      </div>
-      
-      <!-- Brand B -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 text-base">
-        <span class="text-gray-400">Brand B</span>
-      </div>
-      
-      <!-- Brand C -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 text-base">
-        <span class="text-gray-400">Brand C</span>
-      </div>
-      
-      <!-- Brand D -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 text-base">
-        <span class="text-gray-400">Brand D</span>
-      </div>
-      
-      <!-- Brand E -->
-      <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200 text-base">
-        <span class="text-gray-400">Brand E</span>
-      </div>
-
-      <!-- <div class="swiper-slide !w-auto">
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/09/APEX-AMINO-white-1.png" alt="HelpBnk" class="brand-logo">
-        </div>
-        <div class="swiper-slide !w-auto">
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/09/Nextechlab-ad-21.png" alt="Methodic" class="brand-logo">
-        </div>
-        <div class="swiper-slide !w-auto">
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/09/imgi_2_Logo.png" alt="Clarity AI" class="brand-logo">
-        </div>
-        <div class="swiper-slide !w-auto">
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/09/Nextechlab-ad-23.png" alt="Refermarket" class="brand-logo">
-        </div> -->
-
-    </div>
-  </div>
-</section>
-
-
-<section class="py-16 bg-white border-y border-orange-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <p class="text-4xl font-normal text-black mb-10 sm:mb-12 text-center">
-      Brands & clinics we work with
-    </p>
-
-    <div class="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
-      
       <!-- Brand 1 -->
       <div class="flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
         <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-ad-12.png" 
@@ -188,6 +137,7 @@
       </div>
 
     </div>
+
   </div>
 </section>
 
