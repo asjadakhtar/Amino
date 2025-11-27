@@ -36,7 +36,7 @@
       <!-- Image on the Left -->
       <div class="md:w-1/2 w-full flex items-center justify-center p-4">
         <!-- Replace 'your-image-url.jpg' with your actual image path -->
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/09/cover.png" alt="Compliance Book Cover" class="max-w-full h-auto rounded-lg shadow-lg">
+        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Book.png" alt="Compliance Book Cover" class="max-w-full h-auto rounded-lg shadow-lg">
       </div>
 
       <!-- Form Content on the Right -->
