@@ -1,24 +1,30 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const brandSlider = new Swiper('.brand-slider', {
-        loop: true,
-        slidesPerView: 'auto',
-        spaceBetween: 60, 
-        speed: 10000,
-        autoplay: {
-            delay: 1,
-            disableOnInteraction: false,
-        },
-        freeMode: true,
-        allowTouchMove: false,
-    });
+    // Yahan humne dono classes select kar li hain
+    const sliders = document.querySelectorAll('.brand-slider, .growth-brand-slider');
 
-    
-    const sliderContainer = document.querySelector('.brand-slider');
-    sliderContainer.addEventListener('mouseenter', () => {
-        brandSlider.autoplay.stop();
-    });
-    sliderContainer.addEventListener('mouseleave', () => {
-        brandSlider.autoplay.start();
+    // Har slider ke liye alag alag logic chalayenge taake clash na ho
+    sliders.forEach(sliderContainer => {
+        const mySwiper = new Swiper(sliderContainer, {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 60,
+            speed: 10000,
+            autoplay: {
+                delay: 1,
+                disableOnInteraction: false,
+            },
+            freeMode: true,
+            allowTouchMove: false,
+        });
+
+        // Event listeners bhi ab har specific slider ke liye add honge
+        sliderContainer.addEventListener('mouseenter', () => {
+            mySwiper.autoplay.stop();
+        });
+        
+        sliderContainer.addEventListener('mouseleave', () => {
+            mySwiper.autoplay.start();
+        });
     });
 });
 

@@ -1,4 +1,4 @@
-<nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+<nav class="fixed top-0 left-0 w-full z-50 bg-white backdrop-blur-sm border-b border-gray-200">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-16">
       
@@ -37,13 +37,13 @@
 
 
 
-<section class="py-20 lg:py-32 bg-gradient-to-b from-orange-50 to-white">
+<section class="py-20 lg:py-32 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
       
       <!-- Left Side: Content -->
       <div>
-        <h1 class="text-4xl font-normal text-black mb-8">The Growth System for Peptide Brands</h1>
+        <h1 class="text-5xl font-medium text-black mb-8">The Growth System for Peptide Brands</h1>
         <p class="text-gray-600 mb-8 text-xl">Website, Meta ads, and email — everything done-for-you so you get predictable customers.</p>
         
         <!-- Feature Points -->
@@ -83,7 +83,7 @@
         <a href="https://aminomarketing.com/calendly/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-6 has-[&gt;svg]:px-4 text-white">
             Book Strategy Call
         </a>
-          <a href="#work" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-10 rounded-md px-6 has-[&gt;svg]:px-4">
+          <a href="#howitworks" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-10 rounded-md px-6 has-[&gt;svg]:px-4">
             See How It Works
           </a>
         </div>
@@ -109,40 +109,50 @@
 </section>
 
 
-<section class="py-16 bg-white border-y border-orange-100">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <p class="text-4xl font-normal text-black mb-10 sm:mb-12 text-center">
-      Brands & clinics we work with
-    </p>
-    
-    <div class="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
 
-      <!-- Brand 1 -->
-      <div class="w-full sm:w-auto flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-ad-12.png"
-             alt="Brand 1"
-             class="h-12 w-auto object-contain">
-      </div>
+<!-- Brands Section -->
+<section id="brands" class="py-16 bg-white border-y border-orange-100">
+    <div class="max-w-4xl overflow-hidden mx-auto text-center">
 
-      <!-- Brand 2 -->
-      <div class="w-full sm:w-auto flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_38_Group-33.png"
-             alt="Brand 2"
-             class="h-12 w-auto object-contain">
-      </div>
+        <h2 class="text-3xl font-medium text-black mb-10 sm:mb-12 text-center">
+            Brands & clinics we work with
+        </h2>
 
-      <!-- Brand 3 -->
-      <div class="w-full sm:w-auto flex items-center justify-center px-6 py-3 bg-gray-50 rounded-lg border border-gray-200">
-        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_21_68c42946120d8d0835091ef5.png"
-             alt="Brand 3"
-             class="h-12 w-auto object-contain">
-      </div>
-
+        <!-- Swiper Container with overflow-hidden -->
+        <div class="swiper-container growth-brand-slider overflow-hidden">
+            <div class="swiper-wrapper flex items-center">
+                
+                <!-- Original Slides -->
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/APEX-AMINO-black-1.png" alt="HelpBnk" class="growth-brand-logo">
+                </div>
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-ad-12.png" alt="Methodic" class="growth-brand-logo">
+                </div>
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_21_68c42946120d8d0835091ef5.png" alt="Clarity AI" class="growth-brand-logo">
+                </div>
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_38_Group-33.png" alt="Refermarket" class="growth-brand-logo">
+                </div>
+                
+                <!-- Duplicate slides for the seamless loop -->
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/APEX-AMINO-black-1.png" alt="HelpBnk" class="growth-brand-logo">
+                </div>
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-ad-12.png" alt="Methodic" class="growth-brand-logo">
+                </div>
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_21_68c42946120d8d0835091ef5.png" alt="Clarity AI" class="growth-brand-logo">
+                </div>
+                <div class="swiper-slide !w-auto">
+                    <img src="https://aminomarketing.com/wp-content/uploads/2025/11/imgi_38_Group-33.png" alt="Refermarket" class="growth-brand-logo">
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-
-
 
 
 <section class="py-20 lg:py-32 bg-orange-50">
@@ -150,8 +160,8 @@
     
     <!-- Heading Section -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-6">Why Most Peptide Brands Struggle to Scale</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto text-xl">The problem usually isn't your product — it's your growth system.</p>
+      <h2 class="text-3xl font-medium text-black text-center mb-6">Why Most Peptide Brands Struggle to Scale</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto text-lg">The problem usually isn't your product — it's your growth system.</p>
     </div>
 
     <!-- Grid Section -->
@@ -166,7 +176,7 @@
             <path d="m9 9 6 6"></path>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-lg">Broken Website Funnel</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">Broken Website Funnel</h3>
         <p class="text-gray-600 text-base">Looks good, but doesn't convert paid traffic.</p>
       </div>
 
@@ -179,7 +189,7 @@
             <line x1="12" x2="12.01" y1="16" y2="16"></line>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-lg">Unstable or Rejected Ads</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">Unstable or Rejected Ads</h3>
         <p class="text-gray-600 text-base">Non-compliant messaging and weak creative testing.</p>
       </div>
 
@@ -191,7 +201,7 @@
             <rect x="2" y="4" width="20" height="16" rx="2"></rect>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-lg">No Email Revenue System</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">No Email Revenue System</h3>
         <p class="text-gray-600 text-base">Lists that sit idle and don't generate 20–40% of revenue.</p>
       </div>
 
@@ -206,7 +216,7 @@
             <path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45"></path>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-lg">Disconnected Efforts</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">Disconnected Efforts</h3>
         <p class="text-gray-600 text-base">One person on website, another on ads, nobody owning the system.</p>
       </div>
 
@@ -217,13 +227,13 @@
 
 
 
-<section class="py-20 lg:py-32 bg-white">
+<section class="py-20 lg:py-32 bg-white"> 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header Section -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-6">One System. One Team. Predictable Customers.</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto mb-12 text-xl">We combine website, ads, and email into a single Growth System for peptide brands.</p>
+      <h2 class="text-3xl font-medium text-black text-center mb-6">One System. One Team. Predictable Customers.</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-12 text-lg">We combine website, ads, and email into a single Growth System for peptide brands.</p>
     </div>
 
     <!-- Grid Cards -->
@@ -238,7 +248,7 @@
             <path d="M2 12h20"></path>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-3 text-lg">Website Funnel</h3>
+        <h3 class="text-gray-900 mb-3 text-lg font-medium">Website Funnel</h3>
         <p class="text-gray-600 text-base">Built for conversion and compliance.</p>
       </div>
 
@@ -250,7 +260,7 @@
             <path d="m22 7-8.5 8.5-5-5L2 17"></path>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-3 text-lg">Meta Ads Engine</h3>
+        <h3 class="text-gray-900 mb-3 text-lg font-medium">Meta Ads Engine</h3>
         <p class="text-gray-600 text-base">Continuous testing and optimization.</p>
       </div>
 
@@ -262,14 +272,14 @@
             <rect x="2" y="4" width="20" height="16" rx="2"></rect>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-3 text-lg">Email Revenue</h3>
+        <h3 class="text-gray-900 mb-3 text-lg font-medium">Email Revenue</h3>
         <p class="text-gray-600 text-base">Automations and campaigns that print.</p>
       </div>
 
     </div>
 
     <!-- Footer Text -->
-    <p class="text-center text-gray-600 max-w-2xl mx-auto text-xl">We don't do everything. We do one thing extremely well: growth for peptide brands.</p>
+    <p class="text-center text-gray-600 max-w-2xl mx-auto text-lg">We don't do everything. We do one thing extremely well: growth for peptide brands.</p>
   
   </div>
 </section>
@@ -280,7 +290,7 @@
     
     <!-- Header -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-10 sm:mb-12">$3,500 Setup — Your Growth Foundation in 7–10 Days</h2>
+      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">$3,500 Setup — Your Growth Foundation in 7–10 Days</h2>
     </div>
 
     <!-- Grid Cards -->
@@ -288,7 +298,7 @@
       
       <!-- Card 1: Brand Foundation -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
-        <h3 class="text-gray-900 mb-6 text-xl">Brand Foundation</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Brand Foundation</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-5 h-5 rounded-full bg-orange-50 flex items-center justify-center mt-0.5">
@@ -327,7 +337,7 @@
 
       <!-- Card 2: Website -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
-        <h3 class="text-gray-900 mb-6 text-xl">Website</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Website</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-5 h-5 rounded-full bg-orange-50 flex items-center justify-center mt-0.5">
@@ -366,7 +376,7 @@
 
       <!-- Card 3: Email System -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
-        <h3 class="text-gray-900 mb-6 text-xl">Email System</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Email System</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-5 h-5 rounded-full bg-orange-50 flex items-center justify-center mt-0.5">
@@ -421,7 +431,7 @@
     
     <!-- Header -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-10 sm:mb-12">$2,500/month — The Monthly Growth Engine</h2>
+      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">$2,500/month — The Monthly Growth Engine</h2>
     </div>
 
     <!-- Pricing Grid -->
@@ -429,7 +439,7 @@
       
       <!-- Card 1: Meta Ads -->
       <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
-        <h3 class="text-gray-900 mb-6 text-xl">Meta Ads</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Meta Ads</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
@@ -468,7 +478,7 @@
 
       <!-- Card 2: Creatives -->
       <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
-        <h3 class="text-gray-900 mb-6 text-xl">Creatives</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Creatives</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
@@ -499,7 +509,7 @@
 
       <!-- Card 3: Email Management -->
       <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
-        <h3 class="text-gray-900 mb-6 text-xl">Email Management</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Email Management</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-5 h-5 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
@@ -531,7 +541,7 @@
     </div>
     
     <!-- Footer Text -->
-    <p class="text-center text-gray-600 text-xl">No long-term contract. We earn it month-to-month.</p>
+    <p class="text-center text-gray-600 text-lg">No long-term contract. We earn it month-to-month.</p>
   
   </div>
 </section>
@@ -539,12 +549,12 @@
 
 
 
-<section class="py-20 lg:py-32 bg-orange-50">
+<section id="howitworks" class="py-20 lg:py-32 bg-orange-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-10 sm:mb-12">How It Works</h2>
+      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">How It Works</h2>
     </div>
 
     <!-- Steps Grid -->
@@ -562,7 +572,7 @@
               </svg>
             </div>
           </div>
-          <h3 class="text-gray-900 mb-3 text-xl">Strategy</h3>
+          <h3 class="text-gray-900 mb-3 text-lg font-medium">Strategy</h3>
           <p class="text-gray-600">We audit your offers, website, and current traffic.</p>
         </div>
         <!-- Connector Line -->
@@ -582,7 +592,7 @@
               </svg>
             </div>
           </div>
-          <h3 class="text-gray-900 mb-3 text-xl">Build</h3>
+          <h3 class="text-gray-900 mb-3 text-lg font-medium">Build</h3>
           <p class="text-gray-600">We build or rebuild your funnel, email system, and ad structure in 7–10 days.</p>
         </div>
         <!-- Connector Line -->
@@ -603,7 +613,7 @@
               </svg>
             </div>
           </div>
-          <h3 class="text-gray-900 mb-3 text-xl">Scale</h3>
+          <h3 class="text-gray-900 mb-3 text-lg font-medium">Scale</h3>
           <p class="text-gray-600">We launch, optimize, and grow your system with weekly testing.</p>
         </div>
       </div>
@@ -618,7 +628,7 @@
     
     <!-- Header -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-10 sm:mb-12">Who This Is For</h2>
+      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">Who This Is For</h2>
     </div>
 
     <!-- Grid Section -->
@@ -626,7 +636,7 @@
       
       <!-- Perfect For (Green Box) -->
       <div class="bg-green-50 p-8 rounded-lg border border-green-200">
-        <h3 class="text-gray-900 mb-6 text-xl">Perfect for:</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Perfect for:</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
@@ -665,7 +675,7 @@
 
       <!-- Not For (Red Box) -->
       <div class="bg-orange-50 p-8 rounded-lg border border-orange-200">
-        <h3 class="text-gray-900 mb-6 text-xl">Not for:</h3>
+        <h3 class="text-gray-900 mb-6 text-lg font-medium">Not for:</h3>
         <ul class="space-y-4">
           <li class="flex items-start gap-3">
             <div class="flex-shrink-0 w-6 h-6 rounded-full bg-orange-100 flex items-center justify-center mt-0.5">
@@ -709,8 +719,8 @@
     
     <!-- Header Section -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-6">Case Studies</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto text-xl">Real results from peptide brands we've helped scale.</p>
+      <h2 class="text-3xl font-medium text-black text-center mb-6">Case Studies</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto text-lg">Real results from peptide brands we've helped scale.</p>
     </div>
 
     <!-- Cards Grid -->
@@ -724,7 +734,7 @@
             <path d="m22 7-8.5 8.5-5-5L2 17"></path>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-xl">Compound Purity</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">Compound Purity</h3>
         <p class="text-gray-600 mb-4">+63% conversion lift</p>
         <p class="text-gray-500 mb-6">Complete funnel rebuild with compliant messaging and optimized checkout flow.</p>
         <a href="https://aminomarketing.com/projects/compound-purity/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background text-foreground hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full">
@@ -740,7 +750,7 @@
             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-xl">Nextech Labs</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">Nextech Labs</h3>
         <p class="text-gray-600 mb-4">2.1x ROAS improvement</p>
         <p class="text-gray-500 mb-6">Meta ads restructure with creative testing and retargeting campaigns.</p>
         <a href="https://aminomarketing.com/projects/nextech-labs/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background text-foreground hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full">
@@ -757,7 +767,7 @@
             <circle cx="12" cy="12" r="2"></circle>
           </svg>
         </div>
-        <h3 class="text-gray-900 mb-2 text-xl">Apex Amino</h3>
+        <h3 class="text-gray-900 mb-2 text-lg font-medium">Apex Amino</h3>
         <p class="text-gray-600 mb-4">38% revenue from email</p>
         <p class="text-gray-500 mb-6">Email automation system with segmentation and monthly campaigns.</p>
         <a href="https://aminomarketing.com/projects/apex-amino/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background text-foreground hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full">
@@ -776,7 +786,7 @@
     
     <!-- Heading Section -->
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-normal text-black text-center mb-10 sm:mb-12">Why Work With Us?</h2>
+      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">Why Work With Us?</h2>
     </div>
 
     <!-- Content Grid -->
@@ -833,7 +843,7 @@
     <div class="container mx-auto max-w-7xl py-12 md:py-24 px-4 md:px-4">
         <!-- Header -->
         <div class="text-center mb-8 sm:mb-10 md:mb-12">
-            <h2 class="text-4xl font-normal text-black text-center mb-10 sm:mb-12">Frequently Asked Questions</h2>
+            <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">Frequently Asked Questions</h2>
         </div>
 
         <!-- Accordion -->
@@ -965,15 +975,15 @@
 <section class="py-20 lg:py-32 bg-gradient-to-br from-orange-600 to-orange-700">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     
-    <h2 class="text-4xl font-normal text-center mb-6 text-white sm:mb-12">Ready to Build Your Peptide Growth System?</h2>
+    <h2 class="text-3xl font-medium text-center mb-6 text-white sm:mb-12">Ready to Build Your Peptide Growth System?</h2>
     
-    <p class="text-blue-100 mb-8 max-w-2xl mx-auto text-xl">One system. One team. Predictable customers.</p>
+    <p class="text-blue-100 mb-8 max-w-2xl mx-auto text-lg">One system. One team. Predictable customers.</p>
     
     <a href="https://aminomarketing.com/calendly/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 rounded-md px-6 has-[&gt;svg]:px-4 mb-6 bg-white">
       Book Strategy Call
     </a>
     
-    <p class="text-blue-100 text-xl">$3,500 setup + $2,500/month. No fluff, no long-term lock-in.</p>
+    <p class="text-blue-100 text-lg">$3,500 setup + $2,500/month. No fluff, no long-term lock-in.</p>
   
   </div>
 </section>
