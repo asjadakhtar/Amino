@@ -729,10 +729,7 @@
       <!-- Card 1: Compound Purity -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
         <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up w-6 h-6 text-orange-600" aria-hidden="true">
-            <path d="M16 7h6v6"></path>
-            <path d="m22 7-8.5 8.5-5-5L2 17"></path>
-          </svg>
+          <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Research Grade Purity" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Compound Purity</h3>
         <p class="text-gray-600 mb-4">+63% conversion lift</p>
@@ -745,10 +742,7 @@
       <!-- Card 2: Nextech Labs -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
         <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign w-6 h-6 text-orange-600" aria-hidden="true">
-            <line x1="12" x2="12" y1="2" y2="22"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+          <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Nextech Labs" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Nextech Labs</h3>
         <p class="text-gray-600 mb-4">2.1x ROAS improvement</p>
@@ -761,11 +755,7 @@
       <!-- Card 3: Apex Amino -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
         <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-6 h-6 text-orange-600" aria-hidden="true">
-            <circle cx="12" cy="12" r="10"></circle>
-            <circle cx="12" cy="12" r="6"></circle>
-            <circle cx="12" cy="12" r="2"></circle>
-          </svg>
+          <img src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Apex Amino" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Apex Amino</h3>
         <p class="text-gray-600 mb-4">38% revenue from email</p>
