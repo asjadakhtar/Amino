@@ -43,7 +43,7 @@
       
       <!-- Left Side: Content -->
       <div>
-        <h1 class="text-5xl font-medium text-black mb-8">The Growth System for Peptide Brands</h1>
+        <h1 class="text-5xl font-medium text-black mb-8 leading-tight">The Growth System for Peptide Brands</h1>
         <p class="text-gray-600 mb-8 text-xl">Website, Meta ads, and email — everything done-for-you so you get predictable customers.</p>
         
         <!-- Feature Points -->
