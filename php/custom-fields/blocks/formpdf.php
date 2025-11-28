@@ -1,20 +1,33 @@
-<!-- Button -->
-<div class="text-center py-24">
-  <h4 class="text-sm tracking-widest text-[#D6D6D6] uppercase mb-8">Not sure if you need our services?</h4>
-  <button onclick="openModal()"
-    class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-all duration-500 hover:border-[#ff520e] hover:text-[#ff520e] cursor-pointer">
+<!-- Button Section -->
+<div class="py-24">
+   <!-- Flex container: Mobile pe Column, Desktop (md) pe Row -->
+   <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center p-4 gap-10">
+    
+    <!-- LEFT SIDE: Image -->
+    <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+        <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Book.png" alt="Compliance Book Cover" class="h-[350px] max-w-full rounded-lg shadow-lg object-cover">
+    </div>
 
-    <!-- The visible text that slides up on hover -->
-    <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-        Get free compliance guide book 
-    </span>
+    <!-- RIGHT SIDE: Text & Button -->
+    <div class="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+      <h4 class="text-sm tracking-widest text-[#D6D6D6] uppercase mb-6">Not sure if you need our services?</h4>
+      
+      <button onclick="openModal()"
+        class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-all duration-500 hover:border-[#ff520e] hover:text-[#ff520e] cursor-pointer">
 
-    <!-- The same text slides down from top -->
-    <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-        Get free compliance guide book 
-    </span>
-</button>
+        <!-- The visible text that slides up on hover -->
+        <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
+            Get free compliance guide book 
+        </span>
 
+        <!-- The same text slides down from top -->
+        <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
+            Get free compliance guide book 
+        </span>
+      </button>
+    </div>
+
+   </div>
 </div>
 
 <!-- Modal -->
@@ -26,7 +39,7 @@
     
     <!-- Close Button -->
     <button onclick="closeModal()" 
-            class="absolute top-3 right-3 text-[#ff520e] z-20">
+            class="absolute top-3 right-3 text-[#ff520e] z-20 cursor-pointer">
       ✕
     </button>
 
