@@ -16,6 +16,7 @@
       </p>
     </div>
 
+    
     <!-- Highlight Box -->
     <div class="mt-8 relative max-w-3xl mx-auto">
       <div class="absolute inset-0 rounded-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
