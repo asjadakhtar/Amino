@@ -1,11 +1,11 @@
 <nav class="fixed top-0 left-0 w-full z-50 bg-white backdrop-blur-sm border-b border-gray-200">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-16">
+    <div class="flex justify-between items-center h-16 relative bg-white z-50">
       
       <!-- Logo Section -->
-      <div class="w-32">
+      <div class="w-24 sm:w-32 flex-shrink-0">
         <a href="https://aminomarketing.com" rel="noopener">
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo" class="invert">
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Logo-on-dar.svg" alt="logo" class="invert w-full h-auto">
         </a>
       </div>
 
@@ -15,39 +15,116 @@
         <a href="#pricing" class="text-gray-700 hover:text-gray-900 transition-colors">Pricing</a>
         <a href="#work" class="text-gray-700 hover:text-gray-900 transition-colors">Work</a>
         <a href="#about" class="text-gray-700 hover:text-gray-900 transition-colors">About</a>
-        <a href="https://aminomarketing.com/calendly/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-4 py-2 has-[&gt;svg]:px-3 text-white">
+        <a href="https://aminomarketing.com/calendly/" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all bg-black text-white hover:bg-gray-800 h-9 px-4 py-2">
           Book Call
         </a>
       </div>
 
-      <!-- Mobile Menu Button -->
-      <div class="md:hidden">
-        <button class="text-gray-700 hover:text-gray-900">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6" aria-hidden="true">
+      <!-- Mobile Right Side -->
+      <div class="flex items-center gap-3 md:hidden">
+        
+        <a href="https://aminomarketing.com/calendly/" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-xs font-bold transition-all bg-black text-white hover:bg-gray-800 h-9 px-4 shadow-sm">
+          Book Call
+        </a>
+
+        <!-- Burger Menu Button -->
+        <button id="mobile-menu-btn" class="text-gray-700 hover:text-gray-900 focus:outline-none p-1 group">
+          <!-- Icon Menu (Burger) -->
+          <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-7 w-7 transition-transform duration-300">
             <path d="M4 5h16"></path>
             <path d="M4 12h16"></path>
             <path d="M4 19h16"></path>
+          </svg>
+          <!-- Icon Close (X) -->
+          <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-7 w-7 hidden transition-transform duration-300 rotate-90">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
           </svg>
         </button>
       </div>
 
     </div>
   </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100 shadow-xl transition-all duration-300 ease-out transform origin-top-left opacity-0 invisible scale-90 -z-10">
+    <div class="px-4 pt-2 pb-6 space-y-1">
+      <a href="#growth-system" class="block px-3 py-4 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 border-b border-gray-50">Growth System</a>
+      <a href="#pricing" class="block px-3 py-4 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 border-b border-gray-50">Pricing</a>
+      <a href="#work" class="block px-3 py-4 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 border-b border-gray-50">Work</a>
+      <a href="#about" class="block px-3 py-4 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+    </div>
+  </div>
 </nav>
 
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const iconMenu = document.getElementById('icon-menu');
+  const iconClose = document.getElementById('icon-close');
+
+  btn.addEventListener('click', () => {
+    // Check if menu is hidden
+    if (menu.classList.contains('opacity-0')) {
+        // OPEN MENU
+        // Remove hidden styles
+        menu.classList.remove('opacity-0', 'invisible', 'scale-90');
+        // Add visible styles
+        menu.classList.add('opacity-100', 'visible', 'scale-100');
+        
+        // Icon Swap
+        iconMenu.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+        // Rotate animation reset for X icon
+        setTimeout(() => iconClose.classList.remove('rotate-90'), 50);
+        
+    } else {
+        // CLOSE MENU
+        // Add hidden styles
+        menu.classList.add('opacity-0', 'invisible', 'scale-90');
+        // Remove visible styles
+        menu.classList.remove('opacity-100', 'visible', 'scale-100');
+        
+        // Icon Swap
+        iconMenu.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+        iconClose.classList.add('rotate-90'); // Prepare for next rotation
+    }
+  });
+  
+  // Close menu on link click
+  const mobileLinks = menu.querySelectorAll('a');
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.add('opacity-0', 'invisible', 'scale-90');
+        menu.classList.remove('opacity-100', 'visible', 'scale-100');
+        iconMenu.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+    });
+  });
+</script>
 
 
+  
 <section class="py-20 lg:py-32 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    <!-- Grid Gap reduced for mobile (gap-8) -->
+    <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
       
       <!-- Left Side: Content -->
       <div>
-        <h1 class="text-5xl font-medium text-black mb-8 leading-tight">The Growth System for Peptide Brands</h1>
-        <p class="text-gray-600 mb-8 text-xl">Website, Meta ads, and email — everything done-for-you so you get predictable customers.</p>
+        <!-- Heading: Mobile text-3xl, Line-height tight -->
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-4 sm:mb-6 lg:mb-8 leading-[1.1] sm:leading-tight">
+          The Growth System for Peptide Brands
+        </h1>
+        
+        <!-- Subheading: Mobile text-lg -->
+        <p class="text-gray-600 mb-6 sm:mb-8 text-lg sm:text-xl leading-relaxed">
+          Website, Meta ads, and email — everything done-for-you so you get predictable customers.
+        </p>
         
         <!-- Feature Points -->
-        <div class="space-y-4 mb-8">
+        <div class="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
           
           <div class="flex items-start gap-3">
             <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
@@ -55,7 +132,7 @@
                 <path d="M20 6 9 17l-5-5"></path>
               </svg>
             </div>
-            <p class="text-gray-700 text-base">High-converting, compliant funnel</p>
+            <p class="text-gray-700 text-sm sm:text-base">High-converting, compliant funnel</p>
           </div>
 
           <div class="flex items-start gap-3">
@@ -64,7 +141,7 @@
                 <path d="M20 6 9 17l-5-5"></path>
               </svg>
             </div>
-            <p class="text-gray-700 text-base">Done-for-you ads &amp; creatives</p>
+            <p class="text-gray-700 text-sm sm:text-base">Done-for-you ads &amp; creatives</p>
           </div>
 
           <div class="flex items-start gap-3">
@@ -73,34 +150,34 @@
                 <path d="M20 6 9 17l-5-5"></path>
               </svg>
             </div>
-            <p class="text-gray-700 text-base">Email system that prints money</p>
+            <p class="text-gray-700 text-sm sm:text-base">Email system that prints money</p>
           </div>
 
         </div>
 
         <!-- Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 mb-6">
-        <a href="https://aminomarketing.com/calendly/" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-6 has-[&gt;svg]:px-4 text-white">
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6">
+          <a href="https://aminomarketing.com/calendly/" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-6 text-white bg-black hover:bg-gray-800">
             Book Strategy Call
-        </a>
-          <a href="#howitworks" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 h-10 rounded-md px-6 has-[&gt;svg]:px-4">
+          </a>
+          <a href="#howitworks" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all hover:bg-gray-100 h-10 rounded-md px-6 border border-gray-200">
             See How It Works
           </a>
         </div>
         
-        <p class="text-gray-600">$3,500 setup + $2,500/month. No long-term contracts.</p>
+        <p class="text-gray-600 text-sm sm:text-base">$3,500 setup + $2,500/month. No long-term contracts.</p>
       </div>
 
       <!-- Right Side: Image -->
-      <div class="relative">
+      <div class="relative mt-4 lg:mt-0">
         <div class="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
           <img src="https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmQlMjBsYXB0b3B8ZW58MXx8fHwxNzYzMjk2NjA2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;utm_source=figma&amp;utm_medium=referral" alt="Growth analytics dashboard" class="w-full h-full object-cover">
         </div>
         
-        <!-- Floating Stats Card -->
-        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg border border-gray-200 max-w-[200px]">
-          <p class="text-gray-500 mb-1">Average ROAS</p>
-          <p class="text-gray-900">2.4x</p>
+        <!-- Floating Stats Card: Adjusted positioning for mobile (left-0) vs desktop (-left-6) -->
+        <div class="absolute -bottom-6 left-0 sm:-left-6 bg-white p-4 rounded-lg shadow-lg border border-gray-200 max-w-[200px]">
+          <p class="text-gray-500 mb-1 text-sm">Average ROAS</p>
+          <p class="text-gray-900 font-bold">2.4x</p>
         </div>
       </div>
 
@@ -111,10 +188,10 @@
 
 
 <!-- Brands Section -->
-<section id="brands" class="py-16 bg-white border-y border-orange-100">
+<section id="brands" class="py-16 bg-white border-t border-gray-200">
     <div class="max-w-4xl overflow-hidden mx-auto text-center">
 
-        <h2 class="text-3xl font-medium text-black mb-10 sm:mb-12 text-center">
+        <h2 class="lg:text-3xl text-2xl font-medium text-black mb-10 sm:mb-12 text-center">
             Brands & clinics we work with
         </h2>
 
@@ -155,17 +232,17 @@
 </section>
 
 
-<section class="py-20 lg:py-32 bg-orange-50">
+<section class="py-20 lg:py-32 bg-[#F7F7F5]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Heading Section -->
-    <div class="text-center mb-16">
+    <div class="text-center lg:mb-16 mb-12">
       <h2 class="text-3xl font-medium text-black text-center mb-6">Why Most Peptide Brands Struggle to Scale</h2>
       <p class="text-gray-600 max-w-2xl mx-auto text-lg">The problem usually isn't your product — it's your growth system.</p>
     </div>
 
     <!-- Grid Section -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-4">
       
       <!-- Card 1: Broken Website Funnel -->
       <div class="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
@@ -231,13 +308,13 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header Section -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl font-medium text-black text-center mb-6">One System. One Team. Predictable Customers.</h2>
+    <div class="text-center lg:mb-16 mb-12">
+      <h2 class="text-3xl font-medium text-black text-center lg:mb-6 mb-4">One System. One Team. Predictable Customers.</h2>
       <p class="text-gray-600 max-w-2xl mx-auto mb-12 text-lg">We combine website, ads, and email into a single Growth System for peptide brands.</p>
     </div>
 
     <!-- Grid Cards -->
-    <div class="grid md:grid-cols-3 gap-8 mb-12">
+    <div class="grid md:grid-cols-3 lg:gap-8 gap-4 mb-12">
       
       <!-- Card 1: Website Funnel -->
       <div class="bg-gray-50 p-8 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors">
@@ -289,12 +366,12 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">$3,500 Setup — Your Growth Foundation in 7–10 Days</h2>
+    <div class="text-center lg:mb-16 mb-12">
+      <h2 class="text-3xl font-medium text-black text-center">$3,500 Setup — Your Growth Foundation in 7–10 Days</h2>
     </div>
 
     <!-- Grid Cards -->
-    <div class="grid md:grid-cols-3 gap-8 mb-12">
+    <div class="grid md:grid-cols-3 lg:gap-8 gap-4 mb-12">
       
       <!-- Card 1: Brand Foundation -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
@@ -430,12 +507,12 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">$2,500/month — The Monthly Growth Engine</h2>
+    <div class="text-center lg:mb-16 mb-12">
+      <h2 class="text-3xl font-medium text-black text-center">$2,500/month — The Monthly Growth Engine</h2>
     </div>
 
     <!-- Pricing Grid -->
-    <div class="grid md:grid-cols-3 gap-8 mb-8">
+    <div class="grid md:grid-cols-3 lg:gap-8 gap-4 mb-8">
       
       <!-- Card 1: Meta Ads -->
       <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
@@ -549,16 +626,16 @@
 
 
 
-<section id="howitworks" class="py-20 lg:py-32 bg-orange-50">
+<section id="howitworks" class="py-20 lg:py-32 bg-[#F7F7F5]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">How It Works</h2>
+    <div class="text-center lg:mb-16 mb-12">
+      <h2 class="text-3xl font-medium text-black text-center">How It Works</h2>
     </div>
 
     <!-- Steps Grid -->
-    <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+    <div class="grid md:grid-cols-3 lg:gap-8 gap-4 mb-12">
       
       <!-- Step 1: Strategy -->
       <div class="relative">
@@ -627,12 +704,12 @@
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">Who This Is For</h2>
+    <div class="text-center lg:mb-16 mb-12">
+      <h2 class="text-3xl font-medium text-black text-center">Who This Is For</h2>
     </div>
 
     <!-- Grid Section -->
-    <div class="grid md:grid-cols-2 gap-8">
+    <div class="grid md:grid-cols-2 lg:gap-8 gap-4">
       
       <!-- Perfect For (Green Box) -->
       <div class="bg-green-50 p-8 rounded-lg border border-green-200">
@@ -714,21 +791,21 @@
 
 
 
-<section id="work" class="py-20 lg:py-32 bg-orange-50">
+<section id="work" class="py-20 lg:py-32 bg-[#F7F7F5]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Header Section -->
-    <div class="text-center mb-16">
+    <div class="text-center lg:mb-16 mb-12">
       <h2 class="text-3xl font-medium text-black text-center mb-6">Case Studies</h2>
       <p class="text-gray-600 max-w-2xl mx-auto text-lg">Real results from peptide brands we've helped scale.</p>
     </div>
 
     <!-- Cards Grid -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-4">
       
       <!-- Card 1: Compound Purity -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
-        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+        <div class="w-12 h-12 bg-[#F7F7F5] rounded-lg flex items-center justify-center mb-6">
           <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Research Grade Purity" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Compound Purity</h3>
@@ -741,7 +818,7 @@
 
       <!-- Card 2: Nextech Labs -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
-        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+        <div class="w-12 h-12 bg-[#F7F7F5] rounded-lg flex items-center justify-center mb-6">
           <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Nextech Labs" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Nextech Labs</h3>
@@ -754,7 +831,7 @@
 
       <!-- Card 3: Apex Amino -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
-        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+        <div class="w-12 h-12 bg-[#F7F7F5] rounded-lg flex items-center justify-center mb-6">
           <img src="https://aminomarketing.com/wp-content/uploads/2025/10/aminologo-1.png" alt="Apex Amino" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Apex Amino</h3>
@@ -775,12 +852,12 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     
     <!-- Heading Section -->
-    <div class="text-center mb-16">
-      <h2 class="text-3xl font-medium text-black text-center mb-10 sm:mb-12">Why Work With Us?</h2>
+    <div class="text-center lg:mb-16 mb-12">
+      <h2 class="text-3xl font-medium text-black text-center">Why Work With Us?</h2>
     </div>
 
     <!-- Content Grid -->
-    <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+    <div class="grid lg:grid-cols-2 lg:gap-12 gap-6 items-center mb-16">
       
       <!-- Left Side: List -->
       <div>
@@ -805,8 +882,8 @@
       </div>
 
       <!-- Right Side: Profile Card -->
-      <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
-        <div class="flex items-start gap-6">
+      <div class="bg-gray-50 lg:p-8 p-4 rounded-lg border border-gray-200">
+        <div class="flex flex-col sm:flex-row items-start gap-6">
           
           <!-- Avatar -->
           <div class="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white">
