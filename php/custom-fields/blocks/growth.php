@@ -157,7 +157,7 @@
 
         <!-- Buttons -->
         <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6">
-          <a href="https://aminomarketing.com/calendly/" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-6 text-white bg-black hover:bg-gray-800">
+          <a href="https://aminomarketing.com/calendly/" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-6 text-white">
             Book Strategy Call
           </a>
           <a href="#howitworks" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all hover:bg-gray-100 h-10 rounded-md px-6 border border-gray-200">
