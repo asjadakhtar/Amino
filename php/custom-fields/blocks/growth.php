@@ -806,7 +806,7 @@
       <!-- Card 1: Compound Purity -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
         <div class="w-12 h-12 bg-[#F7F7F5] rounded-lg flex items-center justify-center mb-6">
-          <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Research-grade-purity-99-23.png" alt="Research Grade Purity" class="w-8 h-8 object-contain">
+          <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Compound-icon.png" alt="Research Grade Purity" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Compound Purity</h3>
         <p class="text-gray-600 mb-4">+63% conversion lift</p>
@@ -819,7 +819,7 @@
       <!-- Card 2: Nextech Labs -->
       <div class="bg-white p-8 rounded-lg border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
         <div class="w-12 h-12 bg-[#F7F7F5] rounded-lg flex items-center justify-center mb-6">
-          <img src="https://aminomarketing.com/wp-content/uploads/2025/10/Nextechlab-ad.svg" alt="Nextech Labs" class="w-8 h-8 object-contain">
+          <img src="https://aminomarketing.com/wp-content/uploads/2025/11/Nextechlab-icon.png" alt="Nextech Labs" class="w-8 h-8 object-contain">
         </div>
         <h3 class="text-gray-900 mb-2 text-lg font-medium">Nextech Labs</h3>
         <p class="text-gray-600 mb-4">2.1x ROAS improvement</p>

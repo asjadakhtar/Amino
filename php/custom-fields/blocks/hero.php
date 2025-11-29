@@ -55,32 +55,25 @@
     </div>
 
     <!-- NEW: Badges Section - Positioned at Bottom (Absolute) -->
-    <div class="absolute bottom-4 left-0 w-full z-20 px-2">
+
+    <div class="absolute bottom-2 left-0 w-full z-20 px-2">
         <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-8 lg:gap-12">
             
             <img src="https://aminomarketing.com/wp-content/uploads/2025/11/006.png" 
-                 alt="Badge 6" 
-                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+                alt="Badge 6" 
+                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
 
             <img src="https://aminomarketing.com/wp-content/uploads/2025/11/005.png" 
-                 alt="Badge 5" 
-                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
-
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/004.png" 
-                 alt="Badge 4" 
-                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
-
-            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/003.png" 
-                 alt="Badge 3" 
-                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+                alt="Badge 5" 
+                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
 
             <img src="https://aminomarketing.com/wp-content/uploads/2025/11/002.png" 
-                 alt="Badge 2" 
-                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+                alt="Badge 2" 
+                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
 
             <img src="https://aminomarketing.com/wp-content/uploads/2025/11/001.png" 
-                 alt="Badge 1" 
-                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+                alt="Badge 1" 
+                class="sm:h-28 h-22 w-auto object-contain transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110">
         </div>
     </div>
 
