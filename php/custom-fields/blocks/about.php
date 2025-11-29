@@ -1,10 +1,6 @@
 <section id="about" class="py-24 md:py-48 bg-gradient-to-b from-[#080808] to-[#050505]">
   <div class="max-w-4xl mx-auto px-6 text-center">
 
-    <p class="mt-4 text-xl md:text-2xl text-[#D6D6D6] font-medium leading-relaxed">
-      Helping Peptide Brands Grow Safely, Sustainably, and Profitably
-    </p>
-
     <!-- Paragraphs -->
     <div class="mt-6 space-y-4 text-[#C7C7C7] leading-relaxed text-base md:text-lg">
       <p class="max-w-3xl mx-auto">

@@ -1,4 +1,4 @@
-<section class="relative h-[80vh] w-full flex items-center justify-center text-center overflow-hidden px-4 sm:px-6 lg:px-8">
+<section class="relative sm:h-[80vh] h-[100vh] w-full flex items-center justify-center text-center overflow-hidden px-4 sm:px-6 lg:px-8">
 
     <!-- Background Video -->
     <video
@@ -14,8 +14,8 @@
     <!-- Video Overlay -->
     <div class="absolute top-0 left-0 w-full h-full bg-[#0d0d0d]/80"></div>
 
-    <!-- Content Container -->
-    <div class="relative z-10 max-w-4xl mx-auto text-white">
+    <!-- Content Container (Heading & Buttons Only) -->
+    <div class="relative z-10 max-w-4xl mx-auto text-white -mt-10 sm:mt-0"> <!-- Thoda upar shift kia taaki badges ke liye jagah banay -->
         <!-- Main Heading -->
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-medium leading-tight mb-4">
             Proven Marketing Strategies to Grow Peptide Brands Safely
@@ -27,30 +27,61 @@
         </p>
 
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <!-- Primary CTA Button with slide-up transition -->
+            <!-- Primary CTA Button -->
             <a href="https://aminomarketing.com/calendly/"
             class="group relative inline-block overflow-hidden rounded-lg bg-[#ff520e] px-5 py-[7px] text-base text-white transition-colors duration-500">
-
-                <!-- The visible text that slides up on hover -->
                 <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
                     Book a free consultation
                 </span>
-
-                <!-- The hover text that slides down from above -->
                 <span class="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                     Book a free consultation
                 </span>
             </a>
 
-            <!-- Secondary CTA Button (already has the slide-up effect) -->
-            <!-- <a href="#"
+            <!-- WhatsApp CTA Button -->
+            <a href="https://wa.me/13614188828" 
+            target="_blank" 
+            rel="noopener noreferrer"
             class="group relative inline-block overflow-hidden rounded-lg border border-white/20 px-5 py-[7px] text-base text-white transition-colors duration-500 hover:border-[#ff520e]"
-            data-text="Learn More">
-                <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-full">
-                    Learn More
+            data-text="+13614188828">
+                <span class="inline-block transition-transform duration-500 ease-in-out group-hover:-translate-y-[150%]">
+                    +13614188828
                 </span>
-            </a> -->
+                <span class="absolute top-0 left-0 flex h-full w-full translate-y-[150%] items-center justify-center transition-transform duration-500 ease-in-out group-hover:translate-y-0 text-[#ff520e]">
+                    +13614188828
+                </span>
+            </a>
         </div>
-
     </div>
+
+    <!-- NEW: Badges Section - Positioned at Bottom (Absolute) -->
+    <div class="absolute bottom-4 left-0 w-full z-20 px-2">
+        <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-8 lg:gap-12">
+            
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/006.png" 
+                 alt="Badge 6" 
+                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/005.png" 
+                 alt="Badge 5" 
+                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/004.png" 
+                 alt="Badge 4" 
+                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/003.png" 
+                 alt="Badge 3" 
+                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/002.png" 
+                 alt="Badge 2" 
+                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+
+            <img src="https://aminomarketing.com/wp-content/uploads/2025/11/001.png" 
+                 alt="Badge 1" 
+                 class="sm:h-28 h-22 w-auto object-contain transition-transform duration-300 hover:scale-110">
+        </div>
+    </div>
+
 </section>
