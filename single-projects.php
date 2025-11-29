@@ -194,14 +194,29 @@ if ($project_hero_image): ?>
                         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
                             <?php while (have_rows('case_study_stats')): the_row(); 
                                 $number = get_sub_field('number');
-                                $suffix = get_sub_field('suffix');
+                                $sign = get_sub_field('suffix'); // Sign jese $ ya %
                                 $label = get_sub_field('label');
+                                // 'sign_position' (values: 'before' ya 'after')
+                                $position = get_sub_field('sign_position'); 
                             ?>
                                 <div class="bg-white/5 p-6 rounded-lg text-center w-full max-w-[200px]">
-                                    <div class="text-3xl font-medium text-white counting-number mb-3"
-                                        data-suffix="<?php echo esc_attr($suffix); ?>"
-                                        data-target="<?php echo esc_attr($number); ?>">
-                                        <?php echo esc_html($suffix === '$' ? '$0' : '0' . $suffix); ?>
+                                    <div class="text-3xl font-medium text-white mb-3 flex justify-center items-center gap-1">
+                                        
+                                        <?php ?>
+                                        <?php if ($position === 'before'): ?>
+                                            <span><?php echo esc_html($sign); ?></span>
+                                        <?php endif; ?>
+
+                                        <!-- Number animation -->
+                                        <span class="counting-number" data-target="<?php echo esc_attr($number); ?>">
+                                            0
+                                        </span>
+
+                                        <?php // If sign position 'before' 'after' ?>
+                                        <?php if ($position !== 'before'): ?>
+                                            <span><?php echo esc_html($sign); ?></span>
+                                        <?php endif; ?>
+
                                     </div>
                                     <div class="text-sm md:text-base text-[#D6D6D6]"><?php echo esc_html($label); ?></div>
                                 </div>

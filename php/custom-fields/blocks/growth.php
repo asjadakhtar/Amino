@@ -57,52 +57,6 @@
   </div>
 </nav>
 
-<script>
-  const btn = document.getElementById('mobile-menu-btn');
-  const menu = document.getElementById('mobile-menu');
-  const iconMenu = document.getElementById('icon-menu');
-  const iconClose = document.getElementById('icon-close');
-
-  btn.addEventListener('click', () => {
-    // Check if menu is hidden
-    if (menu.classList.contains('opacity-0')) {
-        // OPEN MENU
-        // Remove hidden styles
-        menu.classList.remove('opacity-0', 'invisible', 'scale-90');
-        // Add visible styles
-        menu.classList.add('opacity-100', 'visible', 'scale-100');
-        
-        // Icon Swap
-        iconMenu.classList.add('hidden');
-        iconClose.classList.remove('hidden');
-        // Rotate animation reset for X icon
-        setTimeout(() => iconClose.classList.remove('rotate-90'), 50);
-        
-    } else {
-        // CLOSE MENU
-        // Add hidden styles
-        menu.classList.add('opacity-0', 'invisible', 'scale-90');
-        // Remove visible styles
-        menu.classList.remove('opacity-100', 'visible', 'scale-100');
-        
-        // Icon Swap
-        iconMenu.classList.remove('hidden');
-        iconClose.classList.add('hidden');
-        iconClose.classList.add('rotate-90'); // Prepare for next rotation
-    }
-  });
-  
-  // Close menu on link click
-  const mobileLinks = menu.querySelectorAll('a');
-  mobileLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        menu.classList.add('opacity-0', 'invisible', 'scale-90');
-        menu.classList.remove('opacity-100', 'visible', 'scale-100');
-        iconMenu.classList.remove('hidden');
-        iconClose.classList.add('hidden');
-    });
-  });
-</script>
 
 
   

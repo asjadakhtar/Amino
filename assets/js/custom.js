@@ -171,8 +171,12 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const element = entry.target;
+                
+                // Number uthaya (PHP se clean number araha hai)
                 const target = parseFloat(element.getAttribute('data-target'));
-                const suffix = element.getAttribute('data-suffix') || '';
+                
+                // NOTE: Suffix yahan se hata diya hai kyunke ab wo HTML/PHP handle kar raha hai
+                
                 const duration = 2000; // 2 seconds
                 let start = 0;
                 let startTime = null;
@@ -183,10 +187,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     if (progress < 1) {
                         const current = start + (target - start) * progress;
-                        element.textContent = current.toFixed(1) + suffix; // .toFixed(1) for one decimal place
+                        
+                        // YAHAN CHANGE KIYA HAI:
+                        // .toFixed(1) hata kar Math.floor() lagaya hai.
+                        // Is se 575757.0 nahi balkay sirf 575757 ayega.
+                        element.textContent = Math.floor(current); 
+                        
                         requestAnimationFrame(animate);
                     } else {
-                        element.textContent = target.toFixed(1) + suffix;
+                        // Animation khatam honay par original target show karega
+                        element.textContent = target;
                     }
                 };
 
@@ -202,29 +212,6 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(numberElement);
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -309,27 +296,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const rows = document.querySelectorAll('.process-row');
     let firstStepCompleted = false;  // To track the completion of the first step
@@ -401,3 +367,51 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+
+
+//mobile menu toggle
+ const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const iconMenu = document.getElementById('icon-menu');
+  const iconClose = document.getElementById('icon-close');
+
+  btn.addEventListener('click', () => {
+    // Check if menu is hidden
+    if (menu.classList.contains('opacity-0')) {
+        // OPEN MENU
+        // Remove hidden styles
+        menu.classList.remove('opacity-0', 'invisible', 'scale-90');
+        // Add visible styles
+        menu.classList.add('opacity-100', 'visible', 'scale-100');
+        
+        // Icon Swap
+        iconMenu.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+        // Rotate animation reset for X icon
+        setTimeout(() => iconClose.classList.remove('rotate-90'), 50);
+        
+    } else {
+        // CLOSE MENU
+        // Add hidden styles
+        menu.classList.add('opacity-0', 'invisible', 'scale-90');
+        // Remove visible styles
+        menu.classList.remove('opacity-100', 'visible', 'scale-100');
+        
+        // Icon Swap
+        iconMenu.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+        iconClose.classList.add('rotate-90'); // Prepare for next rotation
+    }
+  });
+  
+  // Close menu on link click
+  const mobileLinks = menu.querySelectorAll('a');
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.add('opacity-0', 'invisible', 'scale-90');
+        menu.classList.remove('opacity-100', 'visible', 'scale-100');
+        iconMenu.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+    });
+  });
