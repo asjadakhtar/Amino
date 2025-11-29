@@ -359,7 +359,7 @@ if ($project_hero_image): ?>
 
                 <div class="flex items-center">
                     <?php if( $testimonial_image ): ?>
-                        <img class="w-12 h-12 rounded-full mr-4" src="<?php echo esc_url($testimonial_image['url']); ?>" alt="<?php echo esc_attr($testimonial_image['alt']); ?>">
+                        <img class="w-12 h-12 rounded-full mr-4 object-contain" src="<?php echo esc_url($testimonial_image['url']); ?>" alt="<?php echo esc_attr($testimonial_image['alt']); ?>">
                     <?php endif; ?>
                     <div>
                         <?php if( $testimonial_name ): ?>
